@@ -1,0 +1,1488 @@
+{
+	id: "02AFCEFE247BAD9F"
+	group: "1CF541D7529DA9CF"
+	order_index: 1
+	filename: "basic_power_generation"
+	title: "入门：第2部分"
+	icon: "mekanismgenerators:wind_generator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 15.0d
+			y: -1.0d
+			width: 0.5d
+			height: 0.5d
+			rotation: 15.0d
+			image: "minecraft:textures/item/diamond.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "minecraft:textures/block/oxeye_daisy.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "minecraft:textures/block/oxeye_daisy.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 20.0d
+			y: 0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: -30.0d
+			image: "minecraft:textures/item/dragon_breath.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "rftoolspower:textures/block/monitor/power_monitor3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Using Our Power"
+			x: -5.500000000000002d
+			y: 2.0d
+			subtitle: "To Create More Power"
+			description: [
+				"让我们做一个炼金专家."
+				""
+				"这台机器使我们能够制造几种材料，这些材料将来可以用于动力和更多的机器"
+				""
+			]
+			id: "59B3C2AF620547E0"
+			tasks: [{
+				id: "512F3539FAE93680"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [
+				{
+					id: "6D387B4F6D53CDA9"
+					type: "item"
+					item: "mekanism:alloy_infused"
+				}
+				{
+					id: "5CF217505CA38186"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "风力发电机：第1部分"
+			x: -4.000000000000002d
+			y: 2.0d
+			subtitle: "获取零件"
+			description: [
+				"让我们获取风力发电机所需的材料."
+				""
+				"首先将一块红石放在最左边的插槽中，将一块铁放在中间的左侧插槽中."
+				""
+				"要制作控制电路，你需要2块红石和一块锇锭."
+				""
+				"使用这些材料制作2块能量板."
+			]
+			dependencies: ["59B3C2AF620547E0"]
+			id: "531DFFDE9EA7838E"
+			tasks: [
+				{
+					id: "568260644F99CE83"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					count: 5L
+				}
+				{
+					id: "03118FCD2EFD5A30"
+					type: "item"
+					item: "mekanism:basic_control_circuit"
+				}
+				{
+					id: "25B2004192CD0C44"
+					type: "item"
+					item: "mekanism:energy_tablet"
+				}
+				{
+					id: "6186D1DEB76B8C0A"
+					type: "item"
+					item: "mekanism:energy_tablet"
+				}
+			]
+			rewards: [
+				{
+					id: "069E9C41474ACF42"
+					type: "item"
+					item: "alltheores:osmium_ingot"
+					count: 3
+				}
+				{
+					id: "30277E05FF6E67D4"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "连接电源"
+			x: -5.499999999999998d
+			y: 3.5d
+			shape: "circle"
+			subtitle: "Cheap Pipez"
+			description: [
+				"我们需要一种方法来从风力发电机转移能量."
+				""
+				"去吧，给自己做点能量管道和管道扳手.你需要用管道扳手把管道抽出."
+				""
+				"*注意：要告诉管道“提取”电力，请按住shift键并右键单击连接到风力发电机的管道."
+				""
+			]
+			dependencies: ["531DFFDE9EA7838E"]
+			id: "343AEA9974EBCAD8"
+			tasks: [
+				{
+					id: "4F8D11BEBDCE5181"
+					type: "item"
+					item: "pipez:energy_pipe"
+					count: 16L
+				}
+				{
+					id: "11071F99C25B4FD1"
+					type: "item"
+					item: "pipez:wrench"
+				}
+			]
+			rewards: [
+				{
+					id: "6E0D969851049D68"
+					type: "item"
+					item: "pipez:energy_pipe"
+					count: 8
+				}
+				{
+					id: "2B24EAB2BCF948BC"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "让运气来决定!"
+			x: -4.000000000000002d
+			y: -0.9999999999999996d
+			subtitle: "从工业回到磨粉机"
+			description: [
+				"磨粉机是一种基本的热力膨胀机器，用于将1个原矿加工成1个粉尘，25%的机会产生另一个粉尘.这通常意味着大约25%的多一个锭."
+				""
+				"确保接通电源!"
+				""
+				"*注意：这些也可以升级."
+			]
+			dependencies: ["2D0AC4CC9992E3C8"]
+			id: "7410CB313F03A6B5"
+			tasks: [{
+				id: "19C4E31FAF8AEF8C"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [
+				{
+					id: "3EF6A232857870FF"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 4
+				}
+				{
+					id: "6554B93843133E88"
+					type: "item"
+					item: "minecraft:raw_gold"
+					count: 2
+				}
+				{
+					id: "579E29011F2C0351"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "我们的第一次飞行"
+			x: -7.0d
+			y: 2.0d
+			subtitle: "看，妈妈！我在飞行!"
+			description: [
+				"这是我们将制造的第一个飞行背包.但它不会持续很长时间."
+				""
+				"确保快速升级!"
+			]
+			id: "201143A8D039A543"
+			tasks: [{
+				id: "4A5D85046D46C7A6"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:bronze"
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "357CACC23334834D"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "最佳建筑工具"
+			x: -1.1999999999999975d
+			y: 2.0d
+			subtitle: "抱歉，建筑魔杖."
+			description: [
+				"这个用电设备可以为您放置物品."
+				""
+				"要使用，请确保在“建筑小工具”类别下的键绑定设置中找到“设置”键绑定."
+			]
+			dependencies: ["19FBD3C65A96B311"]
+			optional: true
+			id: "4FBE6552DAEADDB7"
+			tasks: [{
+				id: "798EE128A6D37669"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0873D0D22302DFB2"
+					type: "item"
+					item: {
+						id: "constructionwand:diamond_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "66C949FFA898948E"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "升级我们的熔炼设备"
+			x: -2.4999999999999982d
+			y: -2.0d
+			description: [
+				"铁炉可以升级到难的素级别."
+				""
+				"是时候升级了!"
+			]
+			dependencies: [
+				"7FF2F202BE2AEF3E"
+				"216E75E350303F42"
+			]
+			dependency_requirement: "one_completed"
+			id: "7FE88F6B16029995"
+			tasks: [{
+				id: "17450880C4EAB5B5"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [
+				{
+					id: "48AC4A7E931847EE"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "1B818AB1DE891746"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -2.4999999999999982d
+			y: -4.5d
+			shape: "diamond"
+			subtitle: "转化为高炉"
+			dependencies: ["7FE88F6B16029995"]
+			optional: true
+			id: "30E59763D0E8684B"
+			tasks: [{
+				id: "5CEA781ACA858233"
+				type: "item"
+				item: "ironfurnaces:augment_blasting"
+			}]
+			rewards: [{
+				id: "34E92E7C8A211B76"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.4999999999999982d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "烟熏食物"
+			dependencies: ["7FE88F6B16029995"]
+			optional: true
+			id: "18D6BF7FD5A599E5"
+			tasks: [{
+				id: "1AF765FBFE79955A"
+				type: "item"
+				item: "ironfurnaces:augment_smoking"
+			}]
+			rewards: [{
+				id: "6E8A1F6B444DC067"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.9999999999999982d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "速度更快!"
+			dependencies: ["7FE88F6B16029995"]
+			optional: true
+			id: "7B41010503609641"
+			tasks: [{
+				id: "16A8BEE102ECEFE0"
+				type: "item"
+				item: "ironfurnaces:augment_speed"
+			}]
+			rewards: [{
+				id: "7F5F18D0FD64DC01"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -1.9999999999999982d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "更好的燃烧效率"
+			dependencies: ["7FE88F6B16029995"]
+			optional: true
+			id: "483BCD08B820CC30"
+			tasks: [{
+				id: "3DD3BB53E55041A7"
+				type: "item"
+				item: "ironfurnaces:augment_fuel"
+			}]
+			rewards: [{
+				id: "1BA2F8F9C867C8C5"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "熔炉无线电源!"
+			x: -3.9999999999999982d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "无线加热?"
+			description: [
+				"将无线热能供应器模块连接到电源系统.将接收器放置到发射器中以连接它们，然后将接收器放置在熔炉中作为燃料."
+				""
+				"这将为您的熔炉提供无线电源!"
+			]
+			dependencies: ["7FE88F6B16029995"]
+			id: "01188A98FD63631A"
+			tasks: [
+				{
+					id: "231DFEB6B91F16FA"
+					type: "item"
+					item: "ironfurnaces:heater"
+				}
+				{
+					id: "57755FB8698B6FF9"
+					type: "item"
+					item: "ironfurnaces:item_heater"
+				}
+			]
+			rewards: [
+				{
+					id: "7DF48E2657A34158"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "4F6159B4C39C586F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "管道升级"
+			x: -3.9999999999999982d
+			y: 3.5d
+			shape: "circle"
+			subtitle: "增加管道产量"
+			description: [
+				"所有Pipez都可以通过管道升级进行升级."
+				""
+				"要添加管道升级，请按住shift键并右键单击当前设置为提取的管道."
+			]
+			dependencies: ["343AEA9974EBCAD8"]
+			id: "496A2D0AD494A942"
+			tasks: [{
+				id: "0FCE12572DC4E75D"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+			rewards: [
+				{
+					id: "364C4DE2323BF866"
+					type: "item"
+					item: "pipez:basic_upgrade"
+				}
+				{
+					id: "0453434346F9BE4F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "去地狱!"
+			x: 1.5000000000000018d
+			y: -1.0d
+			shape: "square"
+			subtitle: "速通者已经在那里了."
+			description: [
+				"是时候挖点黑曜石去地狱了!"
+				"很明显，这是一个虚无的世界，但地下堡垒仍将照常诞生."
+			]
+			id: "0B8213C1DDCC540F"
+			tasks: [
+				{
+					id: "754E3C12FF8F71D0"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 10L
+				}
+				{
+					id: "2DBBEC756EAB5C26"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1CF3324C0CF23184"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "619DB758399CD700"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "去暮色森林!"
+			x: 1.5000000000000018d
+			y: 0.5d
+			shape: "square"
+			subtitle: "牛头人小队"
+			description: [
+				"用水填满一个2x2的洞，用植物和花朵围绕边缘，然后放入一颗钻石."
+				""
+				"闪电是有道理的,但&o我不会担心."
+			]
+			optional: true
+			id: "02A068D4CD02D677"
+			tasks: [
+				{
+					id: "5ED34AD2FF7B1CE5"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "741F4225529F0094"
+					type: "item"
+					title: "Any Flower"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7CA766D7B8F2C7ED"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "烈焰中有什么"
+			x: 3.0000000000000018d
+			y: -1.0d
+			description: [
+				"烈焰棒对于进展至关重要，下地狱是最简单的方法（尽管你可以筛出烈焰粉末，也可以用桶里的烈焰娃娃来产生烈焰）."
+				""
+				"如果你找到了一个刷怪笼，你可以从Mek制作一个纸箱，用它把刷怪笼带回家!"
+			]
+			dependencies: ["0B8213C1DDCC540F"]
+			id: "196F6855A199CA3D"
+			tasks: [{
+				id: "0C818872CC39FDF2"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "4D13077CB09D25F5"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 4
+				}
+				{
+					id: "6C36A50AC22FD2A7"
+					type: "item"
+					item: "tconstruct:blaze_head"
+				}
+				{
+					id: "4EAC0A28684FA1B3"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "是时候来点真正的锭了"
+			x: 3.0000000000000018d
+			y: 0.5d
+			subtitle: "许多人中的第一个"
+			description: [
+				""
+				"这种罕见的物质在这个modpack中的暮色森林中发现，在中空的山丘中有不同的数量（取决于它们的大小）"
+				"注意：你需要一把镍矿镐来开采，镍矿可以通过筛矿从废料中获得!"
+			]
+			dependencies: ["02A068D4CD02D677"]
+			dependency_requirement: "one_completed"
+			id: "6A4211C61120DBE8"
+			tasks: [{
+				id: "2245E4A5B046F08B"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+			}]
+			rewards: [
+				{
+					id: "5D09749AB29A1229"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "potionsmaster:allthemodium_sight"
+						}
+					}
+				}
+				{
+					id: "1950ED0AC6732F18"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.500000000000002d
+			y: 0.5d
+			subtitle: "维度行程"
+			description: [
+				"传送垫是你到达the other的方式. "
+				""
+				""
+				"要到达“the-other”，请将垫子放在下方，并用空手按住鼠标右键."
+			]
+			dependencies: ["6A4211C61120DBE8"]
+			id: "746D39907C15027A"
+			tasks: [{
+				id: "559DDF3B3802E5AD"
+				type: "item"
+				item: "allthemodium:teleport_pad"
+			}]
+			rewards: [
+				{
+					id: "01304C205FCE7904"
+					type: "item"
+					item: "allthemodium:allthemodium_nugget"
+					count: 2
+				}
+				{
+					id: "0E1EDABA27420FA4"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "到达the Other!"
+			x: 6.000000000000002d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"The Other是一个危险的地方。确保做好准备!"
+				""
+				"这也是你会发现猪巫妖的地方.你需要他们的心!!!"
+			]
+			dependencies: ["746D39907C15027A"]
+			id: "7E0626539160CB29"
+			tasks: [{
+				id: "0D3424958668A9C9"
+				type: "item"
+				item: "allthemodium:piglich_heart"
+			}]
+			rewards: [{
+				id: "428A522A0F1DD707"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "炼药大师"
+			x: 4.500000000000002d
+			y: -1.0d
+			subtitle: "酝酿一些麻烦"
+			description: [
+				"要制作药水，你需要一些烈焰棒和烈焰粉."
+				""
+				"如果你想自制矿透药水，你需要这个!"
+			]
+			dependencies: ["196F6855A199CA3D"]
+			id: "2830BB76FF8EB905"
+			tasks: [
+				{
+					id: "14A24CEAA497929A"
+					type: "item"
+					item: "minecraft:brewing_stand"
+				}
+				{
+					id: "4ABBA7E0F03D6347"
+					type: "item"
+					title: "3x Mundane Potion"
+					icon: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:mundane"
+						}
+					}
+					item: {
+						id: "itemfilters:strong_nbt"
+						Count: 1b
+						tag: {
+							value: {
+								Potion: "minecraft:mundane"
+							}
+						}
+					}
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "3F09D984310AF346"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 3
+				}
+				{
+					id: "3FE6D9CAA86BDD1F"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					count: 2
+				}
+				{
+					id: "22425BD5AD829785"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "透视药水"
+			x: 7.5d
+			y: -1.0d
+			subtitle: "不适用于着色器(光影和高清修复?)"
+			description: [
+				"使用这些物品，您现在可以制作钻石视野药水!"
+				""
+				"当你使用时，你将能够通过区块看到钻石矿石."
+			]
+			dependencies: ["424202C5D36CC1C2"]
+			id: "339FCC2A29AF2383"
+			tasks: [{
+				id: "5517558520E5FC3D"
+				type: "item"
+				title: "3x DiamondSight"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "potionsmaster:diamond_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Potion: "potionsmaster:diamond_sight"
+						}
+					}
+				}
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "558B403DF564D3D2"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "potionsmaster:diamond_sight"
+						}
+					}
+				}
+				{
+					id: "0A5B3F7DEA55FF76"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "透视药水成分"
+			x: 6.000000000000002d
+			y: -1.0d
+			subtitle: "矿石…粉末?"
+			description: [
+				"要制作透视药水，你需要制作研钵(bō)和杵. 使用这些来制作钻石，这是制作药水所需的矿石粉."
+				""
+				"使用这3项,在工作台上与一颗末影粉结合，获得钻石粉.把这个放到炉子里，你会得到煅烧的粉末."
+			]
+			dependencies: ["2830BB76FF8EB905"]
+			id: "424202C5D36CC1C2"
+			tasks: [
+				{
+					id: "5CBD6B78BF420A02"
+					type: "item"
+					item: "potionsmaster:tile_mortar"
+				}
+				{
+					id: "52E44AF2C6C3C766"
+					type: "item"
+					item: "potionsmaster:pestle"
+				}
+				{
+					id: "3B54CA2835AA01A9"
+					type: "item"
+					item: "potionsmaster:calcinateddiamond_powder"
+				}
+				{
+					id: "69CC755974C79D2A"
+					type: "item"
+					item: "potionsmaster:ender_powder"
+				}
+			]
+			rewards: [
+				{
+					id: "275D91A8FC4AEB57"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "752DA6AB15024CEA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "380CF50A133B9D00"
+					type: "item"
+					item: "potionsmaster:ender_powder"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "透视护符?"
+			x: 9.0d
+			y: -1.0d
+			subtitle: "这也是一个好奇!"
+			description: [
+				"使用你精心制作的钻石视野药水，让他成为护符!"
+				""
+				"这些药剂比药水持续时间更长，可以打开或关闭."
+			]
+			dependencies: ["339FCC2A29AF2383"]
+			id: "12896E050F9F27E8"
+			tasks: [{
+				id: "215DF326A14D0DC0"
+				type: "item"
+				title: "钻石视野 护符"
+				icon: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "potionsmaster:diamond_sight"
+					}
+				}
+				item: {
+					id: "itemfilters:strong_nbt"
+					Count: 1b
+					tag: {
+						value: {
+							Damage: 0
+							Potion: "potionsmaster:diamond_sight"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5307F77C5EC37567"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.4999999999999982d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["496A2D0AD494A942"]
+			id: "614DA56CB666937A"
+			tasks: [{
+				id: "0734C1439698A3BE"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+			rewards: [
+				{
+					id: "147A989DF9583238"
+					type: "item"
+					item: "pipez:improved_upgrade"
+				}
+				{
+					id: "71F75C4EDA446036"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			title: "寻找振金锭"
+			x: 7.5d
+			y: 0.5d
+			description: [
+				"对于您的下一个采矿级别升级，您需要振金锭."
+				""
+				"振金可以在Y0到Y20的the-other中找到."
+			]
+			dependencies: ["746D39907C15027A"]
+			id: "75A0CAF9E85198EF"
+			tasks: [{
+				id: "60D5B5F0BF42EEA5"
+				type: "item"
+				item: "allthemodium:vibranium_ingot"
+			}]
+			rewards: [
+				{
+					id: "2A6810B9D1CBEC7F"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "potionsmaster:vibranium_sight"
+						}
+					}
+				}
+				{
+					id: "7F3D790EAF957994"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "去末地!"
+			x: 1.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "在虚空世界中，没有末地的入口供你寻找，你所要做的就是品尝（微酸的）末地蛋糕，然后开始你快乐的旅程!"
+			description: [""]
+			id: "1ECF6495A3D77E27"
+			tasks: [{
+				id: "3EDD7F00E94F9F28"
+				type: "item"
+				item: "exnihilosequentia:end_cake"
+			}]
+			rewards: [{
+				id: "1EC6E0E46142E6D8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "&5杀死末影龙!"
+			x: 3.0d
+			y: 2.0d
+			shape: "square"
+			subtitle: "第一次....."
+			description: ["走向终点，杀死末影龙!"]
+			dependencies: ["1ECF6495A3D77E27"]
+			id: "5C769E0D5C1F806E"
+			tasks: [{
+				id: "77D607A14CA56F5E"
+				type: "kill"
+				title: "杀死末影龙!"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "60AA4D92FA090F0C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4A9A889428332713"
+					type: "item"
+					item: {
+						id: "minecraft:cake"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["\"I beat Minecraft, and all they gave me was this cake.\""]
+								Name: "\"Winner Cake\""
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "如何复活末影龙"
+			x: 1.5d
+			y: 3.5d
+			subtitle: "万一有人已经杀了它..."
+			description: [
+				"如果你在末影龙已经被杀死的服务器上，你需要重新创造它."
+				""
+				"取4个末影水晶，在出口的每一侧放置1个."
+			]
+			dependencies: ["1ECF6495A3D77E27"]
+			optional: true
+			id: "6C5EA78B521858CF"
+			tasks: [{
+				id: "792082BC111171A3"
+				type: "item"
+				item: "minecraft:end_crystal"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1475AA1CF744F9CB"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "minecraft:ender_pearl"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "它真的很漂亮."
+			description: [
+				"如果你不知道,最终的结局不仅仅是杀死龙."
+				""
+				"一旦龙被杀死，你会发现一个奇怪的“结构”，在3个区块之间有一个入口.拿一个末影珍珠扔进传送门."
+			]
+			dependencies: ["5C769E0D5C1F806E"]
+			id: "1EC4BA2569828891"
+			tasks: [{
+				id: "2675B5F872C3F81C"
+				type: "checkmark"
+				title: "To the REAL End"
+			}]
+			rewards: [{
+				id: "072FD927242F3038"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "原版\"飞行\""
+			x: 7.5d
+			y: 2.0d
+			subtitle: "但我们有喷气背包?"
+			description: [
+				"在末地的某个地方，你会发现一艘漂浮的船."
+				""
+				"击败那里的敌人，前往战利品室，你会发现自己的第一个鞘翅."
+			]
+			dependencies: ["1EC4BA2569828891"]
+			id: "427B251ABCD4B085"
+			tasks: [{
+				id: "3BAF0CA8558749AE"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "31B5682E925986BC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "24B87A9E2C3FEFCA"
+					type: "item"
+					item: "minecraft:firework_rocket"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "&5难得素"
+			x: 6.0d
+			y: 2.0d
+			subtitle: "更像OBtainium amirite?"
+			description: [
+				"难得素矿石仅在末地高岛生物群落中发现. "
+				""
+				"*注意：拥有自然指南针将帮助你找到生物群落!"
+			]
+			dependencies: ["1EC4BA2569828891"]
+			id: "57F1BD179BBCDB6D"
+			tasks: [{
+				id: "4B22F50FBF14B537"
+				type: "item"
+				item: "allthemodium:unobtainium_ingot"
+			}]
+			rewards: [
+				{
+					id: "281050F9C9644D4C"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "potionsmaster:unobtainium_sight"
+						}
+					}
+				}
+				{
+					id: "77C2F8CF0327E90E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.1999999999999975d
+			y: 3.5d
+			shape: "circle"
+			dependencies: ["614DA56CB666937A"]
+			id: "0C6454F388EDE751"
+			tasks: [{
+				id: "31B291FD7AF49DC0"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+			rewards: [
+				{
+					id: "6F0E92596AA721FB"
+					type: "item"
+					item: "pipez:advanced_upgrade"
+				}
+				{
+					id: "5A142620FE9D1286"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "坚持使用Mek"
+			x: -4.000000000000002d
+			y: 0.5d
+			subtitle: "创建矿石工厂."
+			description: [
+				"富集仓将3种原矿转化为4种粉尘，这给你大约25%的多一个锭."
+				""
+				"Mek还有一个升级系统，可以帮助您创建一个工厂，让您从原矿中获得更多."
+			]
+			dependencies: ["531DFFDE9EA7838E"]
+			id: "487F54A97A334E04"
+			tasks: [{
+				id: "491A3E6D650215D6"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [
+				{
+					id: "19B9A062D9DBE6FB"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 4
+				}
+				{
+					id: "0D4B4778A88FE069"
+					type: "item"
+					item: "minecraft:raw_gold"
+					count: 2
+				}
+				{
+					id: "08C93B627FDA5691"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "热力膨胀自动矿石熔炼"
+			icon: "thermal:wrench"
+			x: -2.5000000000000018d
+			y: -0.9999999999999996d
+			subtitle: "热力膨胀的连接"
+			description: [
+				"要设置自动矿石熔炼，请将粉碎机直接放置在熔炼炉的左侧."
+				""
+				"您将在两者上放置一个箱子，然后使用磨粉机中的齿轮来配置输入和输出.将顶面变为蓝色（输入），将右面变为红色（输出）.确保按下“自动弹出”和“自动输入”按钮."
+				""
+				"在熔炉炉中，您将执行相同的操作，除了从左侧输入和从顶部输出."
+				"{image:atm:textures/pulverizer_easy_setup.png width:200 height:158 align:1 fit:true}"
+			]
+			dependencies: ["7410CB313F03A6B5"]
+			id: "7FF2F202BE2AEF3E"
+			tasks: [{
+				id: "720C5793B80F12B0"
+				type: "checkmark"
+				title: "用磨粉机自动熔炼矿石"
+			}]
+			rewards: [
+				{
+					id: "4698CAE3BB7A4C48"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 4
+				}
+				{
+					id: "5F275E5917BCF911"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Mek自动矿石冶炼"
+			icon: "mekanism:meka_tool"
+			x: -2.5000000000000018d
+			y: 0.5d
+			subtitle: "工厂即将到来."
+			description: [
+				"要设置Mek的自动矿石冶炼，请将富集仓放在熔炉的左侧，并在两者的顶部放置一个箱子."
+				""
+				"在富集仓中，使用“侧面配置”设置向右输出.确保按下“自动弹出”按钮."
+				""
+				"要将物品放入富集仓，需要一根管道将顶部的箱子连接到机器上.这可以使用&aPipez&r的物品管道或&9Mek&r的基础物流管道完成. "
+				""
+				"在熔炉中，您将从左侧设置为“输入”，从顶部设置为“输出”.确保选择自动输入和输出按钮."
+				"{image:atm:textures/mekanism_easy_setup.png width:300 height:207 align:1 fit:true}"
+			]
+			dependencies: ["487F54A97A334E04"]
+			id: "216E75E350303F42"
+			tasks: [{
+				id: "78A9C7EC099DC0E9"
+				type: "checkmark"
+				title: "Mek自动矿石冶炼"
+			}]
+			rewards: [
+				{
+					id: "19CA300588AC0B60"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 4
+				}
+				{
+					id: "22E60BD668BCFA22"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			icon: "mekanism:steel_casing"
+			x: -1.200000000000001d
+			y: 0.5d
+			shape: "square"
+			description: ["要开始使用Mek，请查看&6科技&r章节中的&aMek&r章节."]
+			dependencies: ["216E75E350303F42"]
+			id: "4D21D9AAFACD40C3"
+			tasks: [{
+				id: "4118C349344299FF"
+				type: "checkmark"
+				title: "Mek入门"
+			}]
+			rewards: [{
+				id: "084FE78CF9C48D2E"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "thermal:machine_frame"
+			x: -1.1999999999999975d
+			y: -1.0d
+			shape: "square"
+			subtitle: "合金在你的未来."
+			description: ["热力是一个简单的效率mod！查看&6热力膨胀&r章节开始!"]
+			dependencies: ["7FF2F202BE2AEF3E"]
+			id: "6A2CBA329A84CAE5"
+			tasks: [{
+				id: "61AA7A3B583225B6"
+				type: "checkmark"
+				title: "热力入门"
+			}]
+			rewards: [{
+				id: "587CD4FCD1A38537"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "存储电力"
+			x: -2.5000000000000018d
+			y: 2.0d
+			subtitle: "Mek可以做到这一切!"
+			description: [
+				"基本能量立方体充当一个发电库."
+				""
+				"您还可以将充电物品放在正确的插槽中，以便为其充电!"
+				""
+				"这意味着该起飞了!"
+			]
+			dependencies: ["531DFFDE9EA7838E"]
+			id: "19FBD3C65A96B311"
+			tasks: [{
+				id: "6C47709DB58176FE"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "00A1CA9DFDA349DC"
+					type: "item"
+					item: "mekanism:ingot_steel"
+					count: 2
+				}
+				{
+					id: "6EB217394E27FA69"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "隐藏的探索: The Nether"
+			x: 1.5000000000000018d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "有多少隐藏的任务?"
+			description: ["让一些幽灵飞起来，收集他们的眼泪."]
+			hide_dependency_lines: true
+			dependencies: ["196F6855A199CA3D"]
+			hide: true
+			id: "4CF17576F39CA80D"
+			tasks: [{
+				id: "34D0341F7ECD889E"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 2L
+			}]
+		}
+		{
+			title: "更强大的动力"
+			x: -5.500000000000002d
+			y: -0.9999999999999996d
+			subtitle: "the skyblock way"
+			description: [
+				"作为一个sky，每个人都知道熔岩的威力，它总是会发生的，有些人甚至会使用到最后"
+				"提示：您可以使用AlltheOres的矿锤将您的锭制成粉末，并在您拥有一台可以这样做的机器之前将其混合在一起"
+			]
+			id: "2D0AC4CC9992E3C8"
+			tasks: [{
+				id: "4E55681CE0738191"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [{
+				id: "514660634DE053E8"
+				type: "item"
+				item: "thermal:dynamo_fuel_augment"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			description: [
+				"欢迎使用专门为该包装制作的自定义自动筛矿! "
+				""
+				"这些机器没有输出库存，筛子输出到底部，锤子输出到前部，都是自动输出，因此您可以在没有任何管道的情况下构建一个完整的系统"
+				""
+				"注意：这些机器不会在输出库存中没有空间的情况下运行"
+			]
+			dependencies: ["2D0AC4CC9992E3C8"]
+			id: "2D9F5CEB4AC30A39"
+			tasks: [
+				{
+					id: "7B6FD18058480DCE"
+					type: "item"
+					item: "exmachinis:flux_sieve"
+				}
+				{
+					id: "3C5D9D39443EB97A"
+					type: "item"
+					item: "exmachinis:flux_hammer"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			description: ["就像筛子一样，这台机器自动输出到底部!"]
+			dependencies: ["2D9F5CEB4AC30A39"]
+			id: "6C7F07947F49D6D7"
+			tasks: [{
+				id: "457DA0721941BEBE"
+				type: "item"
+				item: "exmachinis:flux_compactor"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.0d
+			description: ["黄金和钻石升级叠加为3，悬停在升级上方查看每个升级的数字!"]
+			dependencies: ["2D9F5CEB4AC30A39"]
+			id: "24B47CB1A222846A"
+			tasks: [{
+				id: "256254C1F59D7D92"
+				type: "item"
+				item: "exmachinis:gold_upgrade"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.5d
+			dependencies: ["24B47CB1A222846A"]
+			id: "50B4721F77AE23C4"
+			tasks: [{
+				id: "6BD4D0C3E5178061"
+				type: "item"
+				item: "exmachinis:diamond_upgrade"
+			}]
+			rewards: [{
+				id: "2D99CF1271EDBA6E"
+				type: "item"
+				item: "exmachinis:gold_upgrade"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			dependencies: ["50B4721F77AE23C4"]
+			id: "284F1F3434BFA984"
+			tasks: [{
+				id: "6ED0C511C0C2EFEA"
+				type: "item"
+				item: "exmachinis:netherite_upgrade"
+			}]
+			rewards: [{
+				id: "07612134A4CBBBBB"
+				type: "item"
+				item: "exmachinis:diamond_upgrade"
+			}]
+		}
+	]
+}

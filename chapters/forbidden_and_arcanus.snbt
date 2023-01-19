@@ -1,0 +1,1798 @@
+{
+	id: "34E8FF3196478229"
+	group: "02FE661031A105D8"
+	order_index: 3
+	filename: "forbidden_and_arcanus"
+	title: "禁忌与奥秘"
+	icon: "forbidden_arcanus:smelter_prism"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -3.5d
+		y: 4.0d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "欢迎来到&5禁忌\\&\\奥秘!"
+			icon: "forbidden_arcanus:smelter_prism"
+			x: -9.0d
+			y: 5.0d
+			shape: "octagon"
+			description: [
+				"禁忌\\&\\奥秘添加新的方法来获得更好的护甲、附魔等!"
+				""
+				"这个以魔法为主题的mod有让你眼前一亮的动画，以及一些强大的物品，如&6永恒之石&r. "
+			]
+			size: 1.5d
+			id: "5523A71F1688EA88"
+			tasks: [{
+				id: "76E8B288C37363E6"
+				type: "checkmark"
+				title: "欢迎来到禁忌\\&\\奥秘!"
+			}]
+			rewards: [
+				{
+					id: "60B5D56638873C6E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "642C31932AC61B69"
+					type: "item"
+					item: "forbidden_arcanus:cherrywood_sapling"
+				}
+			]
+		}
+		{
+			title: "埃德木树"
+			x: -9.0d
+			y: 6.5d
+			description: [
+				"在沼泽/深色橡木（黑暗森林）生物群落中发现的埃德木树看起来像一棵被砍成两半的小树."
+				""
+				"你需要折断树枝并收集日志，因为这些日志用于制作mod中的各种物品."
+				""
+				"找不到自然生成的，可以在市场上买到这些树苗"
+			]
+			dependencies: ["5523A71F1688EA88"]
+			id: "6E3B9051503B938C"
+			tasks: [
+				{
+					id: "1F25B174EB5B4B9C"
+					type: "item"
+					item: "forbidden_arcanus:edelwood_stick"
+				}
+				{
+					id: "1BC05313036D72FD"
+					type: "item"
+					item: "forbidden_arcanus:edelwood_log"
+				}
+			]
+			rewards: [
+				{
+					id: "61F65AE32C2BDA01"
+					type: "item"
+					item: "forbidden_arcanus:edelwood_stick"
+				}
+				{
+					id: "342ACC27FDCA76C0"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "丝绸般的触感的稿子"
+			dependencies: ["0B68E3C046C82860"]
+			id: "2E114B4C441EF50D"
+			tasks: [{
+				id: "2DE570337D6E8368"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:slimec_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "30DE1B1984B2CFE8"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_ingot"
+				}
+				{
+					id: "75C6FCC257C6679D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			description: [
+				"神秘匕首用于将龙首砍成龙鳞."
+				""
+				"当你在背包中用试管杀死僵尸时，它也会收集血液."
+			]
+			dependencies: ["0B68E3C046C82860"]
+			id: "09CCC797BF15ADFC"
+			tasks: [{
+				id: "3CCC73D361A4A5D6"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:mystical_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2C512ADAEFB4975C"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_ingot"
+					count: 2
+				}
+				{
+					id: "26033F1665B5FFD2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 7.5d
+			description: [
+				"埃德木桶可以储存一桶以上的液体，也可以用来捕捉鸡或鱿鱼等小动物."
+				""
+				"你需要永冻附魔来携带熔岩."
+			]
+			dependencies: ["6E3B9051503B938C"]
+			id: "0AFC5B1AF055811A"
+			tasks: [{
+				id: "1BD725A50F90B32C"
+				type: "item"
+				item: "forbidden_arcanus:edelwood_bucket"
+			}]
+			rewards: [
+				{
+					id: "31DCDE54FFBA9929"
+					type: "item"
+					item: "forbidden_arcanus:edelwood_log"
+					count: 2
+				}
+				{
+					id: "0E316F795B1547B4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "神秘水晶"
+			x: -7.0d
+			y: 5.0d
+			description: ["这是此mod中的主要资源.出去采一些!"]
+			dependencies: ["5523A71F1688EA88"]
+			id: "29164630E1BD76B5"
+			tasks: [{
+				id: "6B4884DE48C80B1C"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "23A648AA4FDB553E"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal"
+					random_bonus: 2
+				}
+				{
+					id: "12BE86FC704EBBBF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			subtitle: "这也很繁荣"
+			description: [
+				"你会在地下深处找到奥术陨石矿."
+				""
+				"采矿时要当心."
+			]
+			dependencies: ["537E39530360AD73"]
+			id: "34592A8F4B661D8D"
+			tasks: [{
+				id: "4D5980FEE267D06C"
+				type: "item"
+				item: "forbidden_arcanus:stellarite_piece"
+			}]
+			rewards: [{
+				id: "51217AE3DFB997C8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"熔化奥术水晶会给你奥术水晶尘."
+				""
+				"这用于mod中的大多数物品."
+			]
+			dependencies: ["29164630E1BD76B5"]
+			dependency_requirement: "one_completed"
+			id: "2894F11A73335179"
+			tasks: [{
+				id: "47D5F726006465DD"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+			}]
+			rewards: [
+				{
+					id: "5D1B5D7CF75F9130"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+					random_bonus: 2
+				}
+				{
+					id: "3DE86B79C85EFEBC"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			description: ["现在破坏刷怪笼会掉&9刷怪笼残骸&r."]
+			dependencies: ["5523A71F1688EA88"]
+			id: "13E5783AD64E3BC2"
+			tasks: [{
+				id: "743C9FFD4A3D73EF"
+				type: "item"
+				item: "forbidden_arcanus:spawner_scrap"
+			}]
+			rewards: [
+				{
+					id: "6EFFA261382CA801"
+					type: "item"
+					item: "forbidden_arcanus:spawner_scrap"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "0E15CFABEE5C0283"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "对实体使用的工具"
+			x: -9.5d
+			y: 2.5d
+			description: ["&9量子捕捉器&r用于捕获和运送僵尸."]
+			dependencies: ["13E5783AD64E3BC2"]
+			id: "0F3BD102F9F93DDD"
+			tasks: [{
+				id: "38ECF24F59D34252"
+				type: "item"
+				item: "forbidden_arcanus:quantum_catcher"
+			}]
+			rewards: [
+				{
+					id: "0BA306545C1BDE50"
+					type: "item"
+					item: "forbidden_arcanus:spawner_scrap"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "5ED4399C894F175E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"在末地城的战利品箱中随机出现."
+				""
+				"使用时，可获得5分钟的创造性飞行."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5523A71F1688EA88"]
+			hide: true
+			optional: true
+			id: "709118898CF960BE"
+			tasks: [{
+				id: "2ECD2C9267A13557"
+				type: "item"
+				item: "forbidden_arcanus:orb_of_temporary_flight"
+			}]
+			rewards: [{
+				id: "775EC533EE1FAB6A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			subtitle: "激活时突出显示是否移动"
+			description: ["这为僵尸提供了透视视野，从远处突出显示，以便更容易发现他们."]
+			dependencies: ["0B68E3C046C82860"]
+			optional: true
+			id: "44B1B147CDAC4E36"
+			tasks: [{
+				id: "35004413DAFA1C58"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:spectral_eye_amulet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3694CF3AF2711DAF"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_ingot"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "2436BF5F9939867D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			subtitle: "在农田上使用，使其变得神奇!"
+			description: [
+				"在农田上使用此骨粉会将其转化为魔法耕地 ."
+				""
+				"在魔法耕地上种植时，作物的产量将增加一倍."
+			]
+			dependencies: ["2894F11A73335179"]
+			optional: true
+			id: "7439CFAD20E3E2BF"
+			tasks: [{
+				id: "78493C576C4F0F87"
+				type: "item"
+				item: "forbidden_arcanus:arcane_bone_meal"
+			}]
+			rewards: [
+				{
+					id: "7E1A8C97DFD458D7"
+					type: "item"
+					item: "forbidden_arcanus:arcane_bone_meal"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "029C949DE3C11683"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 4.5d
+			shape: "square"
+			subtitle: "会感染村民和马"
+			hide_dependency_lines: true
+			dependencies: ["5523A71F1688EA88"]
+			hide: true
+			optional: true
+			id: "6780984A7CE63392"
+			tasks: [{
+				id: "480CDA250CAFF8C2"
+				type: "item"
+				item: "forbidden_arcanus:zombie_arm"
+			}]
+			rewards: [{
+				id: "61422C7B7C8414E9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: 4.5d
+			shape: "square"
+			subtitle: "箭头会爆炸"
+			hide_dependency_lines: true
+			dependencies: ["5523A71F1688EA88"]
+			hide: true
+			optional: true
+			id: "371DF7589239CB78"
+			tasks: [{
+				id: "24C0F64218E7DD64"
+				type: "item"
+				item: "forbidden_arcanus:boom_arrow"
+			}]
+			rewards: [{
+				id: "6EFE2F39B54EFABB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -12.0d
+			y: 5.5d
+			shape: "square"
+			subtitle: "留下一片AOE(群体伤害)云，伤害活着的僵尸"
+			hide_dependency_lines: true
+			dependencies: ["5523A71F1688EA88"]
+			hide: true
+			optional: true
+			id: "6C832BFE4D07D897"
+			tasks: [{
+				id: "0F88AE3ABD17518C"
+				type: "item"
+				item: "forbidden_arcanus:draco_arcanus_arrow"
+			}]
+			rewards: [{
+				id: "7069E419456D4661"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			shape: "circle"
+			subtitle: "不断生长的黄金"
+			description: [
+				"这些可以用来种植神秘金粒."
+				""
+				"要制作一个，您需要找到黄兰花."
+			]
+			hide_dependency_lines: false
+			dependencies: ["0B68E3C046C82860"]
+			id: "5ED1896F1986BD2B"
+			tasks: [{
+				id: "3157685F32B838D5"
+				type: "item"
+				item: "forbidden_arcanus:golden_orchid_seeds"
+			}]
+			rewards: [
+				{
+					id: "464173632063B0EC"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_nugget"
+					count: 3
+					random_bonus: 6
+				}
+				{
+					id: "5A94F2FC66A32C6F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "亡骨装甲"
+			x: -11.0d
+			y: 5.0d
+			shape: "square"
+			subtitle: "死者的盔甲"
+			description: [
+				"这件盔甲由头骨、骨头和布料制成，略强于铁."
+				""
+				"看起来也很酷."
+			]
+			dependencies: ["5523A71F1688EA88"]
+			hide: true
+			id: "5EFC63CF97D97AB5"
+			tasks: [
+				{
+					id: "36C413F578D44CBF"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A341DEA25087489"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F1B3851C4BC39F1"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34E13EE51BE65AE3"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "17D434C745CC8714"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_ingot"
+					count: 2
+				}
+				{
+					id: "4201E7FF060AB5A2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&6神秘金装甲"
+			x: -1.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "Oooo....闪亮的"
+			description: ["&6神秘金&r可以用来制造比钻石更坚固的盔甲!"]
+			dependencies: ["0B68E3C046C82860"]
+			optional: true
+			id: "31325417CA7935F6"
+			tasks: [
+				{
+					id: "0CF9B627689B477D"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_gold_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "505054605F491B3D"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_gold_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BA67D207250F2C3"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_gold_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E9B872D76272262"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_gold_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "423DA078893B3194"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_ingot"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "0DD8BAF96D3A44AB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&6神秘金剑"
+			x: -2.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["0B68E3C046C82860"]
+			optional: true
+			id: "3A6F3B78A280C79E"
+			tasks: [{
+				id: "01DDD93779A709B0"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:arcane_golden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1899792D1C55DC88"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "5A492A87F1051B3C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&6神秘金工具"
+			x: -1.0d
+			y: 3.0d
+			shape: "diamond"
+			description: [""]
+			dependencies: ["0B68E3C046C82860"]
+			optional: true
+			id: "102775D58AB03D2C"
+			tasks: [
+				{
+					id: "0A7A490241FC631B"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_golden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C013FA8055A2683"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_golden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1293B44B5B4FBCEB"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_golden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2140FB57E9349A64"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_golden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7E6B4A9F0F335887"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_ingot"
+					count: 5
+					random_bonus: 5
+				}
+				{
+					id: "184D06B57D243B22"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "龙鳞"
+			x: 2.5d
+			y: 7.0d
+			subtitle: "Dragon Scales（龙鳞）, Dragon Scales....."
+			description: ["将龙首与神秘匕首结合在一起会给你&9龙鳞&r."]
+			dependencies: ["09CCC797BF15ADFC"]
+			id: "20B495B4B8B95636"
+			tasks: [{
+				id: "66035A72EEEF2FA1"
+				type: "item"
+				item: "forbidden_arcanus:dragon_scale"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "49C41CD91F6E1DB5"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					random_bonus: 2
+				}
+				{
+					id: "4CD12CEC53F48F4B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&1天龙神秘装甲&r"
+			x: 3.0d
+			y: 8.5d
+			shape: "diamond"
+			subtitle: "比镍钛矿好的装甲"
+			dependencies: ["20B495B4B8B95636"]
+			id: "4DA1C95BED78A662"
+			tasks: [
+				{
+					id: "4F68A985DED494B6"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "51FBF0E6CAAF10EB"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D69FAD94A981FCD"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "528B85B2554A3691"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5D0B716695D921A1"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					count: 5
+					random_bonus: 5
+				}
+				{
+					id: "42F0BCA9799206B2"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			description: [
+				"龙鳞可制成金龙和水龙龙鳞."
+				""
+				"这些主要用于制作&d战神提尔装甲&r.ATM之星配方中也需要它."
+			]
+			dependencies: ["20B495B4B8B95636"]
+			id: "744A01000E086CC9"
+			tasks: [
+				{
+					id: "332B4C94EE4AAB00"
+					type: "item"
+					item: "forbidden_arcanus:golden_dragon_scale"
+				}
+				{
+					id: "05C28BF8C6930068"
+					type: "item"
+					item: "forbidden_arcanus:aquatic_dragon_scale"
+				}
+			]
+			rewards: [
+				{
+					id: "781E8E6CC9F75140"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "234F00EF412D61B2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			description: [
+				"用来腐化灵魂和符文.你以后会需要这个."
+				""
+				"如果你扔下暗物质，然后扔下腐化粉末，它会产生黑洞.给它喂食像箭头或经验球这样的小实体，它会产生石化经验球."
+			]
+			dependencies: ["2894F11A73335179"]
+			id: "7CF76A542529A181"
+			tasks: [{
+				id: "16DBF179371A23E1"
+				type: "item"
+				item: "forbidden_arcanus:corrupti_dust"
+			}]
+			rewards: [
+				{
+					id: "177C38C275F50299"
+					type: "item"
+					item: "forbidden_arcanus:obsidian_ingot"
+					count: 2
+				}
+				{
+					id: "162E81395E446AB6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "洁净粉末"
+			x: -3.5d
+			y: 5.0d
+			subtitle: "让粉尘结合"
+			description: [
+				"使用我们的神秘水晶粉末，我们需要将其与其他粉和粉末结合，以制作洁净粉末."
+				""
+				"这种粉尘被用于几种配方，以及激活赫菲斯托斯锻造厂."
+			]
+			dependencies: ["2894F11A73335179"]
+			id: "03E7D73433AB6B7C"
+			tasks: [{
+				id: "133BDCB7B85C4CF4"
+				type: "item"
+				item: "forbidden_arcanus:mundabitur_dust"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "39DA82A959E64A6C"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+					count: 2
+				}
+				{
+					id: "0A2FEC70D103E074"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&6神秘金锭"
+			x: -1.5d
+			y: 5.0d
+			shape: "hexagon"
+			description: [
+				"&6神秘金锭&r是mod持续前进必须的物品."
+				""
+				"它被用来做很多东西，而且还很漂亮."
+			]
+			dependencies: ["03E7D73433AB6B7C"]
+			id: "0B68E3C046C82860"
+			tasks: [{
+				id: "3957BB8401E71721"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "26557852C1E8C375"
+					type: "item"
+					item: "forbidden_arcanus:mundabitur_dust"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "5B71F74BEF228128"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "3FD3517F2A68B520"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_ingot"
+				}
+				{
+					id: "643C5E6FC352BD9F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&5战神提尔套装"
+			x: 4.5d
+			y: 8.5d
+			shape: "square"
+			dependencies: ["744A01000E086CC9"]
+			id: "70112194DFFD15D3"
+			tasks: [
+				{
+					id: "1837D97833619166"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "679C3B7915C403AC"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B5AFD104DE50D5F"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "11795A1BD0916EC2"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "11EAD293F53CD52C"
+					type: "item"
+					item: "forbidden_arcanus:golden_dragon_scale"
+					count: 3
+				}
+				{
+					id: "332909BF099BE23B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 7.0d
+			shape: "pentagon"
+			description: [
+				"创建&6ATM之星&r、 你需要几件来自禁忌与奥秘的物品."
+				""
+				"你需要一个暗魂，一个金龙之鳞和一个神秘龙蛋."
+			]
+			dependencies: ["24261D6C5C5A6CB4"]
+			size: 1.5d
+			id: "64504CF324723E1B"
+			tasks: [{
+				id: "697942E4A47F91C5"
+				type: "checkmark"
+				title: "龙魂"
+				icon: "allthetweaks:dragon_soul"
+			}]
+			rewards: [{
+				id: "6AFDDB9BED9DCE31"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.0d
+			description: [
+				"ATM之星配方需要这个龙蛋."
+				""
+				"这也是一个很酷的装饰品."
+			]
+			dependencies: ["744A01000E086CC9"]
+			id: "24261D6C5C5A6CB4"
+			tasks: [{
+				id: "548E998BF89F6713"
+				type: "item"
+				item: "forbidden_arcanus:arcane_dragon_egg"
+			}]
+			rewards: [
+				{
+					id: "2F8682CA5351660F"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "413D504AB03C2837"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "理智"
+			x: -9.0d
+			y: 1.5d
+			shape: "octagon"
+			subtitle: "我疯了吗?"
+			description: [
+				"杀死被动动物会增加你的腐化.杀死&9耀金实体&r有更大机会增加你的腐败."
+				""
+				"小心！腐化程度越高，负面的事情就会发生!"
+				""
+				"制作一个理智表将使您的UI升级，以显示您的整体腐败, for those who want to hit new high scores and such."
+			]
+			dependencies: ["3799ACDA92F96FD1"]
+			id: "25911D0B7C403A4F"
+			tasks: [{
+				id: "2A496D23BEBBA31A"
+				type: "item"
+				item: "forbidden_arcanus:sanity_meter"
+			}]
+			rewards: [
+				{
+					id: "1783BA9CA938C5C7"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+					random_bonus: 2
+				}
+				{
+					id: "31A2D2A4B3CB93AB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "为锻造做好准备"
+			x: 0.5d
+			y: 4.0d
+			description: ["你可能已经获得了一些暗黑石，但我们需要它来制造锻造."]
+			dependencies: ["0B68E3C046C82860"]
+			id: "5F5675E30ED046F7"
+			tasks: [{
+				id: "0031710AA90315AC"
+				type: "item"
+				item: "forbidden_arcanus:darkstone"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "5ABC396B7B306255"
+					type: "item"
+					item: "forbidden_arcanus:darkstone"
+					count: 16
+					random_bonus: 16
+				}
+				{
+					id: "56404219A611CF0F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&1赫菲斯托斯锻造厂"
+			icon: "forbidden_arcanus:hephaestus_forge"
+			x: 2.5d
+			y: 3.0d
+			shape: "octagon"
+			description: [
+				"我们将使用所有的暗黑石来创建&1赫菲斯托斯锻造厂&r."
+				""
+				"一旦你有了所有需要的方块，你就需要为锻造搭建平台."
+				""
+				"建造完成后，在中心放置一张锻造台，然后用一块洁净粉末蹲下右键."
+				""
+				"要了解如何构建平台，请在JEI中搜索锻造，然后按住W查看思考."
+				"{image:atm:textures/forge.png width:200 height:175 align:2}"
+			]
+			dependencies: ["5F5675E30ED046F7"]
+			size: 1.5d
+			id: "73349B993DE69954"
+			tasks: [
+				{
+					id: "2429D427160A65D5"
+					type: "item"
+					item: "forbidden_arcanus:polished_darkstone"
+					count: 48L
+				}
+				{
+					id: "3D6D6E05A9D04FC5"
+					type: "item"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					count: 9L
+				}
+				{
+					id: "2F27161BBD1D059A"
+					type: "item"
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+					count: 4L
+				}
+				{
+					id: "754E2CB9BDC2549E"
+					type: "item"
+					item: "minecraft:smithing_table"
+				}
+				{
+					id: "2FC5F424A0583DFD"
+					type: "item"
+					item: "forbidden_arcanus:mundabitur_dust"
+				}
+			]
+			rewards: [
+				{
+					id: "7F8265D8621DC5A2"
+					type: "item"
+					item: "forbidden_arcanus:aureal_bottle"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "11369C066386D75D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1ED7759D78CD81CE"
+					type: "item"
+					item: "forbidden_arcanus:darkstone"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			description: [
+				"&9真理透镜&r用于查看耀金实体."
+				""
+				"这些实体将在耀金被杀后出现,但也会增加你的腐败...."
+			]
+			dependencies: ["13E5783AD64E3BC2"]
+			id: "3799ACDA92F96FD1"
+			tasks: [{
+				id: "4FF431D0496FC0E5"
+				type: "item"
+				item: "forbidden_arcanus:lens_of_veritatis"
+			}]
+			rewards: [
+				{
+					id: "4EC3B05BBDA04092"
+					type: "item"
+					item: "forbidden_arcanus:spawner_scrap"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "361FF13D5A5429DB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 7.5d
+			description: [
+				"烧&9埃德木&r会给你暗物质."
+				""
+				"你可以用这个做黑洞."
+			]
+			dependencies: ["6E3B9051503B938C"]
+			id: "310B54FB390982C5"
+			tasks: [{
+				id: "0FCB0911BA208C40"
+				type: "item"
+				item: "forbidden_arcanus:dark_matter"
+			}]
+			rewards: [
+				{
+					id: "791CA106E009D001"
+					type: "item"
+					item: "forbidden_arcanus:edelwood_stick"
+					count: 2
+				}
+				{
+					id: "1B284389DED0B292"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&4血"
+			x: 5.0d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"通过制作试管收集血液，然后用神秘匕首杀死僵尸."
+				""
+				"注意：杀死僵尸时，试管必须在你的背包中."
+			]
+			dependencies: ["0C6719D81DE5A614"]
+			id: "757E1521D84AC5C8"
+			tasks: [{
+				id: "0C10EC722BA7DEA1"
+				type: "item"
+				item: "forbidden_arcanus:test_tube"
+			}]
+			rewards: [
+				{
+					id: "457A3940CA5077E1"
+					type: "item"
+					item: "forbidden_arcanus:rune"
+					count: 3
+				}
+				{
+					id: "7223A34DD27FE40E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&9耀金"
+			x: 4.0d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"&d耀金瓶&r可以在战利品箱中找到，但也可以使用神秘水晶粉末制作."
+				""
+				"你也可以用神秘水晶方尖碑生成耀金."
+			]
+			dependencies: ["0C6719D81DE5A614"]
+			id: "4DA04ABF4FF2625C"
+			tasks: [{
+				id: "0B41D927E575771E"
+				type: "item"
+				item: "forbidden_arcanus:aureal_bottle"
+			}]
+			rewards: [
+				{
+					id: "6178D95C91BE10B3"
+					type: "item"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "68666FC2D57373D0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&d灵魂"
+			icon: "forbidden_arcanus:soul"
+			x: 4.0d
+			y: 3.5d
+			shape: "diamond"
+			description: ["通过制作&9灵魂提取器&r,然后在灵魂沙上使用."]
+			dependencies: ["0C6719D81DE5A614"]
+			id: "788A3685A7D07E75"
+			tasks: [
+				{
+					id: "6558C3AA159F57D6"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:soul_extractor"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16226358D9107349"
+					type: "item"
+					item: "forbidden_arcanus:soul"
+				}
+			]
+			rewards: [
+				{
+					id: "6E91C2363706DBDC"
+					type: "item"
+					item: "forbidden_arcanus:soul"
+					count: 2
+				}
+				{
+					id: "7FBAD433C4C46130"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "2EBC61C8851B2229"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&a附魔之瓶"
+			x: 5.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "瓶子里的经验"
+			description: ["This goes in the right side of the forge."]
+			dependencies: ["0C6719D81DE5A614"]
+			id: "5E45D2A2FDD67495"
+			tasks: [{
+				id: "0D4ABA98B2FDB158"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
+			rewards: [
+				{
+					id: "1B359369ABC0ED19"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 3
+				}
+				{
+					id: "03B074FCE2297BF6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			shape: "diamond"
+			description: [
+				"{image:atm:textures/forge_gui.png width:200 height:150 align:1}"
+				""
+				"锻造需要4个不同的物品来获得能量：耀金、灵魂、血液和经验."
+				""
+				"要了解更多信息，请遵循任务."
+			]
+			dependencies: ["73349B993DE69954"]
+			id: "0C6719D81DE5A614"
+			tasks: [{
+				id: "4CAF79C3D1E35958"
+				type: "checkmark"
+				title: "为锻造厂供电"
+			}]
+			rewards: [{
+				id: "4361C7754AB234B0"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "暗黑石基座"
+			x: 2.0d
+			y: 1.5d
+			description: [
+				"要使物品附魔，你需要在熔炉周围放置暗石底座."
+				""
+				"确保将这些放置在神秘錾制磨制暗黑石上."
+			]
+			dependencies: ["73349B993DE69954"]
+			id: "76BC484FC50EAEC3"
+			tasks: [{
+				id: "0BC04910ED51A3A5"
+				type: "item"
+				item: "forbidden_arcanus:darkstone_pedestal"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "7D1F1DB54CDE1BB2"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_ingot"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "434F08CC0F88F901"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "表演仪式"
+			x: 6.5d
+			y: 3.0d
+			description: [
+				"要执行仪式，请将材料放在神秘暗黑石基座上."
+				""
+				"你需要一个&9锻工锤&r启动仪式.要做到这一点，右键单击带有锻工的锤子."
+			]
+			dependencies: ["0C6719D81DE5A614"]
+			id: "537E39530360AD73"
+			tasks: [{
+				id: "0309B0EB29771EC0"
+				type: "item"
+				title: "锻工锤"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forbidden_arcanus:blacksmith_gavel"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71C67BAC8336840E"
+					type: "item"
+					item: "forbidden_arcanus:arcane_gold_ingot"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "7D92F94919F2BB7D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&d永恒之石"
+			x: 9.5d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"&6永恒之石&r只能用3次，当右键单击时，它可以完全修复库存中的所有物品."
+				""
+				"这样做的主要目的是给附魔&9坚不可摧&r添加到一个物品，这是通过将其与工具组合在一个锻造台中完成的."
+			]
+			dependencies: [
+				"34592A8F4B661D8D"
+				"1C91BD525C91FD73"
+			]
+			size: 1.5d
+			id: "526559F94031FE43"
+			tasks: [{
+				id: "662F567369FBB0AD"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4D6EC3BA13F54659"
+					type: "item"
+					item: "forbidden_arcanus:stellarite_piece"
+				}
+				{
+					id: "629C79B4071B31A3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			shape: "square"
+			description: ["此物品可与一个工具组合使用，以添加&6燃烧&r附魔，该附魔可在收获时自动熔化砖块，或使物品燃烧."]
+			dependencies: ["537E39530360AD73"]
+			id: "13C766B7286C0293"
+			tasks: [{
+				id: "6443CDA11E67A634"
+				type: "item"
+				item: "forbidden_arcanus:smelter_prism"
+			}]
+			rewards: [{
+				id: "371D93A79EF7844C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			description: [
+				"这东西到处都是."
+				""
+				"它可以用来给自己带来经验，也可以用来制作永恒之石."
+			]
+			dependencies: ["537E39530360AD73"]
+			id: "1C91BD525C91FD73"
+			tasks: [{
+				id: "552F1CF53E9AF9BD"
+				type: "item"
+				item: "forbidden_arcanus:xpetrified_orb"
+			}]
+			rewards: [
+				{
+					id: "13C459664A7C7E0F"
+					type: "item"
+					item: "forbidden_arcanus:xpetrified_orb"
+					count: 2
+				}
+				{
+					id: "5B12316594633566"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&1天龙工具"
+			x: 2.0d
+			y: 8.5d
+			shape: "diamond"
+			subtitle: "天龙工具"
+			dependencies: ["20B495B4B8B95636"]
+			id: "33F44B87C5496158"
+			tasks: [
+				{
+					id: "6B1B4574299B7E42"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7AC6974CDDE401B1"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1EC5573A12A3B7F7"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70CEF00CFA26E97A"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "084CD3234774CB5A"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					count: 2
+					random_bonus: 10
+				}
+				{
+					id: "483938E5BF2FAFC7"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+		{
+			title: "&1天龙武器"
+			x: 2.5d
+			y: 9.0d
+			shape: "diamond"
+			subtitle: "Go Pew Pew"
+			description: ["权杖在右击充电时射出能量球.如果僵尸被击中，它会用召唤闪电击中."]
+			dependencies: ["20B495B4B8B95636"]
+			id: "3513D89C6FD2D852"
+			tasks: [
+				{
+					id: "49FEFEC69106EFFA"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "388451A17A53336D"
+					type: "item"
+					item: "forbidden_arcanus:draco_arcanus_scepter"
+				}
+			]
+			rewards: [
+				{
+					id: "1AE33D81B5F9212E"
+					type: "item"
+					item: "forbidden_arcanus:dragon_scale"
+					count: 2
+					random_bonus: 6
+				}
+				{
+					id: "487939397BCAAC5F"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+		{
+			icon: "forbidden_arcanus:arcane_crystal_obelisk"
+			x: 3.0d
+			y: 1.5d
+			description: [
+				"要创建神秘水晶方尖碑，请放置一个神秘磨制暗黑石，然后在上面放置两个神秘水晶块."
+				""
+				"右键单击洁净粉末，您将创建方尖碑."
+				""
+				"当放置在赫菲斯托斯锻造结构上的神秘錾制磨制暗黑石上时，随着时间的推移，它会慢慢产生耀金."
+			]
+			dependencies: ["73349B993DE69954"]
+			id: "11C065375DF7AC3E"
+			tasks: [{
+				id: "5400EB85133AAAEE"
+				type: "checkmark"
+				title: "神秘水晶方尖碑"
+			}]
+			rewards: [{
+				id: "37FA801AED4BD6AC"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: 6.5d
+			y: 4.5d
+			shape: "square"
+			description: ["赫菲斯托斯锻造厂也用于制造附魔.查看JEI，查看您可以创建的所有不同的附魔!"]
+			dependencies: ["537E39530360AD73"]
+			id: "7A307544E0D2E5C4"
+			tasks: [{
+				id: "4816629B3B142B3C"
+				type: "checkmark"
+				title: "附魔"
+			}]
+			rewards: [
+				{
+					id: "482CDE8A6A3DA59F"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "4118C08ADA7955C1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

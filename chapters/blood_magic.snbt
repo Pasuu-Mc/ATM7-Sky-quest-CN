@@ -1,0 +1,1724 @@
+{
+	id: "004F28C5C85F467B"
+	group: "02FE661031A105D8"
+	order_index: 2
+	filename: "blood_magic"
+	title: "血魔法"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -20.5d
+		y: -2.0d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "欢迎来到&c血魔法!"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			x: -30.5d
+			y: -1.0d
+			shape: "gear"
+			description: [
+				"欢迎来到&c血魔法&f!"
+				""
+				"要开始，请检查您的&e怪奇宝典(阿卡什宝典)&r中有血魔法指南. 完成此任务还将获得一个指南!"
+				""
+				"如果您需要任何帮助，本指南包含了有关mod的所有信息."
+			]
+			size: 1.5d
+			id: "3A9B90A453C933C4"
+			tasks: [{
+				id: "27529E8EA019A89A"
+				type: "checkmark"
+				title: "血魔法"
+			}]
+			rewards: [
+				{
+					id: "3D1B65B9B393B3F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A846312CB17F978"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "收集&c血液"
+			icon: "bloodmagic:altar"
+			x: -28.5d
+			y: -1.0d
+			shape: "diamond"
+			description: [
+				"要开始使用Blood Magic，我们需要采集一些血液."
+				""
+				"要做到这一点，我们需要制作&d牺牲匕首&r和&4血之祭坛&r."
+				""
+				"继续，把祭坛放在周围有足够空间的地方.我们可能想在未来进一步扩展."
+				""
+				"为了获取血液，站在祭坛旁边。。。使用匕首.你会受到一点伤害，但是&b会收集血液&r."
+				""
+				"每次使用将产生约200LP."
+			]
+			dependencies: ["3A9B90A453C933C4"]
+			size: 1.25d
+			id: "3DA7D0BA045CE7AB"
+			tasks: [
+				{
+					id: "49E5D4B7057851E7"
+					type: "item"
+					item: {
+						id: "bloodmagic:sacrificialdagger"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "41D32B8152806B22"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+			]
+			rewards: [
+				{
+					id: "4137E9D70B32E4FA"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				}
+				{
+					id: "2DE0010C8535C460"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "制作石板"
+			x: -26.0d
+			y: -1.0d
+			description: [
+				"我想把生命精华（又名LP或血液）注入一些石头中."
+				""
+				"在祭坛内放置1000LP,石头将变成空白石板.你需要很多石板."
+			]
+			dependencies: ["3DA7D0BA045CE7AB"]
+			id: "6AAB831CB3FB536A"
+			tasks: [{
+				id: "7CBFE84B4FE3DC01"
+				type: "item"
+				item: "bloodmagic:blankslate"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "0F7ECFD0C45EA36C"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "01162A1F9A3B0A4D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "将祭坛升级到第2级"
+			icon: "bloodmagic:altar"
+			x: -24.0d
+			y: -1.0d
+			shape: "pentagon"
+			description: [
+				"为了制作更多使用LP的物品，我们需要通过&9空白符文&r将其包围来升级我们的祭坛."
+				""
+				"如果需要，您可以将每个主要方向上的空白符文替换为符文，如&6速度符文&r. 这些符文可以影响祭坛的功能."
+				""
+				"下面是一个如何建造二级祭坛的例子，但你也可以在指南中看到它."
+				""
+				"注意：速度符文是唯一可用的符文（除了空白符文），直到你制作第二级祭坛，但以后可以替换为其他."
+				""
+				"{image:atm:textures/quests/bloodmagic/bloodmagic_tier2.png width:150 height:140 align:1}"
+			]
+			dependencies: ["6AAB831CB3FB536A"]
+			size: 1.25d
+			id: "4B51189C36B8D291"
+			tasks: [{
+				id: "4CDFCAAED8ABB615"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "1C97CAB711AE1357"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "4C507A1D9293C777"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -22.0d
+			y: -1.0d
+			description: ["我们的祭坛现在处于第二级，我们可以制作更高级的符文. 我们需要一些强化石板来继续我们的血魔法之旅，包括做一些仪式. "]
+			dependencies: ["4B51189C36B8D291"]
+			id: "2C3CA7B9D1A7DC47"
+			tasks: [{
+				id: "4CEA3279AF0BEE01"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+			rewards: [
+				{
+					id: "1493A082BCF763E1"
+					type: "item"
+					item: "bloodmagic:reinforcedslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "448B572D6386F058"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "便携式血液储存"
+			x: -28.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "最大保存5k LP"
+			description: [
+				"&9虚弱气血宝珠&r用于储存血液（或LP）.它可以作为运送血液进出祭坛的一种方式.它也被用在一些制作配方中."
+				""
+				"要制作这个，你需要在血坛上放置一颗钻石，然后生成足够的LP来制作它."
+				""
+				"要给气血宝珠充血，你可以右击以牺牲你的部分生命值给气血宝珠. 这也将你的灵魂连接到你的灵魂网络. :)"
+				""
+				"你也可以把宝珠放在一个祭坛里，里面有一些LP.它拥有的速度符文越多，消耗速度就会越快."
+			]
+			dependencies: ["3DA7D0BA045CE7AB"]
+			id: "5BF29A151A04FEF0"
+			tasks: [{
+				id: "65E0BEE90716B68C"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			title: "一级仪式"
+			icon: "bloodmagic:masterritualstone"
+			x: -18.0d
+			y: 0.5d
+			description: [
+				"使用我们的3级祭坛，我们可以开始进行仪式."
+				""
+				"仪式需要一块主仪式石和足够的常规仪式石来进行."
+				""
+				"首先制作一堆仪式石和一块主仪式石.这些是我们开始做仪式所需要的基本环节."
+			]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "4578C0EE82F66BD9"
+			tasks: [
+				{
+					id: "6995C629EAA148F5"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "32F2BC0D3AA69E25"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "34E76CD69EB10059"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "706F037413BB3D25"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+		{
+			x: -22.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["这个符文增加了从非玩家实体身上获取的血量.每个符文加成10%."]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "08F28A9E4DEA7CD0"
+			tasks: [{
+				id: "6C6CDA42FB379A80"
+				type: "item"
+				item: "bloodmagic:sacrificerune"
+			}]
+			rewards: [{
+				id: "23EBA079A86E799A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -24.0d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "疲惫伤害了自己?"
+			description: [
+				"现在你可以用别人的鲜血来代替!"
+				""
+				"用其中一个杀死你祭坛2个方块内的任何僵尸，将立即杀死他们并将他们的LP注入你的祭坛!"
+				""
+				"如果你的祭坛周围有献祭符文，你每杀一次就会得到更多LP."
+				""
+				"I'm also totally not giving you 16 eggs for you to potentially get chickens for blood. Totally just for cooking（不懂，无翻译）. "
+			]
+			dependencies: ["4B51189C36B8D291"]
+			id: "5361F72BAB72D318"
+			tasks: [{
+				id: "5D7178C2EF652773"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [
+				{
+					id: "050236926D942519"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "217032A5D292D4A1"
+					type: "item"
+					item: "minecraft:egg"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "&4狱火锻炉&r"
+			x: -26.0d
+			y: 1.0d
+			shape: "hexagon"
+			description: [
+				"&4狱火锻炉&r是血魔法中主要工具之一."
+				""
+				"它由恶魔意志提供动力，可用于制作多个物品，包括&b感知之剑&r."
+			]
+			dependencies: [
+				"6AAB831CB3FB536A"
+				"506D48AD9FB2E89D"
+			]
+			size: 1.5d
+			id: "7BA086472D87D705"
+			tasks: [{
+				id: "59D4952D3D164F6D"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [
+				{
+					id: "5D18F40ED6F399D6"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+					count: 3
+				}
+				{
+					id: "19ABF9AB512D180E"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "65BAEBCF71A95208"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "感知之剑"
+			x: -26.0d
+			y: 3.5d
+			shape: "octagon"
+			description: [
+				"我们不能永远使用灵魂投网."
+				""
+				"感知之剑让你更容易收集恶魔意志.只要用剑杀死一个敌对的僵尸，僵尸就会放下恶魔意志."
+			]
+			dependencies: ["11D37E7391B49A88"]
+			id: "7C8D74692C963000"
+			tasks: [{
+				id: "72A92CB3A5DA9044"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "40B798A36DCBFBCB"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "40D83B6E12A16952"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "存储恶魔意志"
+			x: -26.0d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"恶魔意志在你的背包中堆积得很快."
+				""
+				"我们将需要大量的意志，因此我们需要创建一种存储所有意志的方法.&9地狱魂石&r正是我们需要的."
+				""
+				"&b微尘地狱魂石&r是我们第一次存储恶魔意志.最多可存储64意志."
+				""
+				"注意：如果你丢弃了背包中的任何恶魔意志，魂石会将其吸收到其存储中."
+			]
+			dependencies: ["7BA086472D87D705"]
+			id: "11D37E7391B49A88"
+			tasks: [{
+				id: "1E4979886B89B2AD"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2586A2DC190EE8B7"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 1.0d
+						}
+					}
+				}
+				{
+					id: "3C98676E7D871A75"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -25.0d
+			y: 3.5d
+			shape: "diamond"
+			description: ["对存储的升级.最多可容纳256恶魔意志."]
+			dependencies: ["11D37E7391B49A88"]
+			id: "487275B970530E3F"
+			tasks: [{
+				id: "55AF014185F20835"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemlesser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "093D0A54AA9785C1"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+				{
+					id: "6C398EB3B8CC167B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: 4.5d
+			shape: "diamond"
+			description: ["最多可容纳1024意志."]
+			dependencies: ["487275B970530E3F"]
+			id: "626C07DB8B8C5A04"
+			tasks: [{
+				id: "04BCD1D949FCB24D"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemcommon"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B2775EDC84F8DBC"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: -27.0d
+			y: 3.5d
+			shape: "diamond"
+			description: ["这是存储恶魔意志的最大存储物品，最多可容纳4096个意志."]
+			dependencies: ["626C07DB8B8C5A04"]
+			id: "20458B8987CD6CB9"
+			tasks: [{
+				id: "25B30F1BCCEE920A"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemgreater"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "706507A5BDE8CAF5"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -18.0d
+			y: -1.0d
+			description: [
+				"在我们的新祭坛上用一些血灌注强化石板会让我们得到灌输石板."
+				""
+				"这是我们血魔法之旅的下一次升级."
+			]
+			dependencies: ["5886C648D14180E1"]
+			id: "375FF0D8ACD2E17F"
+			tasks: [{
+				id: "2BEC3F34860494B0"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+			rewards: [
+				{
+					id: "017A36C03D074D2B"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "467291771E176EC8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["每增加一个容量符文，祭坛的总容量LP增加20%."]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "0B2B8247DA280E90"
+			tasks: [{
+				id: "41758E5DA17E2FDF"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune"
+			}]
+			rewards: [
+				{
+					id: "7CF045B2A95086EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62390E5A53188912"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["这个符文可以将输送至外部储罐和从外部储罐抽送时，LP进出祭坛的量增加20%."]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "47B985B56C582D6A"
+			tasks: [{
+				id: "00D5D96DA535CFE7"
+				type: "item"
+				item: "bloodmagic:dislocationrune"
+			}]
+			rewards: [
+				{
+					id: "31EA9D6A3290C38D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A809308395ADC22"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -2.5d
+			description: [
+				"最后一块有用的石板..."
+				""
+				"然而."
+			]
+			dependencies: ["431C44439CA54077"]
+			id: "7CA3AE708F46CEBF"
+			tasks: [{
+				id: "57F75D0B2554BA61"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+			rewards: [
+				{
+					id: "606FCBD36A2918D1"
+					type: "item"
+					item: "bloodmagic:demonslate"
+					random_bonus: 2
+				}
+				{
+					id: "0FE381A79B163DDA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -4.5d
+			shape: "diamond"
+			description: ["这个符文增加祭坛的容量，每个符文增加7.5%.这些适用于常规容量符文之后."]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "6C0D4CBC089988ED"
+			tasks: [{
+				id: "0B14A7CBC056CC9F"
+				type: "item"
+				item: "bloodmagic:bettercapacityrune"
+			}]
+			rewards: [
+				{
+					id: "1B3AA2121F9BABB8"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "2A8726C8BB765154"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -4.0d
+			shape: "diamond"
+			description: [
+				"每当祭坛不用于制作或填充宝珠时，这个符文会产生一个1000LP的内部缓冲区."
+				""
+				"每当物品被放置在祭坛内时，它会立即消耗储存的LP并将其应用到物品上."
+				""
+				"放置后不需等待!"
+			]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "6C57FF70679AF123"
+			tasks: [{
+				id: "73F90730D99D6384"
+				type: "item"
+				item: "bloodmagic:chargingrune"
+			}]
+			rewards: [
+				{
+					id: "5E055E1CF9CEA375"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "5E890AEA3E9B9188"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			description: [
+				"你甚至不能用这个做我知道的任何事情."
+				""
+				"你太厉害了."
+			]
+			dependencies: ["2214B7DCE4075A02"]
+			optional: true
+			id: "396AA75774059D0B"
+			tasks: [{
+				id: "600A5AEE6C546B4C"
+				type: "item"
+				item: "bloodmagic:etherealslate"
+			}]
+			rewards: [{
+				id: "493159D4211DD8E5"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -13.5d
+			y: -4.5d
+			shape: "diamond"
+			description: [
+				"这个符文加速了其他符文的运行，比如充能符文或转位符文."
+				""
+				"它消除了每个符文1次的延迟，降低到每一次减少1次操作（不太懂）."
+			]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "0EE2D22A577D10B0"
+			tasks: [{
+				id: "7EB95246A2F0981D"
+				type: "item"
+				item: "bloodmagic:accelerationrune"
+			}]
+			rewards: [
+				{
+					id: "011EDAF134E648E1"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "0FDD0D502E4E581C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 2.0d
+			description: [
+				"血命果可以从恶魔领域内的战利品箱中获得.你需要这个来进一步升级你的祭坛!"
+				""
+				"一旦收集到果实，就可以种植.然而，它有两种潜在果实，而不是一种."
+				""
+				"自然种植会产生更多的血命果，这些果可以变成油.但如果我们给它一些血呢......"
+			]
+			dependencies: ["0E8418B42A744030"]
+			id: "50A28E1946047A6E"
+			tasks: [{
+				id: "2D780C226FCF4A03"
+				type: "item"
+				item: "bloodmagic:weak_tau"
+			}]
+			rewards: [
+				{
+					id: "0F83AC33131BD953"
+					type: "item"
+					item: "bloodmagic:weak_tau"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "4899CDA6BDDEB8C3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 2.0d
+			description: [
+				"就像这个包里的一切, &c血命果渴望血液&r.种植血命果，强迫僵尸在上面."
+				""
+				"它会耗尽僵尸的生命，变成饱满的血命果."
+			]
+			dependencies: ["50A28E1946047A6E"]
+			id: "5E2D15E4A410B5DA"
+			tasks: [{
+				id: "102AEEB23B1AA7EF"
+				type: "item"
+				item: "bloodmagic:strong_tau"
+			}]
+			rewards: [
+				{
+					id: "7CB7C8464D30CE9C"
+					type: "item"
+					item: "bloodmagic:strong_tau"
+				}
+				{
+					id: "5511EA668DC7B429"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 0.5d
+			description: [
+				"虽然尚未完全使用，但&6炼金反应炉&r的功能类似于熔炉."
+				""
+				"这是目前获得&c虚弱气血碎片&r的唯一方法,我们需要升级祭坛."
+			]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "308581359FEF32E9"
+			tasks: [{
+				id: "1589663D302CE21E"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+			rewards: [
+				{
+					id: "2E509236F2A904AE"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "7798ABBC4BAB13CC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "最多可容纳150k LP"
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "0E51D6BB2BC756B6"
+			tasks: [{
+				id: "7BB6F203FCA31A25"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+			rewards: [{
+				id: "7848C02921758A7E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -15.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "最多可容纳1M LP"
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "048BD38532A1DDCF"
+			tasks: [{
+				id: "2F13F6D6E170BBEC"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+			rewards: [{
+				id: "08B35AB2E64B3B71"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.0d
+			y: 0.5d
+			description: ["利用我们的饱满血命果和我们的炼金反应室，我们可以制作所需的材料来升级祭坛，宝珠，&4虚弱气血碎片&r."]
+			dependencies: [
+				"5E2D15E4A410B5DA"
+				"308581359FEF32E9"
+			]
+			id: "25343A0C4C22AA60"
+			tasks: [
+				{
+					id: "3A104E7D6C6AA524"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+				{
+					id: "04EAE604D8B668B3"
+					type: "item"
+					item: "bloodmagic:largebloodstonebrick"
+				}
+			]
+			rewards: [{
+				id: "3A386B0E3C9940DE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "第二级仪式"
+			x: -12.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: [
+				"现在我们要制作薄暮版的仪式推测杖."
+				""
+				"这让我们可以接触更多的仪式，包括让我们进入恶魔领域的仪式. "
+			]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "263925A79EBB270F"
+			tasks: [
+				{
+					id: "46C11FFD8A06B63E"
+					type: "item"
+					item: {
+						id: "bloodmagic:duskscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "088CD8231DD1A37A"
+					type: "item"
+					item: "bloodmagic:ritualdivinerdusk"
+				}
+			]
+			rewards: [
+				{
+					id: "71A79FCBB36C348C"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "6647598F7C4C2325"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "收集恶魔意志"
+			x: -27.299999999999997d
+			y: 0.0d
+			description: [
+				"在我们制作&c狱火锻炉&r,我们需要一种方法，通过收集&b恶魔意志&r."
+				""
+				"要开始收集它，我们需要制作一些&d灵魂投网&r我们可以在僵尸身上使用的."
+				""
+				"一旦你在僵尸身上使用了其中的一些，白色粒子就会出现在他们周围.杀死他们，你就会获得恶魔意志."
+			]
+			dependencies: ["3DA7D0BA045CE7AB"]
+			id: "506D48AD9FB2E89D"
+			tasks: [
+				{
+					id: "3D1BAA6CA8B979A9"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+					count: 3L
+				}
+				{
+					id: "42D29681DC076E3C"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "20442FD9EB780A4C"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "07EB91CE33392DD5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: -2.9499999999999997d
+			shape: "hexagon"
+			description: [
+				"&9炼金术桌&r可以通过使用玩家灵魂网络中的LP（又名使用宝珠）来制造各种物体、催化剂等."
+				""
+				"这张桌子还可以转换很多东西，比如腐肉变成皮革，羊毛变成细绳等等.这很有用!"
+			]
+			dependencies: ["6AAB831CB3FB536A"]
+			size: 1.5d
+			id: "7CC2D826CA6BBDDB"
+			tasks: [{
+				id: "33ECB0563BA9E2CB"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [
+				{
+					id: "57407D2C81F959E1"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					random_bonus: 2
+				}
+				{
+					id: "080A6AA97A0A41E9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "改造祭坛"
+			x: -24.0d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"有几种符文类型可以改变祭坛的功能."
+				""
+				"例如，每个速度符文使祭坛内所有制造操作的速度提高20%."
+				""
+				"这是你可以用来升级祭坛的第一个符文."
+			]
+			dependencies: ["4B51189C36B8D291"]
+			id: "49F57CE3B472FF6D"
+			tasks: [{
+				id: "3EF20FD3AC7ED48B"
+				type: "item"
+				item: "bloodmagic:speedrune"
+			}]
+			rewards: [
+				{
+					id: "422BF2738AC9D3D3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62F0A6019DB177BB"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -21.5d
+			y: -2.0d
+			shape: "diamond"
+			description: [
+				"这个符文增加了从玩家身上获得的血量. :D"
+				""
+				"每个符文加成10%."
+			]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "6CE4ED7A2642674F"
+			tasks: [{
+				id: "6692D1D1E4E4F758"
+				type: "item"
+				item: "bloodmagic:selfsacrificerune"
+			}]
+			rewards: [{
+				id: "5898710F2074585F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "升级祭坛：第3级"
+			icon: "bloodmagic:altar"
+			x: -20.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "使用指南帮助构建!"
+			description: [
+				"要将祭坛升级到第3级，我们需要获得更多符文.准确地说总共28个."
+				""
+				"你需要将5个符文（空白符文或更好）放置在距离第二层祭坛符文一个方块和两个方块的地方，沿着边缘."
+				""
+				"然后，4个角落创建柱子，一个发光的石头当柱帽要比祭坛本身高一个方块."
+				""
+				"如果您想检查祭坛是否正确建造，请使用&9占卜印记&r检查."
+				""
+				"注：任何非空气块都可以用于支柱，只要盖子是发光的就行."
+				""
+				"{image:atm:textures/quests/bloodmagic/bloodmagic_tier3.png width:200 height:150 align:1}"
+			]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			size: 1.25d
+			id: "5886C648D14180E1"
+			tasks: [{
+				id: "45FE50B70B45B915"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 28L
+			}]
+			rewards: [
+				{
+					id: "68593AC343A3B626"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "7698DE23F4AEC268"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "升级祭坛：第4级"
+			icon: "bloodmagic:altar"
+			x: -14.0d
+			y: -1.0d
+			shape: "octagon"
+			description: [
+				"要升级祭坛，我们需要总共56个符文（空白或更好）."
+				""
+				"我们会像上次一样.向下走一个方块，向外走两个方块，然后沿每条边缘放置7个血符文.你基本上是在做一个金字塔."
+				""
+				"我们在每个角落创建支柱,开始放新的符文。这些柱子有5米高，柱帽由&c血石砖&r和&c大血石砖&r制作. "
+				""
+				"不要看照片，而是在你的血染知书中搜索血之祭坛部分.滚动直到找到4级祭坛，所有信息都在那里.你甚至可以点击眼睛来可视化结构."
+			]
+			dependencies: [
+				"375FF0D8ACD2E17F"
+				"25343A0C4C22AA60"
+			]
+			size: 1.25d
+			id: "431C44439CA54077"
+			tasks: [{
+				id: "03DBCA5695879C49"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 48L
+			}]
+			rewards: [{
+				id: "05079D8B752B62E7"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 4
+				random_bonus: 8
+			}]
+		}
+		{
+			x: -22.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "最多可容纳25k LP"
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "08143AD0D63FFD1F"
+			tasks: [{
+				id: "46DC0EE4792CCA0D"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			x: -26.0d
+			y: -4.5d
+			subtitle: "我们现在在地面上画画."
+			description: [
+				"使用我们的炼金术桌和充满鲜血的宝珠，做一些&9奥术粉灰&r."
+				""
+				"有了粉灰，我们就能在地上画一个圆圈，称为炼金阵.通过右键单击，您可以在中插入两个物品，并将创建一个新物品或执行一个操作，如将白天变为夜晚!"
+			]
+			dependencies: ["7CC2D826CA6BBDDB"]
+			id: "1F3B9803AFAEED5F"
+			tasks: [{
+				id: "6168644A110A263A"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "661488E84B1A6A57"
+					type: "item"
+					item: {
+						id: "bloodmagic:arcaneashes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BD9ABC2D427A1FB"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -26.0d
+			y: -6.5d
+			shape: "diamond"
+			description: [
+				"&9占卜印记&r是我们要做的第一个印记."
+				""
+				"此印记有两个主要用途:"
+				""
+				"1)当你用手中的印记右击时，它将显示你在灵魂网络中的LP数量."
+				""
+				"2)如果你用鼠标右键点击血坛，你会看到有多少LP被存储，它可以存储的最大值，以及血坛是什么级."
+			]
+			dependencies: ["1F3B9803AFAEED5F"]
+			id: "281AAC27DEBEE84D"
+			tasks: [{
+				id: "19EF9DDE6B18A8B5"
+				type: "item"
+				item: "bloodmagic:divinationsigil"
+			}]
+			rewards: [
+				{
+					id: "5D23AE912DA218A9"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					random_bonus: 1
+				}
+				{
+					id: "7F59BF8F2886B028"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -25.5d
+			y: -6.0d
+			shape: "diamond"
+			description: [
+				"手握时，可以单击鼠标右键消耗100LP创建水源方块.不错啊?"
+				""
+				"除非你没有100LP.那样的话，只会损害你的生命. :)"
+			]
+			dependencies: ["1F3B9803AFAEED5F"]
+			id: "7EED2502F1F38147"
+			tasks: [{
+				id: "7825C546B68A7F85"
+				type: "item"
+				item: "bloodmagic:watersigil"
+			}]
+			rewards: [{
+				id: "1B7AF47021D62F36"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -26.5d
+			y: -6.0d
+			shape: "diamond"
+			description: [
+				"有了熔岩印记，如果你右键单击，你将创建一个低成本的熔岩源块需要1000LP."
+				""
+				"如果你没有足够的LP，那也很酷.它只会夺走你5颗心。没什么大不了的."
+			]
+			dependencies: ["1F3B9803AFAEED5F"]
+			id: "3AADA53EC01FB0ED"
+			tasks: [{
+				id: "4EFA9FB003D8D147"
+				type: "item"
+				item: "bloodmagic:lavasigil"
+			}]
+			rewards: [{
+				id: "438796468164D727"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -18.0d
+			y: 2.0d
+			description: [
+				"虽然不需要，但仪式推测杖很好，因为它准确地显示了仪式是如何建立的，并有助于建立它. (你应该做一个.)"
+				""
+				"要建立一个仪式，请在空中按住“仪式推测杖”右键，直到找到你想要创建的仪式.您也可以左键单击返回."
+				""
+				"首先进行“隐域之缘仪式”仪式，因为我们需要维度中的一些物品才能开始."
+				""
+				"使用仪式推测杖选择后，右键单击主仪式石，直到结构完成.你需要一堆仪式石来完成这些仪式.一旦结构完全建成，你可以右键单击带有虚弱激活水晶的主仪式石来激活它."
+			]
+			dependencies: ["4578C0EE82F66BD9"]
+			id: "0E8418B42A744030"
+			tasks: [
+				{
+					id: "6B1FDBAA650C202A"
+					type: "item"
+					item: "bloodmagic:ritualdiviner"
+				}
+				{
+					id: "7D265539B810DCE3"
+					type: "item"
+					item: "bloodmagic:activationcrystalweak"
+				}
+			]
+			rewards: [
+				{
+					id: "7392A41AF4EE71FF"
+					type: "item"
+					item: "bloodmagic:simplekey"
+				}
+				{
+					id: "76C8BCBEA45D07D2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "第五级祭坛"
+			icon: "bloodmagic:altar"
+			x: -11.0d
+			y: -1.0d
+			shape: "gear"
+			description: [
+				"要将祭坛升级到第5层，我们总共需要108个符文，以及4个恶魔方块."
+				""
+				"请遵循血染知书（mod指南），了解如何构建结构的详细指南."
+				""
+				"你从你的第四层祭坛的上一组符文开始往下走一个方块，再往前走三个方块.你需要在每边放置15个符文."
+				""
+				"在新创建的环的拐角处，放置一个恶魔方块，每侧各有一个空白空间. "
+			]
+			dependencies: [
+				"431C44439CA54077"
+				"42CDD69527871332"
+			]
+			size: 1.5d
+			id: "2214B7DCE4075A02"
+			tasks: [{
+				id: "3830486EDCC81431"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 64L
+			}]
+			rewards: [{
+				id: "37A59465BECB5B7A"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "地牢钥匙"
+			x: -18.0d
+			y: 3.5d
+			description: [
+				"一旦你到达恶魔领域，你会发现一个箱子里有一些基本的战利品."
+				""
+				"需要注意&9铁钥匙&r.这些解锁了恶魔领域内的额外房间，从而获得更多的战利品."
+			]
+			dependencies: ["0E8418B42A744030"]
+			optional: true
+			id: "6DD7D0A248FEAC00"
+			tasks: [{
+				id: "049052953E05D38F"
+				type: "item"
+				item: "bloodmagic:simplekey"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "7A53C4B113A1FC46"
+					type: "item"
+					item: "bloodmagic:simplekey"
+				}
+				{
+					id: "78BC6412E5FF7EF2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "增强符文"
+			x: -11.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["使用来自恶魔领域的战利品，你可以升级每个符文，使其效果翻倍. "]
+			dependencies: ["42CDD69527871332"]
+			id: "2CA28551F2A5B761"
+			tasks: [
+				{
+					id: "4BD6380E3CB0AFA1"
+					type: "item"
+					item: "bloodmagic:sacrificerune2"
+				}
+				{
+					id: "4A26B1A6BDC9BEF2"
+					type: "item"
+					item: "bloodmagic:selfsacrificerune2"
+				}
+				{
+					id: "374B021596B02DB5"
+					type: "item"
+					item: "bloodmagic:altarcapacityrune2"
+				}
+				{
+					id: "642940CFA557BEF9"
+					type: "item"
+					item: "bloodmagic:bettercapacityrune2"
+				}
+				{
+					id: "5F5E0CDAB56FBAA8"
+					type: "item"
+					item: "bloodmagic:orbcapacityrune2"
+				}
+			]
+			rewards: [
+				{
+					id: "5EA823F1EBE465C6"
+					type: "item"
+					item: "bloodmagic:hellforgedparts"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "63047FEB0BE55B5A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -5.0d
+			shape: "diamond"
+			description: [
+				"&6远程传送印记&r将以1000LP的成本将用户传送到链接的位置.您可以使用Teleposer上的印记移动点击以设置位置."
+				""
+				"&9移除印记&r你可以在6个方块半径内将液体推开.很酷."
+			]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "5E2CB036B00758AE"
+			tasks: [
+				{
+					id: "5A91384EF5463B4D"
+					type: "item"
+					item: "bloodmagic:telepositionsigil"
+				}
+				{
+					id: "097D8139589AF377"
+					type: "item"
+					item: {
+						id: "bloodmagic:sigilofsuppression"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4D08283B9E421D67"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+					random_bonus: 2
+				}
+				{
+					id: "12698FAA72C0BF02"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "&c恶魔领域"
+			x: -11.0d
+			y: -2.5d
+			description: [
+				"执行&cPathway to the Endless-Realm&r仪式会让你正确的进入恶魔领域."
+				""
+				"这是你唯一能找&9恶魔合金矿&r的地方.这用于创建第5级祭坛."
+				""
+				"还有很多罕见的战利品,所以一定要留意带锁的房间？."
+			]
+			dependencies: ["263925A79EBB270F"]
+			id: "42CDD69527871332"
+			tasks: [{
+				id: "7877DD9632B05697"
+				type: "item"
+				item: "bloodmagic:rawdemonite"
+			}]
+			rewards: [
+				{
+					id: "14946BF7D2325894"
+					type: "item"
+					item: "bloodmagic:dungeon_ore"
+				}
+				{
+					id: "5A9B7EEF24D6703A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "第2层印记"
+			x: -22.0d
+			y: 0.5d
+			shape: "rsquare"
+			description: [
+				"&9风之印记&r手持右击使用，对着所朝方向抛飞一段距离，每次消耗50LP."
+				""
+				"&c虚空印记&r对着液体进行右击，将直接破坏掉该液体，消耗50LP."
+				""
+				"&6先知印记&r占卜印记的更高版本.查看祭坛时提供更多信息."
+				""
+				"&a速掘印记&rShift右键单击每5秒使用100LP，给自己一个急速buff."
+				""
+				"&2绿丛印记&r当玩家手持右击一个可生长植物时，将消耗玩家150LP，同时对该植物施加一次骨粉效果.当玩家潜行+右击时，印记将会被点亮，此时将每10秒消耗玩家150LP，同时对以玩家为中心的7*7*5空间内所有植物施加一个生长刻. "
+			]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "4C6B73322F56BE73"
+			tasks: [
+				{
+					id: "28490D6EB0A13853"
+					type: "item"
+					item: "bloodmagic:airsigil"
+				}
+				{
+					id: "2B9AC526E9F67CF2"
+					type: "item"
+					item: "bloodmagic:voidsigil"
+				}
+				{
+					id: "2F92C698040BD24D"
+					type: "item"
+					item: "bloodmagic:seersigil"
+				}
+				{
+					id: "3668C878D168A77C"
+					type: "item"
+					item: {
+						id: "bloodmagic:miningsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "189850D288276407"
+					type: "item"
+					item: {
+						id: "bloodmagic:growthsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: 0.5d
+			description: [
+				"&c血光印记&r使用时发射血光。消耗10LP"
+				""
+				"&9集持印记&r可以将至多五个印记存储到其中，并且手持集持印记时，可以自由切换其中的印记.您可以使用按键绑定按钮访问背包并在印记中循环."
+				""
+				"&6磁引印记&r将每5秒消耗玩家50LP，将7格以内的掉落物全部吸向玩家."
+			]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "1780A9FDD6983435"
+			tasks: [
+				{
+					id: "4966B4779B0CE8EF"
+					type: "item"
+					item: {
+						id: "bloodmagic:bloodlightsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "263ACE485001170B"
+					type: "item"
+					item: "bloodmagic:sigilofholding"
+				}
+				{
+					id: "0432C6E53E4A5553"
+					type: "item"
+					item: {
+						id: "bloodmagic:sigilofmagnetism"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5309B724BBDF14AE"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "3CD9508C03CFE55C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "束灵装备"
+			x: -18.0d
+			y: -4.5d
+			shape: "hexagon"
+			description: [
+				"你可以通过在炼金术桌上制作一些束缚试剂来制造装备.你还需要至少一块普通的地狱魂石才能持有所需的恶魔意志."
+				""
+				"&9束灵装备&r与钻石甲的耐久性相当，可以使用束缚试剂在铁砧上进行修复."
+				""
+				"它一开始相当于铁，但有升级点，可以用来以特定的方式训练它.它以100开头，但有一些方法可以提高这个限制."
+				""
+				"当你使用它时，它会向你“学习”.你可以看到它迄今为止所学到的东西，一边看一边按住左键（不懂）."
+			]
+			dependencies: ["0E51D6BB2BC756B6"]
+			size: 1.25d
+			id: "41030E1E341C3A4E"
+			tasks: [
+				{
+					id: "26FD5D4411242B25"
+					type: "item"
+					item: {
+						id: "bloodmagic:livinghelmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "37A82F03CFF9D25A"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "671E6A4CA8F8F77B"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingleggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E9B38CD413946E0"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingboots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "512B9C9240BD8628"
+					type: "item"
+					item: "bloodmagic:reagentbinding"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "6D8D96707F3F4A83"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+	]
+}

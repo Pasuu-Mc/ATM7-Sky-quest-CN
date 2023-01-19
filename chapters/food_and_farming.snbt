@@ -1,0 +1,1111 @@
+{
+	id: "05E614FDA677D85E"
+	group: "6614EE2378B8AFB9"
+	order_index: 0
+	filename: "food_and_farming"
+	title: "食品和农业"
+	icon: "minecraft:cake"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.5d
+			y: -4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/cake.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5102040816326507d
+			y: -3.0714285714285765d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/wheat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: -90.0d
+			image: "minecraft:textures/item/wheat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.48979591836734215d
+			y: -2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/wheat_seeds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/birch_sapling.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/cooked_chicken.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/cooked_porkchop.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			width: 12.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "atm:textures/food_and_farming.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			width: 12.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "atm:textures/food_and_farming.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			icon: "minecraft:emerald"
+			x: 0.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "入门"
+			description: [
+				"欢迎来到食品和农业章节!"
+				""
+				"在这里，你会找到不同的种植和制作食物的方法!"
+			]
+			size: 1.5d
+			id: "1827DEEA2DF1B144"
+			tasks: [{
+				id: "07603A90CCCB3627"
+				type: "checkmark"
+				title: "食品和农业"
+			}]
+			rewards: [
+				{
+					id: "28C108EC59F6E7D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2EFEA345691F570D"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+			]
+		}
+		{
+			title: "点击草地."
+			x: -3.5d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "Block Hand 1, Block Grass 0"
+			description: ["让我们收集一些种子."]
+			dependencies: ["43021923E220CF68"]
+			id: "72717D1135486D7F"
+			tasks: [{
+				id: "73B6ED422F9292D1"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "37CC4C9D02D00F80"
+					type: "item"
+					item: "minecraft:wheat"
+				}
+				{
+					id: "3EF6CC70CA664541"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Mary有只小羊羔"
+			icon: "minecraft:white_wool"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "谁的羊毛...彩虹?"
+			description: ["让我们收集一些羊毛!"]
+			dependencies: ["18EADBAFC932F864"]
+			id: "3EA883C0BB7BD38F"
+			tasks: [{
+				id: "7F08D4E77359BF4A"
+				type: "item"
+				title: "任何原版羊毛"
+				icon: "minecraft:white_wool"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "59024F65DCEB9DAA"
+					type: "item"
+					item: "minecraft:white_wool"
+				}
+				{
+					id: "1609AC17930BA465"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "现在是剪羊毛时间"
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "18EADBAFC932F864"
+			tasks: [{
+				id: "3A9869856B3E9D54"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "68AA10BF3AA0408A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			icon: "forbidden_arcanus:edelwood_chicken_bucket"
+			x: 2.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "\"老MacDonald的农场\"实际上是为歌剧表演而制作的."
+			description: [
+				"我们不是来唱歌的，我们是来开农场的."
+				""
+				"你可能可以同时做这两件事，但这一部分是关于动物的!"
+			]
+			size: 1.25d
+			id: "64E7BE89C13E8BD0"
+			tasks: [{
+				id: "33F002BBF566E12F"
+				type: "checkmark"
+				title: "农场工人"
+			}]
+			rewards: [
+				{
+					id: "5B42654580B2A641"
+					type: "item"
+					item: "minecraft:egg"
+				}
+				{
+					id: "1B17BDD6981E6E51"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "但是....牛牛君不能剪..."
+			x: 6.0d
+			y: -1.0d
+			description: ["我不想知道你是怎么得到这些的."]
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "635620A03E3505BF"
+			tasks: [{
+				id: "5824C93C84312142"
+				type: "item"
+				item: "minecraft:leather"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "7914440DB4E0A801"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B497B4A001CFFC0"
+					type: "item"
+					item: "minecraft:leather"
+				}
+			]
+		}
+		{
+			title: "所有农场7"
+			x: 9.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "村民有多种生产方式"
+			description: [
+				"如果你有足够数量的绿宝石，市场会为你提供一个村民，而不是卖给你任何东西."
+				""
+				"剧透：每件物品通常只有1颗绿宝石。但他们什么都有."
+			]
+			dependencies: ["3EA883C0BB7BD38F"]
+			size: 1.5d
+			id: "1F114EB0AAB86DB4"
+			tasks: [{
+				id: "1AFEBED0226CEBC1"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [
+				{
+					id: "2A90BE5DD251767D"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "72142B51809511CF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "我们用的是老方式."
+			x: 4.0d
+			y: 0.0d
+			subtitle: "好好相处，小狗狗."
+			description: [
+				"经典的Lead。用这个让动物进入你的农场."
+				""
+				"这和油漆里发现的不一样."
+			]
+			dependencies: ["64E7BE89C13E8BD0"]
+			id: "2E9C035EEE7E5C34"
+			tasks: [{
+				id: "63282E8604721F13"
+				type: "item"
+				item: "minecraft:lead"
+			}]
+			rewards: [{
+				id: "04DF879E17A497AD"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "找到一头牛。给奶牛挤奶."
+			x: 7.5d
+			y: -1.0d
+			subtitle: "为什么比赛中没有公牛?"
+			description: [
+				"找到一头牛，用水桶右键单击它."
+				""
+				"说真的，为什么没有公牛?"
+			]
+			dependencies: ["635620A03E3505BF"]
+			id: "73B8A70240E6070E"
+			tasks: [{
+				id: "19A9C679111A90BC"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+			rewards: [
+				{
+					id: "6680B692C05EDB9F"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 3
+				}
+				{
+					id: "486994911F40FA8D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "我不会说蛋."
+			x: 6.0d
+			y: 1.0d
+			subtitle: "还是我?"
+			description: [
+				"鸡会自然产下这些.我想这不是很自然..."
+				""
+				"我猜鸡只是在变... &o鸡蛋-ercise!!!&r."
+				""
+				":)"
+			]
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "1D2EF12FD7FDD217"
+			tasks: [{
+				id: "46974912B1E8E78B"
+				type: "item"
+				item: "minecraft:egg"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "75D8B76E11F272AC"
+					type: "item"
+					item: "croptopia:scrambled_eggs"
+					count: 2
+				}
+				{
+					id: "25D2B3D4AE631792"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "小鸡必须走"
+			x: 7.5d
+			y: 1.0d
+			subtitle: "你觉得炸鸡是怎么做的?"
+			dependencies: ["1D2EF12FD7FDD217"]
+			id: "1697CC05D08B388D"
+			tasks: [
+				{
+					id: "264B00606E5BE374"
+					type: "item"
+					item: "minecraft:feather"
+					count: 10L
+				}
+				{
+					id: "763031D0E9F0850C"
+					type: "item"
+					item: "minecraft:chicken"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "7A84544510F1D4EE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6ABAD303E8397549"
+					type: "item"
+					item: "croptopia:fried_chicken"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:wooden_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5749999999999997d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "等你拿到机器."
+			description: [""]
+			size: 1.25d
+			id: "43021923E220CF68"
+			tasks: [{
+				id: "78772A2785AE9DD2"
+				type: "checkmark"
+				title: "播种机"
+			}]
+			rewards: [
+				{
+					id: "70556C33AE952F49"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 2
+				}
+				{
+					id: "116FA96039FC2359"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "小麦."
+			x: -5.0d
+			y: 0.0d
+			subtitle: "Speedrunners Love This Stuff"
+			dependencies: ["72717D1135486D7F"]
+			id: "0A1C2A7A8617D3E4"
+			tasks: [{
+				id: "6890EB2819D88073"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "6EE0FD0DCE6CEEDE"
+					type: "item"
+					item: "minecraft:bread"
+					count: 2
+				}
+				{
+					id: "6DB38B87B2BB0B70"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "生命中的粮食"
+			x: -6.5d
+			y: 0.0d
+			subtitle: "方便简单"
+			dependencies: ["0A1C2A7A8617D3E4"]
+			id: "659A903F97F93BE2"
+			tasks: [{
+				id: "03C7F9CB0DDB2D9B"
+				type: "item"
+				item: "minecraft:bread"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "1C449D2589FD1836"
+					type: "item"
+					item: "croptopia:toast"
+					count: 2
+				}
+				{
+					id: "382B2B8DF207F44F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "大麻种子"
+			x: -5.5d
+			y: -1.0d
+			subtitle: "谁还需要蜘蛛?"
+			description: [
+				"你会很快找到大麻种子."
+				""
+				"如果你种植这些植物，你可以用这些纤维做线!"
+			]
+			dependencies: ["72717D1135486D7F"]
+			id: "5A51E26D66D1273B"
+			tasks: [
+				{
+					id: "76B0E810B050B149"
+					type: "item"
+					item: "immersiveengineering:seed"
+				}
+				{
+					id: "3CAD3464D21B46B2"
+					type: "item"
+					item: "immersiveengineering:hemp_fiber"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "797D1693F61CB94B"
+					type: "item"
+					item: "immersiveengineering:seed"
+					count: 5
+				}
+				{
+					id: "6A184032CC7F6E17"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "糖."
+			x: -5.5d
+			y: 1.0d
+			subtitle: "现在它长到了天空的高度."
+			description: ["找些甘蔗!"]
+			dependencies: ["72717D1135486D7F"]
+			id: "361DFDB1E1352D6B"
+			tasks: [{
+				id: "6118A776B40507B7"
+				type: "item"
+				item: "minecraft:sugar_cane"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "2D2FC5CA58E15FD7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "193719E857969260"
+					type: "item"
+					item: "minecraft:sugar"
+				}
+			]
+		}
+		{
+			title: "用书做厨房."
+			x: 0.5d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "读一读书.完全不会着火."
+			description: ["去吧，把书放进炉子里."]
+			size: 1.5d
+			id: "45F83C2750F70F9B"
+			tasks: [{
+				id: "61DBF366AFC8A579"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+			rewards: [{
+				id: "54B713BDF265A213"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "用钻石的力量来烹饪！"
+			x: 0.5d
+			y: 5.5d
+			subtitle: "顺便说一句，这完全值得"
+			description: [
+				"制作本书的下一版本. 我向你保证，这是值得的."
+				""
+				"我甚至会给你一颗钻石."
+			]
+			dependencies: ["45F83C2750F70F9B"]
+			id: "58D5BD3106BFD94A"
+			tasks: [{
+				id: "20FD5552BE10D679"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+			rewards: [
+				{
+					id: "1DEED7674A6B9079"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "18610A9BCEA465F8"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "自面包以来最好的东西"
+			x: 0.5d
+			y: 7.0d
+			shape: "rsquare"
+			subtitle: "Betty White was born before Sliced Bread"
+			description: [
+				"这个方块是多方块厨房的一部分."
+				""
+				"这将向您展示您可以使用的每一种食谱，以及您背包中的食物或存储在厨房区的食物."
+				""
+				"你终于可以在MC中创建一个漂亮的厨房了."
+			]
+			dependencies: ["58D5BD3106BFD94A"]
+			size: 1.5d
+			id: "28C9EDBF6607E180"
+			tasks: [{
+				id: "552C067A28FB8869"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [
+				{
+					id: "145863D45AAB585A"
+					type: "item"
+					item: "minecraft:bread"
+					count: 8
+				}
+				{
+					id: "1AD9A5DFAF726359"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "更多存储空间"
+			x: 0.5d
+			y: 8.5d
+			shape: "diamond"
+			subtitle: "这么多空间!"
+			description: [
+				"这和厨房的柜台一样."
+				""
+				"你不能把物品放在上面."
+			]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "58495CFBF4F20CE9"
+			tasks: [{
+				id: "1DAD3C12FDEB5CD4"
+				type: "item"
+				item: "cookingforblockheads:cabinet"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "5F08882A75BECB22"
+					type: "item"
+					item: "cookingforblockheads:cabinet"
+				}
+				{
+					id: "1C499560DF40E2FC"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "我需要更多的烹饪空间."
+			x: 2.0d
+			y: 8.0d
+			shape: "diamond"
+			subtitle: "&o我们&r需要更多的烹饪空间."
+			description: [
+				"这个方块存放烹饪需要的物品."
+				""
+				"你也可以在上面放置其他厨房物品，比如烤面包机和罐中牛."
+			]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "37CA6F9F0226F10E"
+			tasks: [{
+				id: "766C32B477A216B8"
+				type: "item"
+				item: "cookingforblockheads:counter"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "45C4177C120927FF"
+					type: "item"
+					item: "cookingforblockheads:counter"
+				}
+				{
+					id: "0B13ECD292D7D073"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "冰箱"
+			x: -0.5d
+			y: 8.5d
+			shape: "diamond"
+			subtitle: "你会打开它，关闭它，然后再打开它，只是因为你感到无聊."
+			description: [
+				"在多方块厨房中储存物品.将它们叠在一起!"
+				""
+				"你也可以用鼠标右键点击它打开门，然后右键点击里面的物品."
+			]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "66815AB6FDACCAB7"
+			tasks: [{
+				id: "1571EF760DE41F63"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "07D944D551258145"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2264EDF3B1BC3075"
+					type: "item"
+					item: "croptopia:vanilla_ice_cream"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "亲爱的，厨房里有个壁炉"
+			x: 1.5d
+			y: 8.5d
+			shape: "diamond"
+			subtitle: "不需要计时器"
+			description: ["该方块可在厨房多方块中实现熔炼食谱!"]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "7CB3FCD789747EF5"
+			tasks: [{
+				id: "37D8D79B6B216212"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [
+				{
+					id: "5AB2C941E0E0397E"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+				{
+					id: "4A5960A4F10AD94F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "罐子里的牛"
+			x: 0.5d
+			y: 9.5d
+			shape: "diamond"
+			subtitle: "超凡的挤奶能力。。。。生活空间狭小."
+			description: [
+				"这个方块随着时间的推移生产牛奶，并为厨房多方块提供牛奶配方."
+				""
+				"要把牛放进罐子里，把罐子放在洞里.引诱牛掉进罐子上面的洞里，然后在牛头上扔一个铁砧."
+				""
+				"I have no clue what this glass is made of, but it's stronger than my relationship with Chicken."
+			]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "47764EFC822E462A"
+			tasks: [{
+				id: "193EA9F7C05B6F38"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [
+				{
+					id: "0D48FB30B8B254C7"
+					type: "item"
+					item: "minecraft:cow_spawn_egg"
+				}
+				{
+					id: "2390EE9B8E964CCA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "加热升级"
+			x: 1.0d
+			y: 9.0d
+			shape: "diamond"
+			description: ["允许您为炉子供电."]
+			dependencies: ["7CB3FCD789747EF5"]
+			id: "1515B32545F51266"
+			tasks: [{
+				id: "3915BEA724A2F7ED"
+				type: "item"
+				item: "cookingforblockheads:heating_unit"
+			}]
+			rewards: [
+				{
+					id: "5EB6705A66BEB997"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+				}
+				{
+					id: "19945E72467070D2"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Ice, Ice, Baby"
+			x: 0.0d
+			y: 9.0d
+			shape: "diamond"
+			description: ["提供含冰食谱!"]
+			dependencies: ["66815AB6FDACCAB7"]
+			optional: true
+			id: "13AFCD3B6F62B986"
+			tasks: [{
+				id: "6BDB280D22CE0118"
+				type: "item"
+				item: "cookingforblockheads:ice_unit"
+			}]
+			rewards: [
+				{
+					id: "03911B94997F0691"
+					type: "item"
+					item: "minecraft:snowball"
+					count: 8
+				}
+				{
+					id: "7F98CDC2EA641EF7"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "String from Seeds!"
+			x: -7.0d
+			y: -1.0d
+			description: ["使用工业大麻制作线."]
+			dependencies: ["5A51E26D66D1273B"]
+			id: "1CBEB3ABB4260CC2"
+			tasks: [{
+				id: "35864460DFF78192"
+				type: "item"
+				item: "minecraft:string"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0F2D2091EF6DF6B9"
+					type: "item"
+					item: "thermal:flax_seeds"
+				}
+				{
+					id: "3AE014AE6CF77A06"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "钓鱼的起点"
+			x: -1.57d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "Willy会为你感到骄傲."
+			description: ["但他通常在5点关门，所以谁在乎呢."]
+			size: 1.25d
+			id: "1DCAA0310AA55F1C"
+			tasks: [{
+				id: "5CB4746CCB2E2363"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7BB398F5B3A25045"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "自动钓鱼!"
+			x: -2.5d
+			y: 5.0d
+			description: [
+				"让滤网为您工作."
+				""
+				"顶部需要滤网和水."
+			]
+			dependencies: ["1DCAA0310AA55F1C"]
+			optional: true
+			id: "209F7EBAF2553694"
+			tasks: [
+				{
+					id: "718F49C264557FA3"
+					type: "item"
+					item: "waterstrainer:strainer_base"
+				}
+				{
+					id: "08E4C5476E141A0A"
+					type: "item"
+					item: {
+						id: "waterstrainer:strainer_fisherman"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0B6E1DC53AE8C688"
+					type: "item"
+					item: {
+						id: "waterstrainer:strainer_fisherman_solid"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "180E1B7467508157"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "你可以吃你的蛋糕."
+			x: -8.25d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["如果你已经准备好牛奶和鸡蛋，该烤蛋糕了."]
+			dependencies: [
+				"659A903F97F93BE2"
+				"1D48298525EEADC9"
+			]
+			size: 1.5d
+			id: "0893EFCAC7031FEA"
+			tasks: [{
+				id: "1AA73DEFAA50FDF6"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+			rewards: [
+				{
+					id: "2C168199050CC470"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "7F528DE479E680AE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "你真可爱."
+			x: -7.0d
+			y: 1.0d
+			subtitle: "给我来点糖."
+			description: ["你应该已经拥有你需要的一切."]
+			dependencies: ["361DFDB1E1352D6B"]
+			id: "1D48298525EEADC9"
+			tasks: [{
+				id: "56CAB3D2E3421C7C"
+				type: "item"
+				item: "minecraft:sugar"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "7EAE8BCBABAA8B89"
+					type: "item"
+					item: "minecraft:sugar_cane"
+					count: 3
+				}
+				{
+					id: "04AB9DC101FCAB74"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "水槽=无限的水"
+			x: -1.0d
+			y: 8.0d
+			shape: "diamond"
+			subtitle: "为什么一块就可以做水源，要用三块去做呢？"
+			description: [
+				"这个方块为多方块厨房供水."
+				""
+				"它还可以提供无限的水，并可以通过线缆或管道将水抽出来."
+			]
+			hide_dependency_lines: true
+			dependencies: ["28C9EDBF6607E180"]
+			id: "0EFF1AA37772156B"
+			tasks: [{
+				id: "2872A1297BE6C40D"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [
+				{
+					id: "2B2B365E281A6940"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+				{
+					id: "62FB77230F1D9F9B"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+	]
+}

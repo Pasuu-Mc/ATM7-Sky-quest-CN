@@ -1,0 +1,2654 @@
+{
+	id: "07210DDF872160BA"
+	group: "1AC60211DE7427FC"
+	order_index: 1
+	filename: "applied_energistics_2"
+	title: "应用能源2"
+	icon: "ae2:controller"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.5d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "ae2:textures/item/wireless_crafting_terminal.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "AE2"
+			icon: "ae2:certus_quartz_crystal"
+			x: -10.0d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "存储系统"
+			description: [
+				"&l欢迎来到&b应用能源2&f!"
+				""
+				"应用能源2(&o简称AE2&r)是一个功能强大的数字存储系统,允许极为高效的存储和各种自动化功能，从您想要的最早游戏到最后游戏，从而增强MC的体验."
+				""
+				""
+				"有关本章以外的AE2更多信息,在wiki上查询(MC百科包治百病,上什么Wiki!)&o&bappliedenergistics.github.io&f&r."
+			]
+			size: 1.5d
+			id: "2893F483C10293E6"
+			tasks: [{
+				id: "43FD619EF9A41E76"
+				type: "item"
+				item: "ae2:certus_quartz_dust"
+			}]
+			rewards: [
+				{
+					id: "705C55E801A67B8C"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1680803463
+									-166246322
+									-1868942693
+									1690810404
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1NTA1MjI1MjUyMSwKICAicHJvZmlsZUlkIiA6ICI5YmQwZjk3OWY2MTc0ODRlOTA5YTMyOWI2NGM3YjgyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4MjAwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZGVjZjI1NzkyZDc3YTc4NzkzZjcxNDY3OGUxMTk4YTY1ZDY3OTA3OTI5YWIyZDRlYmZmZjZlZmQwYTRlZWVhIgogICAgfQogIH0KfQ=="
+										Signature: "afEokwjhQtrEuhPrUCmvW/OHzXnvehI3eVhaYzEFWtMtoeHyv2sEuo98N8+wdJD96s20vNYxzrW+epk27SVhGXzd9wDg0An6Q3OcdlWXeENr2nN4HEtxdWxodBHZU3/vdVKv7WcsGK0Oqu7PXIdUj1pRA9e6YS2MpMapS7b+65S6EmeC4zZTir4rOFbzZaDno1dNuOeyCX5azT8vF6B1ayMbfxo6NyhRz/PhY0Wp6ArZXAjgQXUUoBUSFHRnz25U4GqdlDiDF8ZDeP314lDbws0kjYpuM9Kagj71xvlUC3bFgFFGXzvXP0gYfexxMBU91T37jDrQwaXAywP+lfArCh3G/QwwJ7jwBFPc1B2Pqb0+z9w2r7ntM/VC/R/1w8xyyYmHB/xE+XIicx97bfNl/Yi7M6mkprlFq3H6Be/KD2n/MZ+O/R9bOklryen811LuTfiBPXhR2a5ye3prkcV+WMWNS65q5HCw6/F8ZBydj/Uym++fHWW/mKB7kBbj2gcZf5fukw2KTIuEcZQVHRKyRQNns4JSBlXb90VKg56rNmwcs2CnVs+sNrCTWFqYocJAdQ+F25pdJ0wbQhXUSAV709F2phRuYurCW+2QyvyO8LlRHKjfSQ59VxxihnEQOqYfiBW49E+Dut5aQiFif6c9UDtTATvXucase/7v4ni7yug="
+									}]
+								}
+								Name: "82000"
+							}
+						}
+					}
+				}
+				{
+					id: "3B8F9C922DCD426E"
+					type: "item"
+					item: "ae2:certus_quartz_dust"
+					count: 8
+				}
+				{
+					id: "04731B877AA067A3"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "第一关任务"
+			x: -8.0d
+			y: 0.5d
+			subtitle: "一些基础机器"
+			description: [
+				"在AE2中，第一步要做个&b压印器&f."
+				""
+				""
+				"这个&b压印器&f可以将AE2中的各种晶体变成粉尘,但更重要的是可以制造&e印刷电路板&f和&e电子处理器&f,这将在下一个任务中变得更为清晰."
+			]
+			dependencies: ["2893F483C10293E6"]
+			id: "68B0B3DAF1145191"
+			tasks: [
+				{
+					id: "29C4195E8366DBDD"
+					type: "item"
+					item: "ae2:charger"
+				}
+				{
+					id: "1F40760C2108BA36"
+					type: "item"
+					item: "ae2:inscriber"
+				}
+			]
+			rewards: [
+				{
+					id: "132524D80F352F06"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "230CB9AC06A29B7A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "停止压印"
+			icon: "ae2:sky_compass"
+			x: -6.0d
+			y: 0.5d
+			subtitle: "\"COMIC #42:做4个压印模板[Fischer]\""
+			description: ["在此包，不要去寻找陨石区块，可以通过筛尘土和玄武岩来得到陨石粉."]
+			dependencies: ["68B0B3DAF1145191"]
+			id: "51236544BFEF487B"
+			tasks: [
+				{
+					id: "616E037C2D135DEE"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "23C1CFAE250033CD"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "4F4058686BD08FA9"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "58B223074092B8E4"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+			]
+			rewards: [
+				{
+					id: "1745CCFAC5C46D28"
+					type: "item"
+					item: "ae2:sky_stone_block"
+					count: 4
+				}
+				{
+					id: "34DBB0E01FC07555"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "53D03CFF7586058B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			subtitle: "能量接受"
+			description: [
+				"放到压印器和充能器傍边，他将接受附近的RF/FE,绝大多数ME网络使用自己专属电力系统，简称AE."
+				""
+				"RF/FE可以按以下比率转换为本地AE-2:1RF:AE,可以通过ME控制器,或通过&b能源接收器&f,他可以连接到网络的任何部分."
+			]
+			dependencies: ["68B0B3DAF1145191"]
+			id: "00611844AFD5C31E"
+			tasks: [{
+				id: "5B4DDF66C36AF356"
+				type: "item"
+				item: "ae2:energy_acceptor"
+			}]
+			rewards: [
+				{
+					id: "218200BE2C9DD409"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "241ED08CDD530739"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			description: [
+				"默认情况下，ME网络本身只有一个800AE的内部缓存，ME控制器为每个块增加额外的8KAE.对于很大的网络，这些电力是不够的，会导致网络在传输中中断."
+				""
+				"&b能源元件&f允许ME网络容纳更多的AE能量,每个能量元件增加200KAE每个致密能量元件增加1.6MAE.这些也可以放置在网络中的任何位置，以提供增加的能量缓冲."
+			]
+			dependencies: ["00611844AFD5C31E"]
+			id: "037488EF1F3581CE"
+			tasks: [
+				{
+					id: "19CE95EDCB04AA89"
+					type: "item"
+					item: {
+						id: "ae2:energy_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3606A3CEDFF76F77"
+					type: "item"
+					item: {
+						id: "ae2:dense_energy_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "07AC6981E4FBB7B3"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "20DA7014A7644F65"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			shape: "circle"
+			description: ["&b能源卡&f可应用于大多数可充电设备，如便携元件和无线终端（稍后介绍）&o增加他们的能量缓冲&r."]
+			dependencies: ["037488EF1F3581CE"]
+			id: "6D54B45CDA70FEAB"
+			tasks: [{
+				id: "42C1EB9094F67B62"
+				type: "item"
+				item: "ae2:energy_card"
+			}]
+			rewards: [
+				{
+					id: "4807A39C56865642"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "198B5EB3662F4C18"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "处理器"
+			x: -4.0d
+			y: 0.5d
+			description: ["一旦您获得了整套的&e压印模板&r,就可以做些&e处理器&f.这是制作ME连接的重要部分."]
+			dependencies: ["51236544BFEF487B"]
+			id: "15564C11744D6AA0"
+			tasks: [
+				{
+					id: "2B6D34E0CD1999C9"
+					type: "item"
+					item: "ae2:logic_processor"
+				}
+				{
+					id: "54C120660252682A"
+					type: "item"
+					item: "ae2:calculation_processor"
+				}
+				{
+					id: "41282D3DCFEB5136"
+					type: "item"
+					item: "ae2:engineering_processor"
+				}
+			]
+			rewards: [
+				{
+					id: "6F428D141799FF83"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "622636484932AB15"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+			]
+		}
+		{
+			title: "福鲁伊克斯水晶"
+			icon: "ae2:fluix_crystal"
+			x: -7.0d
+			y: 1.5d
+			description: [
+				"接下来重要的资源&e福鲁伊克斯&f,用于绝大多数的AE2设备，并为ME网络线缆做准备."
+				""
+				"最初,你在世界上发现的任何一颗陨石都将包含6个福鲁伊克斯,每个陨石总共有24颗晶体."
+				""
+				"然而,当你想大量生产,要做到这点首先要&b福鲁伊克斯粉尘&f通过丢&b下界石英&f,&e&o充能&r&e赛特斯石英水晶&r和&e红石&f同时在水里.通过赛特斯石英水晶同样的方式变成福鲁伊克斯水晶."
+			]
+			dependencies: ["68B0B3DAF1145191"]
+			id: "4BF0BB763BFFACF0"
+			tasks: [
+				{
+					id: "0FC1380E32E02533"
+					type: "item"
+					item: "ae2:fluix_dust"
+				}
+				{
+					id: "4498692EC5F9E09B"
+					type: "item"
+					item: "ae2:fluix_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "724ADD8BA4137929"
+					type: "item"
+					item: "ae2:fluix_dust"
+					count: 4
+				}
+				{
+					id: "6F34DE4A8A1E9829"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "34AA471D42A56F02"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "基础线缆"
+			x: -5.0d
+			y: 1.5d
+			description: [
+				"将绝大多数ME网络连接在一起,你需要一些电缆.&eME玻璃线缆&f是第一种也是最基本的电缆,你将把这一切作为制作其他类型电缆的第一步."
+				""
+				"玻璃线缆及其&e包层线缆&f可以传输多达8个频道.不同于玻璃电缆,包层线缆随后可以制作&e致密线缆&f,拥有32个频道.然而,多数设备（如总线和终端）不能直接连接到致密包层线缆，需要非致密线缆进行连接."
+				""
+				"所有线缆也可以用染料染色.未着色的(\"Fluix（默认线缆颜色）\")也可以连接到其他颜色的线缆,但不同颜色的线缆不可以连接."
+			]
+			dependencies: ["4BF0BB763BFFACF0"]
+			id: "5C22E3103544B120"
+			tasks: [
+				{
+					id: "40A7CC56DACC2623"
+					type: "item"
+					title: "玻璃线缆"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:glass_cable"
+						}
+					}
+				}
+				{
+					id: "64EAD3DE84E94F02"
+					type: "item"
+					title: "包层线缆"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:covered_cable"
+						}
+					}
+				}
+				{
+					id: "14DEFFB80CC96BC1"
+					type: "item"
+					title: "致密包层线缆"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:covered_dense_cable"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "23EF97F2F01671B6"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "2D1445E4299E8619"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "高级线缆"
+			x: -5.0d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "\"S.M.R.T.\""
+			description: ["&bME智能线缆&f和&bME致密线缆&f在频道分布方面，功能与包层线缆相同,而且还将可视地显示他们正在使用的频道数量."]
+			dependencies: ["5C22E3103544B120"]
+			id: "5233A447BAA4593C"
+			tasks: [
+				{
+					id: "7FC3DAA1BD5016A0"
+					type: "item"
+					title: "智能线缆"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:smart_cable"
+						}
+					}
+				}
+				{
+					id: "38E290AC5E011888"
+					type: "item"
+					title: "致密线缆"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:smart_dense_cable"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7493EF469CDF6FB6"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "7F6B396987F63DB7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5EBB888A8D38FAC8"
+					type: "item"
+					item: "ae2:quartz_fiber"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "终端"
+			x: -2.0d
+			y: 0.5d
+			subtitle: "[这里是Linux用户的笑话]"
+			description: [
+				"&e终端&f提供对ME网络存储的访问.标准&eME终端&f简单地将网络中的所有内容列为一个大网格，以便从中提取和存入,类似于大库存."
+				""
+				"&eME合成终端&f是ME终端的一个扩展，它还提供了内置的3*3工作台,允许使用网络中包含的、通过终端屏幕可见的任何物品进行更快的制作."
+			]
+			dependencies: ["15564C11744D6AA0"]
+			id: "22C4318523A43B49"
+			tasks: [
+				{
+					id: "6C7282A058006A21"
+					type: "item"
+					item: "ae2:terminal"
+				}
+				{
+					id: "2CFD7CA282DFB2FF"
+					type: "item"
+					item: "ae2:crafting_terminal"
+				}
+			]
+			rewards: [
+				{
+					id: "6D1EBB1DBB711A5A"
+					type: "random"
+					title: "随机奖励"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "7B32D21CD627FB4A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "存储"
+			x: 1.0d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "Items as a file system"
+			description: [
+				"可以说，AE2中最重要的就是存储系统,利用&e存储组件&f.这些组件可以通过&eME箱子&r单个访问,或者&eME驱动器&r多个访问."
+				""
+				""
+				"&bME驱动器&f可以容纳10个存储组件.然而,他并不提供终端屏幕,需要网络上其他地方的一些外部终端进行存储访问."
+			]
+			dependencies: [
+				"40A7CC56DACC2623"
+				"2F16B6A173525277"
+			]
+			size: 1.5d
+			id: "4E8A05C3BFA80540"
+			tasks: [{
+				id: "58C4DF6CFBDF8577"
+				type: "item"
+				item: "ae2:drive"
+			}]
+			rewards: [
+				{
+					id: "107B36337206758B"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "5D0CC7AC4BD78134"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "ME接口"
+			icon: "ae2:interface"
+			x: 13.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "OI,OI,OI!"
+			description: [
+				"让自动更简单,AE2为ME数据的操作提供了一整套设备,i.e.在世界各地移动存储的物品."
+				""
+				"&bME接口&f是这些设备之一.作为输入设备,接口允许任何物品/流体等通过其外部管道输送,然后将其自动存储在接口所连接的ME网络中."
+				""
+				"作为输出设备,界面可以配置为保持一定数量的库存物品,从ME网络到其自己的库存.这允许外部设备或管道接收."
+			]
+			dependencies: ["40A7CC56DACC2623"]
+			size: 1.5d
+			id: "74FC0DDDB91DB172"
+			tasks: [{
+				id: "7241918F270CA402"
+				type: "item"
+				title: "ME接口"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:interface"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "12DC218C9BBC8422"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "341F5229D281635E"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "自动制作"
+			icon: "ae2:pattern_provider"
+			x: 3.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "下达命令"
+			description: [
+				"存储是很好的，但如果存储系统中塞满了需要制作和加工的原材料，而您仍然不得不手动操作，那么存储系统又有什么好处呢?"
+				""
+				"AE2的&e自动制作&f开始于&bME样板供应器&f.样板供应器提供程序保存某些名为&b样板&f的物品（在下一个任务中介绍），这些物品被编程为保存一些将输入物品转换为特定输出的配方.一个供应器最多可容纳9种样板."
+				""
+				"您将经常使用分散在整个地图的多个样板供应器，这就是为什么要有个&b样板终端&f远程访问您更广泛的ME网络上任何和所有供应器的内容."
+			]
+			dependencies: ["40A7CC56DACC2623"]
+			size: 1.5d
+			id: "51DE3157DE3E57B8"
+			tasks: [
+				{
+					id: "338A6DA0D711B7DC"
+					type: "item"
+					title: "ME样板供应器"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:pattern_provider"
+						}
+					}
+				}
+				{
+					id: "299121F0AFF40604"
+					type: "item"
+					item: "ae2:pattern_access_terminal"
+				}
+			]
+			rewards: [
+				{
+					id: "50D0A08E66B3F6DF"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "12405240582D9D1A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: [
+				"任何大型ME网络最后难题是&bME控制器&f."
+				""
+				"控制器为ME网络提供的频道远远大于标准的8个频道,从块的每个面提供32个通道，总共216个通道."
+				""
+				"这仅适合单个控制器,然而,ME控制器是多块结构，控制器的大小可以达到7x7x7块，并且可以在该最大大小范围内进行任意自由排列.然后，每个单独的块可以提供其自己的单独频道,只要没有单个控制器块被沿着同一平面的4个其他块包围."
+				""
+				"ME网络在任何时间只能包含一个多块控制器.尝试在网络的不同部分连接多个控制器将导致冲突,将会关闭整个网络."
+			]
+			dependencies: [
+				"22C4318523A43B49"
+				"78311531069807DE"
+			]
+			id: "2F16B6A173525277"
+			tasks: [{
+				id: "6C80AA2FD67BD192"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [
+				{
+					id: "345C7C78BABD07F6"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "6593BF772EE96538"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 1.5d
+			shape: "circle"
+			subtitle: "完全符合你的期望."
+			description: [
+				"&b石英扳手&f它右键单击时的面旋转方块和设备，并在潜行时右键单击拆除它们."
+				""
+				"AE2的扳手有石英和下界两种选择."
+			]
+			dependencies: ["2893F483C10293E6"]
+			id: "1B686954D34A0F23"
+			tasks: [{
+				id: "1076BC82EECB73F5"
+				type: "item"
+				title: "石英扳手"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:quartz_wrench"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F733DD53ED27710"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			description: [
+				"&b网络工具&f是整个AE2的重要工具,其用于在屏幕上显示网络的各种细节，例如总功耗和存储."
+				""
+				"作为额外奖励,它还提供自己的库存可以存放&e升级卡&f,当查看任何可升级设备的屏幕时，都可以访问该屏幕，以方便更换.然而,它不能像普通扳手一样旋转连接到ME网络的方块,只有在潜行时才能拆除."
+			]
+			dependencies: [
+				"22C4318523A43B49"
+				"1076BC82EECB73F5"
+			]
+			id: "6431A384DDFBF439"
+			tasks: [{
+				id: "7BDCDEB679A9969C"
+				type: "item"
+				item: "ae2:network_tool"
+			}]
+		}
+		{
+			title: "创建第一个存储组件"
+			x: 4.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "第一个1K字节."
+			description: [
+				"每个单独的组件都具有一定的&e存储空间&f."
+				""
+				"第一个组件是&b1kME存储组件&f,提供&e1024&f\"字节\"给定的容量.稍后介绍."
+				""
+				"创建1k组件,这将在下一个任务中与外壳结合."
+			]
+			dependencies: ["4E8A05C3BFA80540"]
+			id: "2FB231069D2E4E77"
+			tasks: [{
+				id: "64CCF1FB42AA41CE"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+			rewards: [
+				{
+					id: "6E23A177701DE35C"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "7878EA4ADE367154"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "4k-存储组件"
+			x: 5.0d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "x4"
+			description: ["第二个组件,提供&e4096&f字节的存储."]
+			dependencies: [
+				"64CCF1FB42AA41CE"
+				"2FB231069D2E4E77"
+			]
+			id: "3B42CCC19D23EC6D"
+			tasks: [{
+				id: "066F1BBF3D0863C5"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
+			rewards: [
+				{
+					id: "0DED7909D8F260FB"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "4D1AC818C4203ADC"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "16k-存储组件"
+			x: 4.5d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "x4^2"
+			description: ["第三个存储组件,提供&e16384&f字节的存储."]
+			dependencies: [
+				"066F1BBF3D0863C5"
+				"3B42CCC19D23EC6D"
+			]
+			id: "219932CB19258C16"
+			tasks: [{
+				id: "076237ECA6D5DE58"
+				type: "item"
+				item: "ae2:cell_component_16k"
+			}]
+			rewards: [
+				{
+					id: "3D78D39AC9F9149F"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "42CEB9C64CCDCFEC"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "64k 存储组件"
+			x: 5.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "x4^3"
+			description: ["这是第四个存储组件,提供&e65536&f字节的存储."]
+			dependencies: [
+				"076237ECA6D5DE58"
+				"219932CB19258C16"
+			]
+			id: "523853C1C4E688BA"
+			tasks: [{
+				id: "32FFC36DEEA7792D"
+				type: "item"
+				item: "ae2:cell_component_64k"
+			}]
+			rewards: [
+				{
+					id: "74692DCB87938B3B"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "16FC3AB2ACBFF4B3"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "256k 存储组件"
+			x: 5.5d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "x4^4"
+			description: ["第五个也是最后一个AE2标准存储组件,提供&e262144&f字节的存储."]
+			dependencies: [
+				"32FFC36DEEA7792D"
+				"523853C1C4E688BA"
+			]
+			id: "5F56892CD904C40F"
+			tasks: [{
+				id: "2C4616CD2EBB58C6"
+				type: "item"
+				item: "ae2:cell_component_256k"
+			}]
+			rewards: [
+				{
+					id: "109149BBD22105C5"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "4DE1354173902859"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "物品存储"
+			x: 6.5d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"使用1k存储组件，您现在可以制作一个1kME物品存储单元来启动您的数字物品存储系统.您很可能希望大部分存储空间用于物品，因此您可能需要制作一些&bME存储组件&f."
+				""
+				"ME物品存储单元可容纳多达63种不同类型的物品.添加到存储单元中的每一种新类型的物品将占用存储单元总容量的某一部分（以字节为单位），通常为1/64.对于已经存在的每种类型，相同类型的8个物品都有1个“字节”计数。"
+				""
+				""
+				"如果一个元件是空的，可以通过将其分解成各自的组件和外壳来重新调整用途.通过空中潜行右键完成."
+				""
+				""
+			]
+			dependencies: ["2FB231069D2E4E77"]
+			id: "361CCBD353D6FF34"
+			tasks: [{
+				id: "08C87C31FF51A2AE"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "402B607EA6D67580"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "318D3CF0DD1E3A58"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "流体储存"
+			x: 8.5d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"物品不是唯一可以存储在ME单元中的东西.&bME流体存储&f可以储存液体，如水,熔岩和各种改良的石油和燃料，仅举几个例子."
+				""
+				"请注意，所有存储单元，无论其设计用于存储什么，仅在外壳方面有所不同;物品和液体都使用相同种类的存储组件."
+				""
+				"对于流体，1字节等于8个桶（8000mb）."
+			]
+			dependencies: ["361CCBD353D6FF34"]
+			id: "5E24012A3D9B72A1"
+			tasks: [{
+				id: "61D93B13D496547D"
+				type: "item"
+				title: "ME流体储存元件"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: ":fluid_storage_cell_"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1AB0AE41CCA6C48E"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "687E190D01E7344A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "化学储存"
+			x: 10.5d
+			y: 1.5d
+			shape: "rsquare"
+			description: ["新的1.18版本的AppliedEnergistics2直接支持Mek化学，由AE2的官方集成插件提供&dApplied Mekanistics&f.这些组件可以容纳来自Mekanism的大部分化学物质，包括气体、颜料和矿石浆，但它们&o&l不&r保存任何放射性物质，如核废料"]
+			dependencies: ["5E24012A3D9B72A1"]
+			id: "397165BB305A887E"
+			tasks: [{
+				id: "773E8781B09CA753"
+				type: "item"
+				title: "ME化学品存储元件"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: ":chemical_storage_cell_"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "37876CCD31C58E76"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "5704DADB6CD89439"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"&b元件工作台&f允许单元格“分区”以容纳特定物品,输入/输出给定白名单过滤器.它还允许使用某些升级卡（如反向卡）升级，将上述白名单设置为黑名单."
+				""
+				"也可以通过工作台为单元格赋予更高或更低的“优先级”,输入/输出允许单元格第一个接收某些物品，直到填满，或等待其他更高优先级的单元格首先填满."
+			]
+			dependencies: ["4E8A05C3BFA80540"]
+			id: "2F556E7919582D2D"
+			tasks: [{
+				id: "19F84B1451F7D602"
+				type: "item"
+				item: "ae2:cell_workbench"
+			}]
+			rewards: [
+				{
+					id: "60C2464FFC06FB37"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "4956E92D2FDA5190"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "碎片整理"
+			description: [
+				" &bMEIO端口&f允许在不同的存储方块（如ME单元和连接到存储总线的外部容器）之间快速重新排列ME网络存储的内容."
+				""
+				"当一个存储元件插入左侧的输入插槽时，IO端口可以切换为将该存储元件清空到其他ME存储中，或者用分布在其他存储中的特定物品填充（理想情况下，会分区）存储元件."
+			]
+			dependencies: ["4E8A05C3BFA80540"]
+			id: "7B7D1F0CB326B28F"
+			tasks: [{
+				id: "23261340EF9D48AF"
+				type: "item"
+				item: "ae2:io_port"
+			}]
+			rewards: [
+				{
+					id: "32864F0FE8996DE8"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "4531F48DEB750518"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "这是输入"
+			description: ["&bME输入总线&f周期性地从总线所面对的任何外部存储中抽取物品.它可以选择性地进行过滤，以仅从所述库存中提取某些物品."]
+			dependencies: ["74FC0DDDB91DB172"]
+			id: "5E7E35CCAF1C88EE"
+			tasks: [{
+				id: "060BD30C77262BDA"
+				type: "item"
+				item: "ae2:import_bus"
+			}]
+			rewards: [
+				{
+					id: "6F34C1E65B9B9204"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "462A0C71B591C11F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "这是输出"
+			description: ["&bME输出总线&f将白名单过滤器中的物品抽出到总线所面对的任何外部存储.与输入总线不同，输出总线在未添加白名单的情况下无法工作."]
+			dependencies: ["74FC0DDDB91DB172"]
+			id: "083D458032F0325C"
+			tasks: [{
+				id: "6D6E070CB7998FA1"
+				type: "item"
+				item: "ae2:export_bus"
+			}]
+			rewards: [
+				{
+					id: "0F7B866B6B54A6D2"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "311337C7850C46F1"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "破坏"
+			description: [
+				"&bME破坏面板&f可以用于自动破坏前面的任何方块，并将方块掉落的任何东西直接收回ME网络."
+				""
+				"作为额外的奖励，破坏面板可以像普通挖掘工具一样添加附魔，可以与附魔工具相同的方式影响方块掉落.这使得它非常适合于处理矿石块."
+				""
+				"每当一个方块被打破时，任何附加的附魔都会显著增加所消耗的能量.使用此&e效率&f将减少其他附魔所消耗的能量,而&e耐久&f附魔使破坏时不使用能量（不太懂这个，没玩过）, 类似于在常规工具上耐久."
+			]
+			dependencies: ["5E7E35CCAF1C88EE"]
+			id: "140DE53DC0FCD9F4"
+			tasks: [{
+				id: "3F715007AD9C0D58"
+				type: "item"
+				item: "ae2:annihilation_plane"
+			}]
+			rewards: [
+				{
+					id: "6EA69EB703D93D1F"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "43B0C50B9F25E213"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "成型"
+			description: [
+				"&bME成型面板&f其行为类似于输出总线，但将世界本身视为其存储.换言之，它会将过滤器中的任何方块直接放置在其前面."
+				""
+				"这对于可以简单地通过放置方块并使用特定工具将其打碎来处理方块的情况非常有用."
+			]
+			dependencies: ["083D458032F0325C"]
+			id: "525F25F4ADE45B50"
+			tasks: [{
+				id: "0BEBC087F970093E"
+				type: "item"
+				item: "ae2:formation_plane"
+			}]
+			rewards: [
+				{
+					id: "0850790D93DB56E2"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "4DA3D1592D0E57DA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "P2P 通道"
+			x: 15.5d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "去掉中间人"
+			description: [
+				"&bP2P&f(peer-to-peer)是AE2中的一个强大系统，允许在不需要任何中间ME存储的情况下传输物品、流体甚至更多."
+				""
+				"右键单击带有某些物品的P2P隧道将使该隧道转换为能够传输其他内容的隧道，例如通过管道传输物品、通过电缆传输能量、红石信号（默认情况下）甚至ME连接本身."
+				""
+				"P2P通道必须使用&e内存卡&f互相连接，详细下一个任务介绍."
+			]
+			dependencies: ["74FC0DDDB91DB172"]
+			id: "1710B3D05215A71E"
+			tasks: [{
+				id: "36A7C775D94798EE"
+				type: "item"
+				item: "ae2:me_p2p_tunnel"
+			}]
+			rewards: [
+				{
+					id: "005990362F9FDD61"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "682CBB4D63EC2625"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: -0.5d
+			shape: "rsquare"
+			subtitle: "备用箱子"
+			description: [
+				"&bME存储总线&f,当面对某个外部存储容器时，将允许该容器作为ME网络的一部分使用，允许将物品从容器中取出或完全通过ME放入其中."
+				""
+				"可以对存储总线进行过滤并赋予特定优先级，以便特定物品首先尝试转到连接的存储，但不会将任何过滤的物品从网络中的任何其他位置追溯到其连接的存储."
+			]
+			dependencies: ["74FC0DDDB91DB172"]
+			id: "7EFBAF3E281D2EBE"
+			tasks: [{
+				id: "294FA6663BE38B7C"
+				type: "item"
+				item: "ae2:storage_bus"
+			}]
+			rewards: [
+				{
+					id: "7EC06E5DA9EA41BC"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "74C059194CC4F45D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: -0.5d
+			shape: "circle"
+			description: [
+				"&b内存卡&f是具有不同功能的工具.这两种方法中最简单的是保存各种设备的配置（如白名单过滤器），以便复制到其他同类设备上."
+				""
+				"存储卡的第二个功能是将&eP2P通道&f连接到一起.当这样做时，被链接的P2P隧道将被分配一个唯一的ID，该ID存储在存储卡上用于进一步链接."
+			]
+			dependencies: ["1710B3D05215A71E"]
+			id: "55186B8602689B66"
+			tasks: [{
+				id: "2D19A4EF2E4B7A55"
+				type: "item"
+				title: "Memory Card"
+				item: {
+					id: "ae2:memory_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "433DCE2CD821C784"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "58A650BEBD72CCDB"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			shape: "circle"
+			subtitle: "ME存储&m卡&r抽屉"
+			description: [
+				"&b均分卡&f是对存储元件的升级，它预先分配了任何单个类型都可以占用的特定数量的方块."
+				""
+				"这种行为类似于功能性存储抽屉，其中每个隔间容纳一定数量的堆叠，而不是允许一个隔间中的物品泄漏到其他隔间中，并将其他类型的物品挤出（不太懂）."
+			]
+			dependencies: ["2F556E7919582D2D"]
+			id: "3195A7AA874163CD"
+			tasks: [{
+				id: "5E1E2F6E86A3E0F3"
+				type: "item"
+				item: "ae2:equal_distribution_card"
+			}]
+			rewards: [
+				{
+					id: "70C47DA0DCEA52BB"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "7425BEBDF51C1684"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			shape: "circle"
+			description: ["&b虚空卡&f是一种元件升级，当尝试移动到元件中且元件已满时，允许存储元件删除（作废）其中已包含的任何类型的项目."]
+			dependencies: ["2F556E7919582D2D"]
+			id: "33ADE41526C39AFD"
+			tasks: [{
+				id: "2D72E699C4D506CE"
+				type: "item"
+				item: "ae2:void_card"
+			}]
+			rewards: [
+				{
+					id: "7FDED9CF7F39532F"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "48C92D1EB16C0CA2"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			description: [
+				"&b便携元件&f功能与常规元件相同，因为它们可以插入ME箱子或驱动器并相应地填充."
+				""
+				"然而，与普通元件不同，它们的内容也可以通过元件本身独立访问，有点像一个数字ME风格的背包."
+			]
+			dependencies: ["361CCBD353D6FF34"]
+			id: "77C9EE701F72586D"
+			tasks: [{
+				id: "65C439FD14C5EEB9"
+				type: "item"
+				title: "ME便携元件"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: ":portable_(.*)_cell_"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6A5F5E6ABCD405F1"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "3280EFC4446DD684"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: -2.5d
+			shape: "circle"
+			description: ["&b容量卡&f允许升级后的总线拥有更大的过滤器.使用容量卡升级的输入输出总线可以从每个只支持一个过滤项目变为最多9个插槽过滤器，而存储总线将从18个插槽变为最多63个插槽."]
+			dependencies: ["7EFBAF3E281D2EBE"]
+			id: "371A382CF1DDF2B2"
+			tasks: [{
+				id: "6DC55B5EA1534444"
+				type: "item"
+				item: "ae2:capacity_card"
+			}]
+			rewards: [
+				{
+					id: "370E5557C95C8C9D"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "45FEE3C549C049B0"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "赛特斯石英种子"
+			x: -9.0d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "赛特斯石英生产"
+			description: [
+				"获得的方式是收集到的&e粉尘&f来制作&e种子&f."
+				""
+				"要使种子长成完整的晶体，只需将其丢入水中，等待其生长.他们不会随着成长而消失.刚开始,需要很&o长&r时间才能生长,所以考虑批量生存吧. "
+				""
+				"或者,Mek的&b富集仓&f可以用于早期的大量生产."
+				""
+				"你可能会注意到，一颗完全生长的石英晶体会被粉碎成灰尘，然后再长出两颗种子.使得赛特斯石英能够有效地再生，因此利用这一优势!（1变2）"
+			]
+			dependencies: ["2893F483C10293E6"]
+			id: "23DB492528A25B25"
+			tasks: [{
+				id: "0AFE928466695096"
+				type: "item"
+				item: "ae2:certus_crystal_seed"
+			}]
+			rewards: [
+				{
+					id: "242F6B674493768E"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "69F44152600E491B"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "还有"
+			x: 14.5d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "这在制作线缆之外还有用处."
+			description: [
+				"AE2中的一个重要概念是一种被称为\"&e子网&f\"技术,额外的单独ME网络(&e子网&f)与主网联合行动，执行一些专门的功能或发配."
+				""
+				"将子网络与完全分离的独立网络分开的通常是使用&b石英纤维&f作为线缆.当石英纤维放置在两条未连接的线缆之间时，两者之间不传输任何数据或频道，而只传输电力."
+				""
+				"因此，纤维的另一侧的子网络可以完全由主网络的电源供电，而不需要任何额外的专用电源."
+			]
+			dependencies: ["74FC0DDDB91DB172"]
+			id: "2077D64428E9C067"
+			tasks: [{
+				id: "05A8DD006B623032"
+				type: "item"
+				item: "ae2:quartz_fiber"
+			}]
+			rewards: [
+				{
+					id: "165710BE640551ED"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "3337CC6EF03730C7"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "样板"
+			icon: "ae2:blank_pattern"
+			x: 4.0d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&b样板&f是保存由玩家完成的编码配方的内容.要让空白样板使用必须放到&bME样板终端&f才可以使用."
+				""
+				"样板可以设置成&e合成&f样板,这将需要使用&e分子装配室&f,或者\"&e处理&f\"样板,其中任何输入项目都可以由ME网络发送到其他机器方块或专门加工厂."
+			]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "2C04B3BA507D5673"
+			tasks: [
+				{
+					id: "58BF9A4EAD7C88E6"
+					type: "item"
+					item: "ae2:pattern_encoding_terminal"
+				}
+				{
+					id: "08D08A1400F7348F"
+					type: "item"
+					item: "ae2:blank_pattern"
+				}
+			]
+			rewards: [
+				{
+					id: "7E23E751506B04D0"
+					type: "item"
+					item: "ae2:blank_pattern"
+					count: 8
+				}
+				{
+					id: "0741594A950C662F"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "20EB24D02799A27D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			shape: "rsquare"
+			description: [
+				"&b分子装配室&f在AE2相当于一个自动工作台,可以完成所以需要&e合成&f的模式作业."
+				""
+				"分子装配室能够将能量和通道传输到与之相连的其他ME设备，但其自身不会占用通道.最多可将6个分子装配室连接到单个供应器（如果使用），以允许并行完成更多的工艺."
+				""
+				"分子装配室也都有自己的专用插槽，用于一个单独的制作模式，允许它们在通电时独立运行.当以这种方式操作时，插入分子装配室中的任何匹配项都将自动构建为模式的结果."
+			]
+			dependencies: ["2C04B3BA507D5673"]
+			id: "4597D3B3BDC2BED5"
+			tasks: [{
+				id: "5639418C0364E5A1"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+			rewards: [
+				{
+					id: "48E60A68CD703710"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "59D9A5E482B1D2A6"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			shape: "rsquare"
+			description: [
+				"&bME标准发信器&f,当配置了一个特定的方块和要响应的数量时，将发出一个红石信号，这取决于网络中存储的方块是否低于、高于或等于给定的数量."
+				""
+				"例如，这可以用于在资源低于设置的最小数量时，使用标准发信器自动打开某些机器以自动制作资源."
+			]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "3DDB0DDA7571B2C1"
+			tasks: [{
+				id: "3E4BDC8D3B7F727C"
+				type: "item"
+				item: "ae2:level_emitter"
+			}]
+			rewards: [
+				{
+					id: "7791DE05E46C6030"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "2465F9C03BFFB3B8"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "红石卡和ME触发总线"
+			x: 7.0d
+			y: -2.5d
+			shape: "circle"
+			description: [
+				"单个ME设备也可以设置响应红石信号.当使用&b红石卡&f升级时,设备可以配置为仅在使用红石或其他需要时才能工作。."
+				""
+				"此行为还可以通过&oME触发总线&f来应用于ME网络的整个操作.这允许总线另一侧的一部分网络仅在总线由红石供电时在线,或者使用&e反向触发总线&f时离线 ."
+			]
+			dependencies: ["3DDB0DDA7571B2C1"]
+			id: "1AAF0B31B47AF23D"
+			tasks: [
+				{
+					id: "4D92DB15F45D3F10"
+					type: "item"
+					item: "ae2:redstone_card"
+				}
+				{
+					id: "651CCE50554D6ABC"
+					type: "item"
+					item: "ae2:toggle_bus"
+				}
+			]
+			rewards: [
+				{
+					id: "15D28C974906C579"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "11376476D428D86A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "升级自动化!"
+			description: [
+				"当应用于任何受支持的设备（如接口或输出总线）的升级时，&b合成卡&f允许相关设备自动发出自己的制作请求，以获取所需的（过滤的）物品。CPU可以设置为仅响应这些请求，以防止占用玩家请求制作的CPU."
+				""
+				"当&e发信器&f使用合成卡升级时,它可以被配置为发射红石信号,通过发出一个&o红石信号&r检测到特定物品制作.后者适用于制作特定物品所需的唯一东西是红石信号，甚至不需要制作样板."
+			]
+			dependencies: ["1AAF0B31B47AF23D"]
+			id: "5E6585F7627247E3"
+			tasks: [{
+				id: "356C06E894DC659B"
+				type: "item"
+				item: "ae2:crafting_card"
+			}]
+			rewards: [
+				{
+					id: "24B873E672174D86"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "09DCAA3326CEE78F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: [
+				"当然，AE2提供了自己的方式来显著加快晶体生长，假设你手边没有Mekanism的富集仓."
+				""
+				"在5个&b晶体催生器&f中放置水源可以从未加速的20分钟加速到24秒."
+			]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "5AA3E5DFECB4AC4D"
+			tasks: [{
+				id: "5F33C4F4AD2F297B"
+				type: "item"
+				item: "ae2:quartz_growth_accelerator"
+			}]
+			rewards: [
+				{
+					id: "0BE24B3629BD5016"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "67FE782D7A821701"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			shape: "rsquare"
+			subtitle: "LazierAE2简介!"
+			description: [
+				"当你深入到AE2并拥有足够大的网络时，你可能会觉得有点无聊，因为你必须一点一点地继续经历晶体生长和处理器制作这一耗时的过程."
+				""
+				"&dLazierAE2&f附加.LazierAE2主要提供一些机器，通过大大简化某些工艺配料的生产，简化后期游戏体验，扩展ME网络."
+				""
+				"开始使用LazierAE2的第一件事是&b谐振水晶&f,它的获得和福鲁伊克斯相似,只是它需要&e钻石&f和一些&e末影粉&f和&e陨石粉&f丢到水中."
+			]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "7234D2F9FCB968C4"
+			tasks: [{
+				id: "548DEBE39C8043D8"
+				type: "item"
+				item: "lazierae2:resonating_crystal"
+			}]
+			rewards: [
+				{
+					id: "41AAD44F0915C925"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "722C062B130D48AA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["&b高级压印器&f来自&dAE2Things&f解决了AE2中压印器的几个缺点,即单次输出单次输入的限制和侧面提取/输入要求."]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "4DEACC65B5FA57FC"
+			tasks: [{
+				id: "552FB43EA62C6AA3"
+				type: "item"
+				item: "ae2things:advanced_inscriber"
+			}]
+			rewards: [
+				{
+					id: "601630EECA58E634"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "56BE72089A3373E1"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			description: [
+				"&b晶体催生仓&f是由&dAE2Things&f提供的晶体生长加速，使用更好的替代方案."
+				""
+				"这种单块装置只包含一个与标准箱子相同的库存，能够容纳27堆晶种在仓内生长.该仓还可以升级加速卡，以进一步加快速度."
+			]
+			dependencies: ["5AA3E5DFECB4AC4D"]
+			id: "77EE3FF184FB6417"
+			tasks: [{
+				id: "56A4576AD40FB08D"
+				type: "item"
+				item: "ae2things:crystal_growth"
+			}]
+			rewards: [
+				{
+					id: "21E876498F2098E2"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "0D1F1C3657656C66"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "&o更好&r的物品存储"
+			x: 7.5d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: ">muh RS磁盘"
+			description: [
+				"AE2和精致存储在存储物品方面非常相似,但AE2在驱动器中具有&e频道/类型限制&r.有些人不喜欢物品类型或类型限制."
+				""
+				"这就是&dAE2Things&f的作用.除了这两台额外的机器外，AE2Tings还主要提供了一种标准单元的替代方案，称为“ME深度物品存储磁盘驱动器”简称&b深度物品存储&f."
+				""
+				"深度物品存储,正如你想象的那样,它的功能与&b精致存储RS&f的功能很相似.主要是它&o没有类型限制&r."
+				""
+				"然而，RS磁盘的优点相同，缺点也相同. 无论“类型”如何，存储在中磁盘的物品都将作为一个完整的字节进行计数，这意味着它们可以存储的物品远远少于同等大小的标准存储元件."
+				""
+				"除此之外，滥用这些磁盘，特别是通过存储大量NBT数据的项目，可能会对正在运行的世界产生相当严重的后果，例如“区块禁止加载”甚至损坏的玩家数据."
+			]
+			dependencies: ["361CCBD353D6FF34"]
+			id: "17F29706CE9A846E"
+			tasks: [{
+				id: "5A4954089684B71A"
+				type: "item"
+				title: "ME深度物品存储"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "ae2things:disk_drive_"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "70BE5C50D5B1049F"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "21A01E1077934041"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"您刚刚制作的第一块谐振水晶现在可以用来制作LazierAE2系列的第一台机器:&b物质注入器&f."
+				""
+				"一开始，物质注入器就为AE2和各种其他MOD中的一些简单制作材料提供了各种配方.这些配方也恰好比通常的制作配方更便宜."
+			]
+			dependencies: ["7234D2F9FCB968C4"]
+			id: "24D70F20329B965B"
+			tasks: [{
+				id: "49D9C2B198BD3F04"
+				type: "item"
+				item: "lazierae2:infuser"
+			}]
+			rewards: [
+				{
+					id: "0867DA835D1316B1"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "239B4469A248350D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"更重要的是，物质注入器提供了两种由物质注入器独家制造的新材料的配方.这些新配方共同使&b福鲁伊克斯钢锭&f的诞生."
+				""
+				"福鲁伊克斯钢锭用于在物质注入器之后制造附加组件中的机器."
+			]
+			dependencies: ["24D70F20329B965B"]
+			id: "570C5B9BCBFBA26F"
+			tasks: [{
+				id: "528B64BEADDE2541"
+				type: "item"
+				item: "lazierae2:fluix_steel_ingot"
+			}]
+			rewards: [
+				{
+					id: "2BC77B32EAE1F150"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "1F3F152A41ACCBBA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -3.5d
+			shape: "rsquare"
+			subtitle: "紧凑的库存管理"
+			description: [
+				"作为额外的奖励，LazierAE2提供&bME请求器&f作为专用ME联网设备."
+				""
+				"ME请求器用于在物品低于所需数量时，通过自动向网络发送制作请求，数量保存多达6种不同的物品类型."
+				""
+				"这克服了带有制作卡的ME界面通常9层的限制，同时允许单个条目空间中的物品请求超过64层的数量."
+			]
+			dependencies: ["67F41B121639F942"]
+			id: "3EC23876395F1E73"
+			tasks: [{
+				id: "1D646B369E1C8A66"
+				type: "item"
+				item: "lazierae2:requester"
+			}]
+			rewards: [
+				{
+					id: "44C2BE6FF4F7D4E6"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "2EC9F102E1364C5D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "其他机器"
+			x: 9.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"&b脉冲离心机&f作为各种AE2粉尘的标准破碎机.本身没有什么特别之处，但足够方便，可以频繁将粉尘研磨."
+				""
+				"&b福鲁伊克斯聚合器&f制作粉尘和水晶，可以有效绕过晶体种子的生长过程.它还兼容赛特斯石英充能的工作."
+				""
+				"最后,&bME电路板蚀刻器&f直接从组件制作处理器，加速处理器制作过程."
+			]
+			dependencies: ["570C5B9BCBFBA26F"]
+			id: "67F41B121639F942"
+			tasks: [
+				{
+					id: "5F7E8B833DBD262A"
+					type: "item"
+					item: "lazierae2:grinder"
+				}
+				{
+					id: "4C62A0AC8F33C77A"
+					type: "item"
+					item: "lazierae2:aggregator"
+				}
+				{
+					id: "2694135F101B927A"
+					type: "item"
+					item: "lazierae2:etcher"
+				}
+			]
+			rewards: [
+				{
+					id: "6EB83CF3E7DEA493"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "1D9E802F3D59FABA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			shape: "circle"
+			description: [
+				"&b加速卡&f,根据正在升级的设备，将提高设备的运行速度或允许设备一次性执行更多操作."
+				""
+				"在&e分子装配室&f中,放入5张加速卡将减少5&o秒&r."
+			]
+			dependencies: ["4597D3B3BDC2BED5"]
+			id: "1F7DFA5AA65F2812"
+			tasks: [{
+				id: "495253F1301A8070"
+				type: "item"
+				item: "ae2:speed_card"
+			}]
+			rewards: [
+				{
+					id: "6223D6D4A01B9122"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "394DBCEAD38760C0"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "空间IO"
+			x: 11.799999999999997d
+			y: 4.050000000000001d
+			shape: "gear"
+			description: [
+				"除了储存物品和液体外,AE2还提供了存储整个&e结构&f的存储单元,与紧凑型机器没有太大区别."
+				""
+				"&b空间IO端口&f允许包含在&b空间柱&f专门设计的存储结构，通过红石信号激活."
+				""
+				"如果一个僵尸或玩家恰好站在内部，而空间正在被激活，他们也将被运送到其他地方.如果你是被抓的人，就要确保你有办法回来."
+			]
+			dependencies: ["40A7CC56DACC2623"]
+			size: 1.5d
+			id: "01F3F0C25BA72BDA"
+			tasks: [{
+				id: "0EFC322997906572"
+				type: "item"
+				item: "ae2:spatial_io_port"
+			}]
+			rewards: [
+				{
+					id: "2AB07DF6AB7560BF"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "71A9F7793267D5CD"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "空间塔"
+			x: 10.0d
+			y: 6.0d
+			description: [
+				"空间柱结构（scs）包括一个&b空间塔&f覆盖要包含在空间IO元件.SCS至少需要三行空间塔块，其中一行用于所包含空间的每个维度（长度、宽度、高度）."
+				""
+				"然而，空间IO是一个非常耗电的功能，尤其是在试图捕获更大的空间（高达128x128x128）时.在SCS中围绕所需体积设置更多的空间塔将提高其整体效率，从而减少捕获能量."
+				""
+				"此外，请注意每个单独的塔架（无论其长度）占用一个通道.对于特别大的空间，您可能希望建立一个带有控制器的专用网络，以安装所有所需的塔架（不太懂）."
+			]
+			dependencies: ["01F3F0C25BA72BDA"]
+			id: "18DFB25DC48D8BF7"
+			tasks: [{
+				id: "4E0C5E3A98293C08"
+				type: "item"
+				title: "空间塔"
+				item: "ae2:spatial_pylon"
+			}]
+			rewards: [
+				{
+					id: "664A4B1C34FC382C"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "60430373241A6839"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			description: ["&b空间锚&f是空间IO中的一个配套设备，只起到块加载器的作用.当连接到ME网络时，只要网络保持通电，锚将通过所有线缆和设备（不包括子网络）强制加载ME网络占用的所有块."]
+			dependencies: ["18DFB25DC48D8BF7"]
+			id: "2897FA291E5A38D8"
+			tasks: [{
+				id: "68A36AB341CC016D"
+				type: "item"
+				item: "ae2:spatial_anchor"
+			}]
+			rewards: [
+				{
+					id: "1560015D5E8AFFEA"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "29737736E2B314EA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			description: [
+				"&b空间存储元件&f分别用于容纳一个已定义的磁盘，并具有三种不同的容量，最多可容纳2x2x2、16x16x16和128x128x128个块的空间."
+				""
+				"编辑后，将在空间存储&e维度&f中为一个元件分配一部分空间，以及与分配给该元件的区域相对应的唯一ID.编码元件仍可在空间IO端口内用于检索任何存储的方块和实体."
+				""
+				"从那时起，包含在元件的空间区域内或SCS中的任何块（其大小与用于初始编码的块相同）都可以分别移回世界或空间维度。如果空间区域内和SCS内都有块，则这些块只需相应地交换位置."
+			]
+			dependencies: ["18DFB25DC48D8BF7"]
+			id: "6F3D0A248B5A9CA2"
+			tasks: [{
+				id: "75924053D6F5B242"
+				type: "item"
+				title: "空间存储元件"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "ae2:spatial_storage_cell_"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "40FB6290F9B4CF05"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "0CB125E5654F810B"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "下载更多RAM"
+			description: [
+				"在执行自动制作作业之前，您需要一个设备来实际存储请求本身以及多步骤制作的任何临时项目. 此设备称为&e并行处理单元&f."
+				""
+				"并行处理单元是个多方块结构需要至少一个&b合成存储器&f,可选地与任何其他合成单元一起使用.多方块结构可以做成任何尺寸，但必须是实心长方体."
+			]
+			dependencies: ["51DE3157DE3E57B8"]
+			id: "30E853CE699E669B"
+			tasks: [{
+				id: "08DA73B1AC17E5F5"
+				type: "item"
+				title: "合成存储器"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "(.*)crafting_storage"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "380CA842CF1F8374"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "57230DB26A88BF90"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "下载更多CPU内核"
+			description: [
+				"&b并行处理单元&f通过ME样板供应器允许更快地将物品发送到其连接的设备，或同时工作以制作多种所需的物品，有助于加快制作工作."
+				""
+				"基础的AE2需要1个合成单元的“线程”来实现."
+			]
+			dependencies: ["30E853CE699E669B"]
+			id: "69B7DE2283B4EE6C"
+			tasks: [{
+				id: "5EC8D891031E34EF"
+				type: "item"
+				title: "并行处理单元"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "(.*)crafting_accelerator"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "30447C55F39E6DA1"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "33A5EAC376E2828C"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "下载更多VRAM"
+			description: ["&b制作监视器&f显示正在制作的整个物品,以及仍在制作中的剩余数量."]
+			dependencies: ["69B7DE2283B4EE6C"]
+			id: "1348995F64A94396"
+			tasks: [{
+				id: "2D386EFC23C45581"
+				type: "item"
+				title: "合成监视器"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "(ae2|mega)(.*)crafting_monitor"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67F817808F544C51"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "77A6ACEA6F5542AF"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "线缆固定器"
+			icon: "ae2:cable_anchor"
+			x: -5.5d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "Under the knife"
+			description: [
+				"&b石英切割刀&f,像扳手一样，它有下界和赛特斯石英2种，是一种有用的手工工具."
+				""
+				"线缆也可以分离使用，使用&b石英切割刀&f制作线缆锚,使用这把刀可以制作50次."
+				""
+				"线缆锚也可用于制作线缆面，允许您通过用任意块的表面覆盖线缆来伪装墙壁内的线缆.虽然此配方在JEI中隐藏，但您仍然可以在工作台中使用4个线缆锚围绕任何常规方块来制作."
+				""
+				"除了制作锚外,切割刀还有另一个用途:右键单机可以打开一个小GUI，允许您制作&b名称压印模板&f.当被命名时,这些模板可以在压印器中使用.其中两个压印器可以连接在处理器中，将物品重命名为顶部压印器的名称，然后是底部压印器的名字."
+			]
+			dependencies: ["5C22E3103544B120"]
+			id: "6144202A97C6CD1C"
+			tasks: [
+				{
+					id: "23D186249A999B8C"
+					type: "item"
+					title: "石英切割刀"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ae2:knife"
+						}
+					}
+				}
+				{
+					id: "2B8EC37AF863F9A6"
+					type: "item"
+					item: "ae2:cable_anchor"
+				}
+				{
+					id: "1FFAB0FE9A2D46F2"
+					type: "item"
+					item: {
+						id: "ae2:name_press"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4330FAC592266D62"
+					type: "random"
+					table_id: 727499692191347770L
+				}
+				{
+					id: "0BAC4AB615750E48"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "染色器"
+			x: -4.5d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"&b染色器&f是一种可充电工具，允许在世界范围内对线缆进行染色.它的功能或多或少是一个专门的&e存储单元&f，可以装载染料或&e染色球&f用于特定颜色，以及&e（雪球？）snowball&f，用于洗去颜色并将线缆转回其默认颜色."
+				""
+				"在一次充电中，为线缆上色使用内部电池100AE的能量，总共3400根线缆段."
+			]
+			dependencies: [
+				"066F1BBF3D0863C5"
+				"19CE95EDCB04AA89"
+				"5C22E3103544B120"
+			]
+			id: "03E6FA4DCB71162E"
+			tasks: [{
+				id: "6691176371563341"
+				type: "item"
+				item: {
+					id: "ae2:color_applicator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "72469A8B94967668"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "2AD4CA497DAF5DDE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "这是武器?"
+			x: 5.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "ATF温度太高"
+			description: [
+				"这最后三个项目或多或少是AE2提供的一些额外玩具，不一定适合这些任务."
+				""
+				"&b充能手杖&f只是一个简单的能量杖，造成3颗心脏的伤害，每次命中消耗300AE.它还使用了1.9之前的战斗机制，这意味着你可以像过去一样用这种方式进行点击."
+				""
+				"&b熵(shāng)变机械臂&f,当&o使用&r在世界上的某些区块上，将在适当的地方进行冶炼，例如将沙子熔炼成玻璃，将金属矿石熔炼成金属锭.如果没有，它只会在地面上点火."
+				""
+				"最后,&b物质炮&f其功能类似于彩色涂抹器，作为一个专用的单元，用于存放“弹药”物品，如物质球和铁/金块，然后可以发射出去，对怪物造成伤害或破坏方块.更重的“弹药”，例如金属块，会造成更多的伤害并摧毁更坚硬的石块."
+				""
+				"物质炮中的物质球可以用&b染色球&f代替，这将在被发射的任何物体的表面上施加油漆飞溅效果.&b光通染色球&f是物质炮专用的颜料球的一种变体，它的颜料飞溅物一旦出现在世界上也会发出一些光."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"40A7CC56DACC2623"
+				"2FB231069D2E4E77"
+			]
+			id: "5CD8D169181C7339"
+			tasks: [
+				{
+					id: "3AC5F84892DC0717"
+					type: "item"
+					item: "ae2:charged_staff"
+				}
+				{
+					id: "68BE70918BD7F81B"
+					type: "item"
+					item: "ae2:entropy_manipulator"
+				}
+				{
+					id: "3B720F63D105F7DF"
+					type: "item"
+					item: {
+						id: "ae2:matter_cannon"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "653C5DBC5B2DFB83"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "79695D39F0DA9907"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "无线"
+			icon: "ae2:security_station"
+			x: -2.049999999999999d
+			y: 4.5d
+			shape: "gear"
+			subtitle: "退出有线电视"
+			description: [
+				"ME网络还提供可靠的无线功能，无论是远程移动访问ME存储内容，还是远程（和跨维度）网络连接."
+				""
+				"第一步创建个&bME安全终端&f根据其名称，安全终端允许通过设备访问网络，以明确的权限来确保网络不受不需要的用户影响.通过使用链接（右键单击）到相关用户的&b身份卡&f授予其特定权限.或者，可以使用空白卡为非所有者或已被卡列入白名单的任何人设置总括权限."
+				""
+				"默认情况下，放置终端的人被确定为网络的“所有者”，并自动完全控制网络，无需生物识别卡."
+			]
+			dependencies: ["40A7CC56DACC2623"]
+			size: 1.5d
+			id: "4D846582D408479D"
+			tasks: [
+				{
+					id: "3778EAFF6F5475D5"
+					type: "item"
+					item: "ae2:security_station"
+				}
+				{
+					id: "4514B01B87A19457"
+					type: "item"
+					item: "ae2:biometric_card"
+				}
+			]
+			rewards: [
+				{
+					id: "686716106E48E416"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "46140D2AFCD01CD0"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			shape: "rsquare"
+			description: ["允许无线网络接入的下一步是&bME无线访问点&f.接入点用于通过&e无线终端&f打开网络以进行无线接入,其范围取决于接入点中&b无线信号增幅器&f的数量."]
+			dependencies: ["4D846582D408479D"]
+			id: "2B31E6C1707D8195"
+			tasks: [
+				{
+					id: "3DF8F1A72EBCD73F"
+					type: "item"
+					item: "ae2:wireless_access_point"
+				}
+				{
+					id: "60F10069FD956D54"
+					type: "item"
+					item: "ae2:wireless_booster"
+				}
+			]
+			rewards: [
+				{
+					id: "72CFEEE18B84AC11"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "7C6512C24B5A19A3"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "物质球"
+			x: -4.0d
+			y: 4.5d
+			shape: "rsquare"
+			description: [
+				"至于无线扩展ME网络本身，第一步显然有些不正统."
+				""
+				"当安装有&e存储元件&f时，&b物质聚合器&f在AE2中是一个垃圾桶，将任何插入其中的物品清空,然而，物质聚合器可以利用被废弃物品的一些剩余能量，并将其储存起来，用足够集中的能量制作两个特殊的工艺物品."
+				""
+				"这两个物品的第一个是&b物质球&f,需要至少1k的存储元件和256件物品的作废材料."
+			]
+			dependencies: ["4D846582D408479D"]
+			id: "5BB887411B8B38FA"
+			tasks: [
+				{
+					id: "184FBC2F91C37271"
+					type: "item"
+					item: "ae2:condenser"
+				}
+				{
+					id: "167B710CB84B12C1"
+					type: "item"
+					item: "ae2:matter_ball"
+				}
+			]
+			rewards: [
+				{
+					id: "3AF0C07815901F6E"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "0F9CCE69ADAF459C"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			shape: "rsquare"
+			subtitle: "这就是你来这里的目的"
+			description: [
+				"&b无线终端&f功能与常规终端相同，但无线。想想看吧."
+				""
+				"在使用无线终端访问网络之前,您必须&e连接&f通过之前做的&e安全终端&f.如果未连接到网络，或超出范围或功率，终端将无法工作."
+				""
+				"无线终端还可以使用&e能源卡&f升级，提供更大的电池容量."
+			]
+			dependencies: ["2B31E6C1707D8195"]
+			id: "16299B9AE87257DC"
+			tasks: [
+				{
+					id: "195B7DC4D7815D29"
+					type: "item"
+					item: "ae2:wireless_terminal"
+				}
+				{
+					id: "384594EA34F0985B"
+					type: "item"
+					item: "ae2:wireless_crafting_terminal"
+				}
+			]
+			rewards: [
+				{
+					id: "7C69F2A048685089"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "3A1C068ABC13E7EE"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "AE无限范围卡和维度卡"
+			x: 4.5d
+			y: 6.0d
+			subtitle: "我并非在写 Toy Story 系列"
+			description: ["&dAE无限范围卡和维度卡&f附加组件提供两个定制无线帮助器，允许无限的连接范围，并提供可选的跨维度支持."]
+			dependencies: ["16299B9AE87257DC"]
+			id: "234DC1702333EB18"
+			tasks: [
+				{
+					id: "745C92ED1392EE1A"
+					type: "item"
+					item: "aeinfinitybooster:infinity_card"
+				}
+				{
+					id: "4EDA481E8668C82B"
+					type: "item"
+					item: "aeinfinitybooster:dimension_card"
+				}
+			]
+			rewards: [
+				{
+					id: "166910739B51C0F9"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "6724FE14F1AF7CB1"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "奇点"
+			icon: "ae2:singularity"
+			x: -6.0d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "不是很反物质"
+			description: [
+				"当使用64k或更高的存储组件时，物质聚合器能够显著更多地聚合以产生&b奇点&f.单个奇点需要256000个物品.需要&o4000个堆栈&r!（不懂）"
+				""
+				"当你把奇点丢到充满&e末影粉&f的地面上时会发什么呢.你必须对周围环境造成些破坏,但AE2自带了&b迷你TNT&f来最大限度减少破坏."
+			]
+			dependencies: ["5BB887411B8B38FA"]
+			id: "3E3DF8E967D95DB0"
+			tasks: [
+				{
+					id: "3458474D44BD443F"
+					type: "item"
+					item: "ae2:singularity"
+				}
+				{
+					id: "523A126499263FE0"
+					type: "item"
+					item: "ae2:ender_dust"
+				}
+				{
+					id: "3A45E1C2AE35002B"
+					type: "item"
+					item: "ae2:tiny_tnt"
+				}
+			]
+			rewards: [
+				{
+					id: "545E8CF0C43F9B5B"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "6C2DAC14419B90E4"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "说话不严谨"
+			x: 15.5d
+			y: -2.5d
+			shape: "circle"
+			subtitle: "剩余的两个IO卡"
+			description: ["&b模糊卡&f允许匹配过滤后的物品，而不考虑任何（NBT）元数据，例如伤害或附魔, 而&b反相卡&f将此类总线上的过滤器从白名单切换为黑名单."]
+			dependencies: ["371A382CF1DDF2B2"]
+			id: "6E15447FC3D678E0"
+			tasks: [
+				{
+					id: "79E894E41241B6A2"
+					type: "item"
+					item: "ae2:fuzzy_card"
+				}
+				{
+					id: "6AAE42DF0347D1F4"
+					type: "item"
+					item: "ae2:inverter_card"
+				}
+			]
+			rewards: [
+				{
+					id: "6FF117C99E79959D"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "27958B72A4A4CD9E"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "量子网桥"
+			x: -8.0d
+			y: 4.5d
+			shape: "rsquare"
+			description: [
+				"如果你正确地完成了最后一个任务，你应该把这个奇点变成一对&b量子纠缠奇点&f.这些新的奇点被用来连接一个称为&e量子网桥&f."
+				""
+				"当使用量子纠缠奇点将其中两个单独的环连接起来，并用一些AE能量（例如能量电池）启动时，ME网络可以在桥的另一侧无线扩展，跨越长距离甚至维度."
+			]
+			dependencies: ["3E3DF8E967D95DB0"]
+			id: "0B218DD73FE8D985"
+			tasks: [
+				{
+					id: "7D869E1310E92BED"
+					type: "item"
+					item: "ae2:quantum_ring"
+					count: 16L
+				}
+				{
+					id: "20AA67ECEA653B99"
+					type: "item"
+					item: "ae2:quantum_link"
+					count: 2L
+				}
+				{
+					id: "6590872EF147B7DF"
+					type: "item"
+					item: "ae2:quantum_entangled_singularity"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "202B598DA89EB6EA"
+					type: "random"
+					table_id: 5871764666515020368L
+				}
+				{
+					id: "25C4692C8D47D950"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "频道前言"
+			x: -3.0d
+			y: 1.5d
+			shape: "rsquare"
+			description: [
+				"在应用能源学2中，每个ME网络都有一定数量的&e频道&f可用，这意味着整个网络上可以容纳多少联网设备."
+				""
+				"根据经验，任何或多或少直接处理ME数据（存储在网络中的物品）并执行某种形式I/O的设备都将占用一个频道.通常只与网络内部电源存储有关的组件，如&e能量元件&f和&e压印器&f,并&o不&r占用频道."
+				""
+				"没有&bME控制器&f的网络称为“ad-hoc”网络，最多只支持8个信道。（不懂）"
+			]
+			dependencies: ["5C22E3103544B120"]
+			id: "78311531069807DE"
+			tasks: [{
+				id: "7E0D9E6342295AB0"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0608B89F87FECB34"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

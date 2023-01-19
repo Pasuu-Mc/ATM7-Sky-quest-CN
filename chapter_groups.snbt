@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "1CF541D7529DA9CF", title: "主线" }
+		{ id: "470D66B33874E150", title: "匠魂" }
+		{ id: "1AC60211DE7427FC", title: "存储" }
+		{ id: "6614EE2378B8AFB9", title: "资源" }
+		{ id: "2B51AC12041E3F89", title: "科技" }
+		{ id: "02FE661031A105D8", title: "魔法" }
+		{ id: "752CDE464613A1ED", title: "探险" }
+	]
+}

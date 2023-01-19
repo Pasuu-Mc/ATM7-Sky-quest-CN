@@ -1,0 +1,855 @@
+{
+	id: "100C477F4E63F20A"
+	group: "2B51AC12041E3F89"
+	order_index: 1
+	filename: "create"
+	title: "机械动力"
+	icon: "create:large_cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 100.0d
+		height: 100.0d
+		rotation: 0.0d
+		image: "atm:textures/clouds.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"&5&l欢迎来到机械动力!"
+				""
+				"Create是一个沉浸式的技术mod，将现实主义带入了一个全新的层次!"
+				""
+				"如果您对任何方块或物品有疑问，请按住W思考并查看一个令人惊叹的3D游戏中wiki!"
+				""
+				"&6该mod本人从未玩过，部分汉化错误见谅&r"
+				
+			]
+			size: 1.5d
+			id: "57A7A5C79389A96A"
+			tasks: [{
+				id: "695A0E0BC4B78AEC"
+				type: "checkmark"
+				title: "Create"
+				icon: "create:wrench"
+			}]
+			rewards: [{
+				id: "1E5B06A1884F3578"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["这将是这个mod的大部分物品和方块的主要成分."]
+			dependencies: ["57A7A5C79389A96A"]
+			id: "0F16498769DFB3B0"
+			tasks: [{
+				id: "5D2B9139C49F5ABA"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 32L
+			}]
+			rewards: [{
+				id: "50217BC8953EBD3E"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 32
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			description: ["&n&5传动杆&r在不改变齿轮速度的情况下传递动力."]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "5B36DE3826F26963"
+			tasks: [{
+				id: "2F89C6C2CD322B51"
+				type: "item"
+				item: "create:shaft"
+				count: 16L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			description: [
+				"&n&5齿轮&r传递动力，但速度也可加倍或减半."
+				""
+				"加倍的速度也会使系统中的应力加倍."
+			]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "3E5E0C768038CDF4"
+			tasks: [{
+				id: "68F2BD699AADA753"
+				type: "item"
+				item: "create:cogwheel"
+				count: 8L
+			}]
+			rewards: [{
+				id: "76537C95327D603D"
+				type: "item"
+				item: "create:cogwheel"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: [
+				"&n&5大齿轮&r传递动力，但速度也可加倍或减半."
+				""
+				"加倍的速度也会使系统中的应力加倍."
+			]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "23A9617F183C4EB1"
+			tasks: [{
+				id: "3E2A4428BDE92738"
+				type: "item"
+				item: "create:large_cogwheel"
+				count: 8L
+			}]
+			rewards: [{
+				id: "01DCE2A5A57DAEC5"
+				type: "item"
+				item: "create:large_cogwheel"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			description: [
+				"&n&5水车&r是产生动力的最基本方法之一.您可以通过将多个轮子并排放置来连接它们."
+				""
+				"它的速度是通过有多少流动的水方块接触车轮来测量的."
+			]
+			dependencies: ["23A9617F183C4EB1"]
+			id: "1AC0B7934F275EDE"
+			tasks: [{
+				id: "35709DE2871F0CED"
+				type: "item"
+				item: "create:water_wheel"
+				count: 3L
+			}]
+			rewards: [{
+				id: "5118928E884676B3"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			description: ["&n&5鼓风机&r可以用于拉动/推送物品和实体.箭头将显示它所面对的方向，旋转方向将决定它是推动还是拉动."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "1E9B2D814F50A265"
+			tasks: [{
+				id: "1A4B96C7C821174E"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			description: ["&n&5十字齿轮箱&r可以在任何方向上旋转90度."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "4285510271B5223D"
+			tasks: [{
+				id: "1840DB80F48921E2"
+				type: "item"
+				item: "create:gearbox"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			description: ["&n&5离合器&r如果施加红石信号，将停止任何旋转."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "2BB3DB19D5EFC7E2"
+			tasks: [{
+				id: "54F14BE619292D1D"
+				type: "item"
+				item: "create:clutch"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			description: ["&n&5反转齿轮箱&r如果施加红石信号，将反转旋转方向."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "67A46ED73E488CEE"
+			tasks: [{
+				id: "0CE491535E6FA50B"
+				type: "item"
+				item: "create:gearshift"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			description: ["&n&5链式传动箱&r可以在任何方向上与其他旋转动力联系，只要他们接触.他们将从侧面接力旋转."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "7F8E50FA436DB4E6"
+			tasks: [{
+				id: "1674E46511507301"
+				type: "item"
+				item: "create:encased_chain_drive"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			description: [
+				"&n&5可调节链式传动箱&r当没有红石信号时，其工作方式与正常的链传动类似."
+				""
+				"当你施加一个红石信号，并且它是接收旋转力的方块时，它将使连接的链传动的速度加倍."
+				""
+				"当你施加一个红石信号，但它不是接收旋转力的方块时，它将是连接的链传动速度的一半."
+			]
+			dependencies: ["7F8E50FA436DB4E6"]
+			id: "54EC1C7FC1DA9107"
+			tasks: [{
+				id: "115F81D0A661F71F"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			description: ["&n&5动力辊(gǔn)压机&r可用于制作金属板或块."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "2D41B04C75FA02BC"
+			tasks: [{
+				id: "52136CB29F02E923"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			description: ["&n&5动力搅拌器&r可与工作盆结合使用."]
+			dependencies: ["2D41B04C75FA02BC"]
+			id: "5DC892BA79EB52EC"
+			tasks: [{
+				id: "057EDA1FF37AE35E"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			description: ["&n&5工作盆&r用于合成，主要包括&n&5动力辊压机&r和&n&5动力搅拌器&r."]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "75CBB5BD8C1DFEA1"
+			tasks: [{
+				id: "56DBF4356117F26A"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			description: [
+				"要获取&n&5烈焰人燃烧室&r,你需要制作一个空的燃烧室右键烈焰人获得."
+				""
+				"一般燃烧和超级燃烧用于工作盆不同配方."
+			]
+			dependencies: ["2D41B04C75FA02BC"]
+			id: "1B182A30604655E2"
+			tasks: [{
+				id: "50FED4EED98A8648"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["&n&5动力活塞&r类似于活塞，它可以推块，但您可以根据需要添加任意数量的活塞杆."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "45EC31812FB9934D"
+			tasks: [{
+				id: "7C7AF9238D06CB36"
+				type: "item"
+				item: "create:mechanical_piston"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			description: ["速度表将显示当前连接档位的速度."]
+			dependencies: ["4F95F00ED78FBAB9"]
+			id: "29917E6196649F5D"
+			tasks: [{
+				id: "6A5BBAA13F1730F2"
+				type: "item"
+				item: "create:speedometer"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			description: ["应力表将显示连接系统时系统的应力."]
+			dependencies: ["4F95F00ED78FBAB9"]
+			id: "48BE7DAC5082044D"
+			tasks: [{
+				id: "10CB6FCDDD3E38D4"
+				type: "item"
+				item: "create:stressometer"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			description: [
+				"&n&5矿车装配站&r可以放置在轨道上.如果装配工有红石信号，你在上面建造的任何东西都会被玩家拾取."
+				""
+				"方块必须粘合在一起，任何需要旋转力的方块都将自动工作."
+				""
+				"要从Minecart“卸载”方块，只需关闭红石信号，让玩家通过."
+			]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "09936F8FCEA72C5C"
+			tasks: [{
+				id: "15BA4109324B4A44"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["&n&5机壳底盘&r的使用方法类似于&n&5强力胶&r.它将在一条线上连接方块，而不需要胶水."]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "51EA6B1452883AB2"
+			tasks: [{
+				id: "4A80AC1DE4002191"
+				type: "item"
+				item: "create:linear_chassis"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["&n&5旋转底盘&r与&n&5强力胶&r类似.它将在侧面将方块连接成一条直线，而不需要胶水."]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "459BA85E48B343AE"
+			tasks: [{
+				id: "3598B8EDD5834F92"
+				type: "item"
+				item: "create:radial_chassis"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			description: ["与&n&5旋转底盘&r合并，可以制作一个产生应力较多的风车."]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "76CBFA38D021AC95"
+			tasks: [{
+				id: "3652E21F6AD6D33F"
+				type: "item"
+				item: "create:white_sail"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			description: ["&n&5动力钻头&r会破坏前面的任何障碍.如果它有一个连接的箱子，则物品将存储在其中."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "3029E1E133B91ED8"
+			tasks: [{
+				id: "072131C19C185896"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: ["&n&5动力锯&r将砍伐前面的树木.它也可以用作锯木厂.如果它有一个连接的箱子，则物品将存储在其中."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "72DCE154E1714890"
+			tasks: [{
+				id: "36C1D75275CE2AAB"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			description: ["&n&5机械手&r可用于放置物品/方块或使用剑等物品."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "3314FBC4FEAE1D08"
+			tasks: [{
+				id: "79D2F12337D1F637"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			description: [
+				"&n&5移动式存储接口&r成对工作.你需要将一个放置在世界上，另一个放置于移动的实体上，如Minecart（玩家?)."
+				""
+				"当两个接口彼此面对时，它们将在彼此之间连接和传输物品."
+			]
+			dependencies: ["48EA6D9923E38B71"]
+			id: "134BC365E77C6DB8"
+			tasks: [{
+				id: "2D54A1DB29903A0A"
+				type: "item"
+				item: "create:portable_storage_interface"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			description: ["&n&5动力收割机&r将收获它面前的任何作物.如果它有一个连接的箱子，则物品将存储在其中."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "4C31649D721F76B5"
+			tasks: [{
+				id: "1357FF84B9B133C4"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["&n&5动力犁&r将摧毁任何无碰撞体积方块，将泥土变成耕地，并在不造成损害的情况下击飞实体.如果它有一个连接的箱子，则物品将存储在其中."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "0759CA52EECF3B49"
+			tasks: [{
+				id: "7B9B459AAB9F6483"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["&n&5安山机壳&r用作大多数壳的制作原料."]
+			dependencies: ["57A7A5C79389A96A"]
+			id: "17885C2DE986F1BD"
+			tasks: [{
+				id: "0341E5F9B7361D1F"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			description: ["&n&5黄铜机壳&r用作大多数壳的制作原料."]
+			dependencies: ["1DA6B8B2DCC97809"]
+			id: "48EA6D9923E38B71"
+			tasks: [{
+				id: "23E40F6D58658887"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			description: ["&n&5铜机壳&r用作大多数壳的制作原料."]
+			dependencies: ["2D41B04C75FA02BC"]
+			id: "3F663416E824720C"
+			tasks: [{
+				id: "7FE62F264B4FA5DE"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 5.0d
+			dependencies: ["1DA6B8B2DCC97809"]
+			id: "2244A1B11D7D6E11"
+			tasks: [{
+				id: "4BE77A9A3F878072"
+				type: "item"
+				item: "create:flywheel"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.5d
+			description: [
+				"&n&5动力臂&r是一种机器，可以从箱子或传送带中取出物品，并将其放入不同的箱子、传送带或动力合成器."
+				""
+				"要选择输入/输出，请将手臂握在手中，然后右键单击要分配的方块."
+				""
+				"要取消选择方块，请用手中的手臂单击它."
+			]
+			dependencies: ["4194397DFD0199C2"]
+			id: "3F2C1A81C17D2D67"
+			tasks: [{
+				id: "3EC06DE78E520CC9"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: ["&n&5安山岩漏斗&r可以从从箱子中导入或导出项目."]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "47A6769B6BF1A46D"
+			tasks: [{
+				id: "5CB1191F8F7BBAA4"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			description: ["&n&5黄铜漏斗&r可以从从箱子中导入或导出项目."]
+			dependencies: ["1DA6B8B2DCC97809"]
+			id: "495B0CC178B4CFA9"
+			tasks: [{
+				id: "1C5B4D14826937BB"
+				type: "item"
+				item: "create:brass_funnel"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			description: ["&n&5安山岩隧道&r可以放在传送带上，它们会过滤通过传送带的物品.您可以通过将多个隧道并排放置来连接它们."]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "7C8CDD259495A31A"
+			tasks: [{
+				id: "07162DA2FD7B0E05"
+				type: "item"
+				item: "create:andesite_tunnel"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			description: ["&n&5黄铜隧道&r可以放在传送带上，它们会过滤通过传送带的物品.您可以通过将多个隧道并排放置来连接它们."]
+			dependencies: ["1DA6B8B2DCC97809"]
+			id: "78656C89EEE80DB5"
+			tasks: [{
+				id: "688E14A6938EBEF7"
+				type: "item"
+				item: "create:brass_tunnel"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["&n&5置物台&r用于暂存少量物品、存放被加工物品，主要用于注液器."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "7F0D59EC1573FDC0"
+			tasks: [{
+				id: "7EFB9500BBDD745C"
+				type: "item"
+				item: "create:depot"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			description: ["&n&5溜槽&r用于抽入/从箱子中提取，或从传送带上放置/取出物品."]
+			dependencies: ["2D41B04C75FA02BC"]
+			id: "3D2A03EB2B91E9C1"
+			tasks: [{
+				id: "105F8859D59964C4"
+				type: "item"
+				item: "create:chute"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"这些护目镜可以让你更详细地看到你的信息."
+				""
+				"它将显示旋转速度和应力."
+			]
+			dependencies: ["57A7A5C79389A96A"]
+			id: "4F95F00ED78FBAB9"
+			tasks: [{
+				id: "6989058FD488CE64"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: [
+				"你可以通过制作玫瑰色水晶和砂纸来制作."
+				""
+				"你可以用左手拿着水晶，也可以把它们扔在地上，然后在拿着砂纸的同时右击."
+			]
+			dependencies: ["57A7A5C79389A96A"]
+			id: "610DEC4FC4FBB63E"
+			tasks: [{
+				id: "3BC40DF423178031"
+				type: "item"
+				item: "create:polished_rose_quartz"
+				count: 8L
+			}]
+			rewards: [{
+				id: "43C2760F8FDD84CA"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			description: ["&n&5烈焰蛋糕&r对烈焰人燃烧室使用会使其进入超级燃烧状态，用于一些需要高温才能完成的配方."]
+			dependencies: ["1C2309DB4B890E71"]
+			id: "4C77ABCD41383F32"
+			tasks: [{
+				id: "2E9A4E9BFFC10819"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.5d
+			description: [
+				"&n&5动力合成器&r可以相互连接，形成一个巨大的工作台."
+				""
+				"动力合成器身上的箭头最终必须汇聚在同一个动力合成器身上，才能完成配方.您可以使用扳手右击箭头."
+			]
+			dependencies: ["1DA6B8B2DCC97809"]
+			id: "4194397DFD0199C2"
+			tasks: [{
+				id: "65C6E83AF17405E0"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			description: ["&n&5起重机取物器&r可以连接到起重机杆上，如果轴旋转，它将沿着它移动取物器."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "75B14A09FE39EDDA"
+			tasks: [{
+				id: "7DA78C3A582368E2"
+				type: "item"
+				item: "create:gantry_carriage"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			description: ["&n&5弹射置物台&r可以将物品或实体启动到选定位置."]
+			dependencies: ["7F0D59EC1573FDC0"]
+			id: "4EA4EDD5A7923F98"
+			tasks: [{
+				id: "34313AA5D327317C"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			description: ["&n&5智能溜槽&r与溜槽相同，但具有其他功能，如堆叠尺寸和过滤器."]
+			dependencies: ["3D2A03EB2B91E9C1"]
+			id: "7EEEEDD5FF31ACD3"
+			tasks: [{
+				id: "37EE09651ED58F6F"
+				type: "item"
+				item: "create:smart_chute"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: [
+				"蓝图桌用于将“空白蓝图”变为保存有所选结构信息的“蓝图”."
+				""
+				"您可以使用它复制建筑物或与其他人共享!"
+			]
+			dependencies: ["57A7A5C79389A96A"]
+			id: "0CF69DBA9573A7B3"
+			tasks: [{
+				id: "0FB1E9BD14FE8EF8"
+				type: "item"
+				item: "create:schematic_table"
+			}]
+			rewards: [{
+				id: "35DCC6CB7C472F17"
+				type: "item"
+				item: "create:schematic_and_quill"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			description: ["大炮将根据蓝图建造结构，从附近的箱子中提取材料，并使用火药作为燃料."]
+			dependencies: ["0CF69DBA9573A7B3"]
+			id: "7D67058592EE5958"
+			tasks: [{
+				id: "5D989C876E9B8AA5"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			description: ["&n&5绳索滑轮&r可以上下移动方块，它们可以粘在一起."]
+			dependencies: ["17885C2DE986F1BD"]
+			id: "24E658BA47367A44"
+			tasks: [{
+				id: "0674C07C7DE332A9"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			description: ["&n&5注液器&r用于填充液体.最好使用其下方的箱子存放物品."]
+			dependencies: ["3F663416E824720C"]
+			id: "1C2309DB4B890E71"
+			tasks: [{
+				id: "6772D04457414991"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			description: ["&n&5软管滑轮&r是一种可以在世界上提取液体或放置液体的泵."]
+			dependencies: ["3F663416E824720C"]
+			id: "77382D4114E901CB"
+			tasks: [{
+				id: "739701B00C0F8A7B"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["45EC31812FB9934D"]
+			id: "1265C49FE7032C4F"
+			tasks: [{
+				id: "64C79C55EB1CC9F2"
+				type: "item"
+				item: "create:sticky_mechanical_piston"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["45EC31812FB9934D"]
+			id: "47897D827C50629D"
+			tasks: [{
+				id: "473DA14538E1B94C"
+				type: "item"
+				item: "create:piston_extension_pole"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			description: [
+				"&n&5移动式流体接口&r成对工作.你需要将一个放置在世界上，另一个放置于移动的实体上，如Minecart（玩家吧，实体？）."
+				""
+				"当两个界面彼此面对时，它们将在彼此之间连接和传递液体."
+			]
+			dependencies: ["3F663416E824720C"]
+			id: "71B1B53A03A16296"
+			tasks: [{
+				id: "339D26EDFBB54047"
+				type: "item"
+				item: "create:portable_fluid_interface"
+			}]
+		}
+		{
+			title: "黄铜"
+			x: 10.5d
+			y: 3.0d
+			dependencies: ["5DC892BA79EB52EC"]
+			id: "1DA6B8B2DCC97809"
+			tasks: [{
+				id: "07896B715ED0E04F"
+				type: "item"
+				title: "任何黄铜锭"
+				icon: "create:brass_ingot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/brass"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			description: ["&n&5强力胶&r可用于将方块彼此连接，以通过活塞或其他方式移动方块."]
+			dependencies: ["2D41B04C75FA02BC"]
+			id: "1F58AA51814C7568"
+			tasks: [{
+				id: "1A9BC10CDDA9FCF2"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			description: [
+				"&n&5传送带&r可以放置在两个轴之间，以转移物体/物品或简单地将旋转应力从一个点转移到另一个点."
+				""
+				"&n&5传动杆&r必须彼此成45、90或180度角."
+			]
+			dependencies: ["0F16498769DFB3B0"]
+			id: "13AEBC331F29BC3D"
+			tasks: [{
+				id: "4D2A907287515990"
+				type: "item"
+				item: "create:belt_connector"
+				count: 4L
+			}]
+		}
+	]
+}

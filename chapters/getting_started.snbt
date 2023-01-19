@@ -1,0 +1,1097 @@
+{
+	id: "517444D5104113B0"
+	group: "1CF541D7529DA9CF"
+	order_index: 0
+	filename: "getting_started"
+	title: "入门：第1部分"
+	icon: "minecraft:furnace"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -8.0d
+			y: -4.0d
+			width: 1.5d
+			height: 1.5d
+			rotation: 45.0d
+			image: "minecraft:textures/block/crafting_table_top.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			width: 1.5d
+			height: 1.5d
+			rotation: 45.0d
+			image: "minecraft:textures/block/crafting_table_top.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: -4.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "ftbchunks:textures/waypoint_home.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "immersiveengineering:textures/block/wooden_device/craftingtable.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "&9入门!"
+			icon: "minecraft:crafting_table"
+			x: -8.0d
+			y: -1.0d
+			shape: "hexagon"
+			description: [
+				"欢迎来到ATM7：To-the-Sky! "
+				""
+				"如果你玩过原版游戏（或任何一款skyblock游戏），那么你要做的大部分事情都应该是不言自明的，直到ATM金属."
+				""
+				"如果没有玩过，不要害怕!这些任务将指导您完成开始."
+				""
+				"本章中的一些任务有游戏内视频的思考教程!他们将作为奖励.点击奖励观看思考视频，向您传授有关该物品的所有知识!"
+			]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "22C568A17B5D1B46"
+			tasks: [{
+				id: "29CD23D3C0D3DA7E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4B7A57FC6018E1C7"
+				type: "item"
+				item: "minecraft:cooked_beef"
+				count: 16
+			}]
+		}
+		{
+			title: "I'm twerkin' 9 to 5..."
+			icon: "minecraft:oak_log"
+			x: -6.0d
+			y: -1.0d
+			subtitle: "每个人旅程的开始"
+			description: [
+				"砍倒这棵树."
+				""
+				"*注意：是的，作为一个空岛，你可以蹲下来让你的树更快地生长."
+			]
+			dependencies: ["22C568A17B5D1B46"]
+			dependency_requirement: "one_completed"
+			id: "3001B2EEE5C6C9AB"
+			tasks: [
+				{
+					id: "1BB08F6BC4167067"
+					type: "item"
+					title: "原木"
+					icon: "minecraft:oak_log"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "63E6BD713B5AF4AE"
+					type: "item"
+					title: "木板"
+					icon: "minecraft:oak_planks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "18AF6D629BECC09D"
+					type: "item"
+					item: "minecraft:stick"
+					count: 4
+				}
+				{
+					id: "249A2C2859276487"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "熔炉升级?"
+			x: 0.5d
+			y: 0.5d
+			subtitle: "这个包里的所有东西都升级了吗?"
+			description: [
+				"如果你在工作台上用铁围绕熔炉，你可以将熔炉升级为铁炉."
+				""
+				"这些熔炼速度更快，也可以通过GUI左上角的齿轮自动配置."
+			]
+			dependencies: ["231765C07B4A12B7"]
+			id: "376BAC497511F067"
+			tasks: [{
+				id: "405EB586C5ADC0A2"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [
+				{
+					id: "2D9829459275EC1F"
+					type: "item"
+					item: "ironfurnaces:upgrade_iron"
+				}
+				{
+					id: "5E42C040428B7845"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "启动农场"
+			icon: "minecraft:wheat_seeds"
+			x: 2.0d
+			y: -2.5d
+			subtitle: "食物的基本知识."
+			description: ["苹果不能永远喂你！开始自己的小农场吧."]
+			id: "1658780534451E39"
+			tasks: [
+				{
+					id: "5ADD78F668867783"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 8L
+				}
+				{
+					id: "270877E392533EC4"
+					type: "item"
+					title: "锄头"
+					icon: {
+						id: "minecraft:stone_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:hoes"
+						}
+					}
+				}
+				{
+					id: "254E23EDCFEB9781"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "59BF4162E4B08353"
+					type: "item"
+					item: "minecraft:bread"
+					count: 8
+				}
+				{
+					id: "60103E3DC2D66F0C"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 8
+				}
+				{
+					id: "1F6C343190B103B7"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "食品和农业章节"
+			icon: "minecraft:apple"
+			x: 4.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "食物入门"
+			description: ["通过查看&a食品和农业&r章节了解所有食物."]
+			dependencies: ["1658780534451E39"]
+			size: 2.0d
+			id: "5ED547FE0A9CFC63"
+			tasks: [{
+				id: "212FE7B11E7CA150"
+				type: "checkmark"
+				title: "食品和农业"
+			}]
+			rewards: [{
+				id: "7452FA68B77452AA"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "最初的电源"
+			icon: "rftoolspower:coalgenerator"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "您的第一台发电机"
+			description: [
+				"有很多方法可以产生你最初的能量."
+				""
+				"RFTools燃煤发电机是最简单的."
+			]
+			dependencies: ["231765C07B4A12B7"]
+			id: "25D1363D8890E7C3"
+			tasks: [{
+				id: "39565EF66F300895"
+				type: "item"
+				item: "rftoolspower:coalgenerator"
+			}]
+			rewards: [
+				{
+					id: "44E15F1AD8E6807C"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 4
+				}
+				{
+					id: "333830DA1521CB83"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "入门：第2部分"
+			icon: "mekanismgenerators:wind_generator"
+			x: 4.0d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "Starting with Power and Beyond"
+			description: [
+				"如果我们想在ATM7:TTS中开始自动化，我们需要更深入地了解它的功能."
+				""
+				"要继续我们的进展，请查看&a入门：第2部分&r!"
+			]
+			dependencies: ["25D1363D8890E7C3"]
+			size: 2.0d
+			id: "162AB6F9257EB71E"
+			tasks: [{
+				id: "1AD156F8A190ED63"
+				type: "checkmark"
+				title: "发电机"
+			}]
+			rewards: [{
+				id: "0AE705952533CFCB"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "破坏石头"
+			x: -4.0d
+			y: -1.0d
+			description: [
+				"就像其他的空岛一样，你可以从右键单击的草地上获得圆石，但这里的效果有点不同. "
+				""
+				"你有50%的机会获得圆石，还有50%的机会得到其他圆石变体."
+			]
+			dependencies: ["3001B2EEE5C6C9AB"]
+			id: "3F755A55B2043E5B"
+			tasks: [{
+				id: "4AE51A3A3D9B6E3A"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+			rewards: [
+				{
+					id: "42BD8A1CD2A9463A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "71551EF2B81AC2F4"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "Is that crooked, or are my eyes funny?"
+			x: -4.0d
+			y: 0.5d
+			description: [
+				"Crooks将给你一个更好的机会从树叶中得到树苗和苹果，但也是这样得到蚕。你需要这些来获得进一步的进展."
+				""
+				"对于大多数（如果不是全部）Ex-Nihilo的东西，都有自定义的思考教程!申请本章中的奖励以打开教程!"
+			]
+			dependencies: ["3001B2EEE5C6C9AB"]
+			id: "744E757CA323FF46"
+			tasks: [{
+				id: "22FBCA5AA2D1B8B1"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:wooden_crook"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "75B0C73019BCE1E4"
+				type: "command"
+				title: "单击以获取教程!"
+				auto: "disabled"
+				command: "/create ponder exnihilosequentia:wooden_crook"
+				player_command: true
+			}]
+		}
+		{
+			title: "锤击时间! "
+			x: -2.5d
+			y: -1.0d
+			subtitle: "一个完全被滥用的笑话"
+			description: [
+				"为了获得资源，我们需要把圆石粉碎成我们可以筛选的东西."
+				""
+				"这就是锤子的作用.放下要锤击的方块，然后用锤子敲击."
+				""
+				"记住，你可以锤击压缩物品."
+			]
+			dependencies: ["3F755A55B2043E5B"]
+			id: "35EF391AB5344094"
+			tasks: [{
+				id: "596CB9CDB4192339"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "48C0C243A6BEF8E9"
+					type: "item"
+					item: "croptopia:cucumber_salad"
+				}
+				{
+					id: "316751A6582293A2"
+					type: "command"
+					title: "单击以获取教程!"
+					auto: "disabled"
+					command: "/create ponder exnihilosequentia:wooden_hammer"
+					player_command: true
+				}
+				{
+					id: "413B6EC90CF35070"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			description: ["想知道如何得到这个?从上一次任务中获得奖励!"]
+			dependencies: ["744E757CA323FF46"]
+			id: "4A536710A11856F2"
+			tasks: [{
+				id: "41B28C0567C513BC"
+				type: "item"
+				item: "minecraft:string"
+			}]
+			rewards: [{
+				id: "13BA5B0FB5A2ABA3"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			subtitle: "就像烤蛋糕!"
+			description: [
+				"筛子是在这个整合包中收集资源的最常用方法，大多数材料都可以通过这种方式获取! "
+				""
+				"不同的网格产生不同的资源，用于筛选不同的材料!筛子也可以被时运附魔，以获得更高的收益."
+				""
+				"您也可以通过制作25个橡木筛，将其放在5x5.右键单击要筛选的物品，中间筛子将使用25而不是1.它们每个都需要网格."
+			]
+			dependencies: [
+				"4A536710A11856F2"
+				"11CE392E7A41785F"
+			]
+			id: "768F0E715B05D9E4"
+			tasks: [
+				{
+					id: "50082DE6C1394D74"
+					type: "item"
+					item: "exnihilosequentia:oak_sieve"
+				}
+				{
+					id: "651DD634E79316A1"
+					type: "item"
+					item: "exnihilosequentia:string_mesh"
+				}
+			]
+			rewards: [
+				{
+					id: "58618640C6F97E8F"
+					type: "command"
+					title: "单击以获取教程!"
+					auto: "disabled"
+					command: "/create ponder exnihilosequentia:oak_sieve"
+					player_command: true
+				}
+				{
+					id: "0AFCD30D6D409645"
+					type: "item"
+					item: "minecraft:string"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "5EBC2F4FBF5D334D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "沙砾"
+			x: -1.0d
+			y: -1.0d
+			subtitle: "第一个筛选物品"
+			description: [
+				"开始的大部分旅程都是通过筛选获取材料.我们将在下一个任务中了解更多信息."
+				""
+				"不要害怕制造一吨沙砾.筛选沙砾是你进步的方式!"
+			]
+			dependencies: ["35EF391AB5344094"]
+			id: "11CE392E7A41785F"
+			tasks: [{
+				id: "7CF148153F47112C"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "29178773D4542884"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "0D467E78B5BF0F3E"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "我们的首次升级"
+			description: [
+				"使用燧石筛网，您将开始获得一些实际资源."
+				""
+				"如果你想知道在筛选时每个网格会落下什么，你可以在网格上点击JEI中的“U”来查看列表."
+			]
+			dependencies: ["768F0E715B05D9E4"]
+			id: "2CF0EE5C0651F531"
+			tasks: [{
+				id: "4591A7EDAC7584E4"
+				type: "item"
+				item: "exnihilosequentia:flint_mesh"
+			}]
+			rewards: [
+				{
+					id: "3BBCEC8BA7C6FEA8"
+					type: "item"
+					item: "minecraft:flint"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "42306161D2989FAA"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["2CF0EE5C0651F531"]
+			id: "11097D91EBF2490D"
+			tasks: [{
+				id: "6BB34060F0E0CF88"
+				type: "item"
+				item: "exnihilosequentia:iron_mesh"
+			}]
+			rewards: [
+				{
+					id: "2504062340997AE6"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "4ABF3BE61FF6D926"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["11097D91EBF2490D"]
+			id: "6580DCA54E4C9BC2"
+			tasks: [{
+				id: "2E0FB9514B1670B0"
+				type: "item"
+				item: "exnihilosequentia:diamond_mesh"
+			}]
+			rewards: [
+				{
+					id: "5AB9AFB741615CBB"
+					type: "item"
+					item: "minecraft:diamond"
+					random_bonus: 1
+				}
+				{
+					id: "4934893AC98D060B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["6580DCA54E4C9BC2"]
+			id: "77D00771439F54A2"
+			tasks: [{
+				id: "7DC1D44F7C508713"
+				type: "item"
+				item: "exnihilosequentia:emerald_mesh"
+			}]
+			rewards: [
+				{
+					id: "2404EB506A93223F"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "3DA16A54D8510583"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "最终网格"
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["77D00771439F54A2"]
+			id: "01FEB5D4F5ADD557"
+			tasks: [{
+				id: "6786082559455714"
+				type: "item"
+				item: "exnihilosequentia:netherite_mesh"
+			}]
+			rewards: [
+				{
+					id: "2B9E50121EA42974"
+					type: "item"
+					item: "minecraft:ancient_debris"
+				}
+				{
+					id: "27B6D076E3924965"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			subtitle: "锤子2x"
+			dependencies: ["11CE392E7A41785F"]
+			id: "36D0417745C747B1"
+			tasks: [{
+				id: "68E91C614AAF5C66"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+			rewards: [
+				{
+					id: "08B2809A5CE520DF"
+					type: "item"
+					item: "minecraft:sand"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "7688E791AF524742"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			subtitle: "锤子3x"
+			dependencies: ["36D0417745C747B1"]
+			id: "70063949E831D49E"
+			tasks: [{
+				id: "2809511BE1FC38AF"
+				type: "item"
+				item: "exnihilosequentia:dust"
+			}]
+			rewards: [
+				{
+					id: "69AF9CD584A8CB13"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7F4CFC542D0EF29F"
+					type: "item"
+					item: "exnihilosequentia:dust"
+					count: 3
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			title: "锤击压缩物品"
+			x: -4.0d
+			y: -2.5d
+			subtitle: "压缩锤击仍然是一件大事!"
+			description: [
+				"为了加快获取资源，您可以压缩圆石、沙砾等.并锤击压缩版本以节省时间!"
+				""
+				"由于我们的自动筛分模式的性质，我们认为最好不要让这些筛过，但手动锤击仍然是可能的!"
+			]
+			dependencies: ["3F755A55B2043E5B"]
+			id: "0C9B97D2048A1073"
+			tasks: [{
+				id: "0E71F927D6AEFC25"
+				type: "item"
+				item: "allthecompressed:cobblestone_block_1x"
+			}]
+			rewards: [
+				{
+					id: "5E7B4414825E2D01"
+					type: "item"
+					item: "allthecompressed:sand_block_1x"
+				}
+				{
+					id: "07F9D00A06EC29C2"
+					type: "item"
+					item: "allthecompressed:gravel_block_1x"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			description: [
+				"一旦你有了燧石网，你将开始从筛分中获得基本材料，比如铁!"
+				""
+				"合并矿石块，自己制作原矿，然后将其扔进熔炉中进行冶炼!"
+			]
+			dependencies: ["2CF0EE5C0651F531"]
+			id: "231765C07B4A12B7"
+			tasks: [
+				{
+					id: "3B51E5B051595390"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "567BCA83C8F96D1B"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+			]
+			rewards: [{
+				id: "4A7FB7C5ECEFB666"
+				type: "item"
+				item: "croptopia:scrambled_eggs"
+			}]
+		}
+		{
+			title: "灵魂沙"
+			icon: "minecraft:soul_sand"
+			x: -2.5d
+			y: -2.5d
+			description: [
+				"菌丝孢子，从过筛的泥土中获得，当用在泥土上时，会将泥土转化为菌丝."
+				""
+				"放在菌丝顶部的一个桶将水转化为女巫水."
+				""
+				"女巫水上使用的沙子被转化为灵魂沙"
+				""
+				"仍然不确定这一切是如何运作的?检查橡木桶任务的奖励!"
+			]
+			dependencies: [
+				"42240BED17BA0948"
+				"36D0417745C747B1"
+			]
+			id: "1FF2E2B85B9EC00F"
+			tasks: [
+				{
+					id: "418174FF58791819"
+					type: "item"
+					item: "exnihilosequentia:mycelium_spores"
+				}
+				{
+					id: "2985C3F0C405582A"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+			]
+			rewards: [{
+				id: "68025572BB281A4E"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			description: [
+				"桶是获取材料的最重要方式之一，仅次于筛子."
+				""
+				"它们可以用水制作粘土，使用巫水制作灵魂沙，甚至可以从树苗上制造泥土."
+				""
+				"注：下雨时这些方块会充满水."
+			]
+			dependencies: ["3001B2EEE5C6C9AB"]
+			id: "42240BED17BA0948"
+			tasks: [{
+				id: "255694580F7FD8B1"
+				type: "item"
+				item: "exnihilosequentia:oak_barrel"
+			}]
+			rewards: [
+				{
+					id: "4E0EC78E48BE1525"
+					type: "command"
+					title: "单击以获取教程!"
+					auto: "disabled"
+					command: "/create ponder exnihilosequentia:oak_barrel"
+					player_command: true
+				}
+				{
+					id: "0C7267A4262E0530"
+					type: "item"
+					item: "minecraft:oak_slab"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			description: ["将桶装满水，右键单击“尘土”以获得粘土."]
+			dependencies: [
+				"42240BED17BA0948"
+				"70063949E831D49E"
+			]
+			id: "53F7B1EE005A696C"
+			tasks: [{
+				id: "0AD9E8B171C9ACB7"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+			rewards: [
+				{
+					id: "6390E1353E17C31A"
+					type: "item"
+					item: "minecraft:clay"
+					count: 2
+				}
+				{
+					id: "6227989F62217507"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "全部激活"
+			x: -1.0d
+			y: -5.5d
+			description: [
+				"我的意思是这是一个空岛，无论我们在这些任务中尝试向你展示多少种不同的充能方法，你最终都会在你的基地(?)里找到20种..."
+				""
+				"当热源置于其下方时，这些坩埚会产生熔岩.你可以用火把开始，即使它很慢.用圆石填充."
+			]
+			dependencies: ["53F7B1EE005A696C"]
+			id: "40A495FCD317A38D"
+			tasks: [{
+				id: "42E5F173A20CD27C"
+				type: "item"
+				item: "exnihilosequentia:fired_crucible"
+			}]
+			rewards: [
+				{
+					id: "069858B24EDE82F4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0DC89925A9750713"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "从头开始"
+			icon: "minecraft:lava_bucket"
+			x: -9.5d
+			y: -1.5d
+			subtitle: "对于那些想向前跳的人"
+			description: ["对于那些想要快速启动的人来说，这为您提供了一个“轻松模式”的启动.你不必完成这个任务，它是可选的."]
+			optional: true
+			id: "2C134DDBF9283407"
+			tasks: [{
+				id: "1C50BB96A8128D96"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "3A8D2846CCA65664"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "1A0F6683B11513BC"
+					type: "item"
+					item: "minecraft:ice"
+				}
+				{
+					id: "537CE0097B860687"
+					type: "item"
+					item: "minecraft:sugar_cane"
+				}
+				{
+					id: "1FAD379DEC201699"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "7620CC0A7DC97E85"
+					type: "item"
+					item: "minecraft:cactus"
+				}
+			]
+		}
+		{
+			title: "圆石发电机Mk1"
+			x: 0.5d
+			y: -5.5d
+			description: [
+				"如果你不想在剩下的时间里右击地板，那就让你成为其中的一员吧."
+				""
+				"你需要在坩埚里制造熔岩，你需要足够的铁来制造两个桶. "
+				""
+				"相信我，这是值得的.它自动生成圆石，并将自动导出到附加库存，如Functional-Storage的橡木抽屉."
+			]
+			dependencies: ["40A495FCD317A38D"]
+			id: "647E94E2156CB596"
+			tasks: [{
+				id: "57CFC222DFE5DEE7"
+				type: "item"
+				item: "cobblefordays:tier_1"
+			}]
+			rewards: [
+				{
+					id: "62E9DFE0920058BA"
+					type: "item"
+					item: "allthecompressed:gravel_block_1x"
+				}
+				{
+					id: "37A0048FB1C89F00"
+					type: "item"
+					item: "allthecompressed:sand_block_1x"
+				}
+				{
+					id: "738CBD5AD343AB66"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -7.0d
+			dependencies: ["647E94E2156CB596"]
+			id: "27187D13B58AC79C"
+			tasks: [{
+				id: "782F24659594A498"
+				type: "item"
+				item: "cobblefordays:tier_2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			dependencies: ["27187D13B58AC79C"]
+			id: "10B71AD29063471F"
+			tasks: [{
+				id: "00E61B1DC1A037FA"
+				type: "item"
+				item: "cobblefordays:tier_3"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			dependencies: ["10B71AD29063471F"]
+			id: "0F9EE68E5D61DC91"
+			tasks: [{
+				id: "56B24F9D4DEAC5ED"
+				type: "item"
+				item: "cobblefordays:tier_4"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			dependencies: ["0F9EE68E5D61DC91"]
+			size: 1.25d
+			id: "0FD620A455281A6D"
+			tasks: [{
+				id: "050F897BBD5226AF"
+				type: "item"
+				item: "cobblefordays:tier_5"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			description: [
+				"坩埚热源非常重要，因为它们可以加快熔岩的产生!这个modpack对规范做了一些修改，所以我想我会在指南中添加一个列表，让你看看选项"
+				""
+				"烈焰网：8"
+				"铀块：20"
+				"Mek发热元件：60"
+				"暗物质块：100"
+			]
+			dependencies: ["40A495FCD317A38D"]
+			id: "74D15276CA30D62F"
+			tasks: [{
+				id: "7F1EEFBE68C82523"
+				type: "checkmark"
+				title: "坩埚热源!"
+			}]
+		}
+		{
+			icon: "minecraft:oak_sapling"
+			x: -9.5d
+			y: -0.5d
+			description: ["树苗用完了?你可以在任务菜单的右上方找到一些紧急树苗!"]
+			optional: true
+			id: "29F82373417B2006"
+			tasks: [{
+				id: "2019707AE4DAC703"
+				type: "checkmark"
+				title: "紧急树苗"
+			}]
+		}
+		{
+			title: "Slimeball"
+			icon: "minecraft:slime_ball"
+			x: -2.5d
+			y: -5.5d
+			description: [
+				"菌丝孢子，当用在女巫水上时，会变成棕色蘑菇块."
+				""
+				"把蘑菇块放下来，打碎它，有机会吃到棕色蘑菇."
+				""
+				"棕色蘑菇，当用在女巫水上时，会变成粘液块.然后可以制作成9个粘液球."
+			]
+			dependencies: ["42240BED17BA0948"]
+			id: "40A3726417C13F83"
+			tasks: [
+				{
+					id: "4B2B4ECCAB499E6A"
+					type: "item"
+					item: "minecraft:brown_mushroom_block"
+				}
+				{
+					id: "54859420D904A6AC"
+					type: "item"
+					item: "minecraft:slime_block"
+				}
+			]
+			rewards: [{
+				id: "0CE1884C5B451E96"
+				type: "item"
+				item: "minecraft:slime_ball"
+				count: 9
+			}]
+		}
+	]
+}
