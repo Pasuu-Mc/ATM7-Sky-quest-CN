@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "Industrial Foregoing"
+			title: "工业先锋"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -32,7 +32,7 @@
 			x: -3.5d
 			y: -3.0d
 			shape: "gear"
-			description: ["Welcome to &aIndustrial Foregoing&f!"]
+			description: ["欢迎来到&a工业先锋&f!"]
 			size: 1.5d
 			id: "55820773BDD5319D"
 			tasks: [{
@@ -49,9 +49,9 @@
 			x: -0.5d
 			y: -3.0d
 			description: [
-				"Extracts latex from logs."
+				"从原木中提取胶乳."
 				""
-				"Check JEI for acceptable logs and latex amounts."
+				"查看JEI，检查能接受的原木和胶乳量."
 			]
 			dependencies: ["6E616DB197387C86"]
 			id: "0EC2053B191C55C6"
@@ -118,7 +118,7 @@
 			}]
 		}
 		{
-			title: "Item \\& Fluid Transport"
+			title: "物品\\&流体运输"
 			x: -2.0d
 			y: -1.5d
 			dependencies: ["6E616DB197387C86"]
@@ -238,7 +238,7 @@
 			}]
 		}
 		{
-			title: "Common Black Hole Storage"
+			title: "普通黑洞存储"
 			x: 6.0d
 			y: -4.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -289,7 +289,7 @@
 			}]
 		}
 		{
-			title: "Pink Slime \\& Liquid Meat"
+			title: "粉红粘液\\&肉汤"
 			x: 7.0d
 			y: -3.0d
 			shape: "rsquare"
@@ -370,7 +370,7 @@
 			}]
 		}
 		{
-			title: "Conveyor Insertion \\& Extraction"
+			title: "传送带输入\\&输出升级"
 			x: 6.300000000000001d
 			y: -1.7000000000000002d
 			dependencies: ["616CFD4078D67B51"]
@@ -395,7 +395,7 @@
 			}]
 		}
 		{
-			title: "Other Conveyor Upgrades"
+			title: "其他传送带升级"
 			x: 5.300000000000001d
 			y: -0.7000000000000002d
 			dependencies: ["616CFD4078D67B51"]
@@ -436,7 +436,7 @@
 			}]
 		}
 		{
-			title: "Fluids"
+			title: "流体"
 			x: 5.5d
 			y: -5.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -461,7 +461,7 @@
 			}]
 		}
 		{
-			title: "Blocks"
+			title: "方块"
 			x: 5.0d
 			y: -6.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -486,7 +486,7 @@
 			}]
 		}
 		{
-			title: "Animals"
+			title: "动物"
 			x: 2.5d
 			y: -5.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -516,7 +516,7 @@
 			}]
 		}
 		{
-			title: "Plants"
+		title: "植物"
 			x: 3.0d
 			y: -6.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -541,7 +541,7 @@
 			}]
 		}
 		{
-			title: "Bio Power"
+			title: "生物发电"
 			x: 2.0d
 			y: -4.5d
 			dependencies: ["690CFF61CE787D43"]
@@ -566,7 +566,7 @@
 			}]
 		}
 		{
-			title: "Other Machines"
+			title: "其他机器"
 			x: 4.0d
 			y: -7.0d
 			dependencies: ["690CFF61CE787D43"]
@@ -710,7 +710,7 @@
 			}]
 		}
 		{
-			title: "Simple Black Hole Storage"
+			title: "简约黑洞存储"
 			x: 2.0d
 			y: 1.0d
 			dependencies: ["3514E9C1A8C7400C"]
@@ -833,8 +833,8 @@
 			x: 7.0d
 			y: 3.0d
 			description: [
-				"Suggestion:"
-				"Use some sort of wither-proof glass."
+				"建议:"
+				"使用紫色透镜."
 			]
 			dependencies: [
 				"2E8E292ED596A104"

@@ -3,7 +3,7 @@
 	group: "2B51AC12041E3F89"
 	order_index: 3
 	filename: "mekanism"
-	title: "Mekanism"
+	title: "通用机械"
 	icon: "mekanism:steel_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -25,7 +25,7 @@
 			x: -7.625d
 			y: -3.5d
 			shape: "gear"
-			subtitle: "The Starting Machine"
+			subtitle: "起动机器"
 			description: [
 				""
 				""
@@ -60,13 +60,13 @@
 		{
 			x: -4.100000000000001d
 			y: -3.5d
-			subtitle: "Breaks Raw Ores into Dusts"
+			subtitle: "将矿物破碎成粉尘"
 			description: [
-				"This machine works like a Macerator or Pulverizer, and will break ores down into dusts."
+				"这台机器的工作原理类似于打粉机或磨粉机，可以将矿石分解成粉尘."
 				""
-				"In ATM7, it breaks 3 raw ores down into 4 dusts."
+				"在ATM7中，它将3个原矿分解为4个粉尘(特指ATMmod)."
 				""
-				"This is the start of your Ore Factory. It can also be upgraded to a factory machine, increasing the slots of use."
+				"这是矿石工厂的开始.它也可以升级为工厂机器，增加可以使用的插槽."
 			]
 			id: "08DDE018A804BFE7"
 			tasks: [{
@@ -96,11 +96,11 @@
 		{
 			x: -7.625d
 			y: -2.0d
-			subtitle: "Really Only Good For 2 Things"
+			subtitle: "真的只有两件好事"
 			description: [
-				"The machine creates two really strong ingots: Refined Glowstone and Refined Obsidian."
+				"这台机器制造出两个非常坚固的锭：强化荧石和强化的黑曜石."
 				""
-				"It infuses an item with Osmium to create a more powerful ingot."
+				"它在物品中注入锇，以制造更强大的锭."
 			]
 			dependencies: ["162CE44400A63575"]
 			id: "195729280394ABFB"
@@ -125,8 +125,8 @@
 		{
 			x: 0.375d
 			y: -3.5d
-			subtitle: "It Crushes Things."
-			description: ["This machine crushes ores into their \"dirty\" dust forms. This is useful to convert clumps into dirty dust, which can go through an Enrichment Chamber to create the ore dust, which then can be smelted into an ingot."]
+			subtitle: "它粉碎一切."
+			description: ["这台机器将矿石粉碎成“浑浊”的粉尘形式.这有助于将块状矿物转化为浑浊粉尘，这些粉尘可以通过富集仓产生矿石粉尘，然后可以熔炼成锭."]
 			dependencies: ["6C25D42C36175BF4"]
 			id: "7AE502EDB73BD57A"
 			tasks: [{
@@ -157,11 +157,11 @@
 			x: -8.75d
 			y: 1.625d
 			shape: "hexagon"
-			subtitle: "A bigger robot friend."
+			subtitle: "一个更大的机器朋友."
 			description: [
-				"This machine can mine for you!"
+				"这台机器可以帮你挖矿!"
 				""
-				"It is completely configurable, and can even replace mined blocks with cobblestone, or whatever block you provide it with!"
+				"它完全可以配置，甚至可以用圆石或您提供的任何方块替换开采的方块!"
 			]
 			dependencies: ["4BDE773C3359D584"]
 			size: 1.25d
@@ -188,11 +188,11 @@
 			x: 2.875d
 			y: 5.5d
 			shape: "diamond"
-			subtitle: "It has a BUCKET MODE!"
+			subtitle: "它有一个桶模式!"
 			description: [
-				"This item stores liquids."
+				"该物品储存液体."
 				""
-				"It has a bucket mode which can be toggled to scoop up liquids with it. Very useful for lava in the beginning!"
+				"它有一个桶模式，可以切换到用它舀(yǎo)液体.一开始对熔岩非常有用!"
 			]
 			size: 1.5d
 			id: "6DB1AAAD926486BC"
@@ -218,7 +218,7 @@
 			x: -8.75d
 			y: 0.375d
 			shape: "hexagon"
-			subtitle: "A Mini-Robot To Accompany You On Your Travels"
+			subtitle: "陪伴您旅行的迷你机器人"
 			hide_dependency_lines: false
 			dependencies: [
 				"1FC7E9DBF92BE6AA"
@@ -248,7 +248,7 @@
 			x: -7.5d
 			y: 1.625d
 			shape: "hexagon"
-			subtitle: "Requires Hydrogen to Work!"
+			subtitle: "需要氢气才能工作!"
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
 			size: 1.25d
@@ -275,8 +275,8 @@
 			x: -1.125d
 			y: 5.5d
 			shape: "diamond"
-			subtitle: "Upgrading to Factories"
-			description: ["This item upgrades a base machine to a Basic Factory machine."]
+			subtitle: "升级到工厂"
+			description: ["此项将基本机器升级为基本工厂机器."]
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
 			size: 1.5d
@@ -376,11 +376,11 @@
 			x: -8.75d
 			y: 2.875d
 			shape: "hexagon"
-			subtitle: "Wireless Power, Gases, Fluids, Everything."
+			subtitle: "无线电源、气体、液体、一切东西."
 			description: [
-				"This item is how you make Wireless Transfers possible."
+				"本物品介绍如何实现无线传输."
 				""
-				"You can set specific channels, named by you, to transfer whatever you want from it."
+				"您可以设置由您命名的特定频道，以从中传输任何您想要的内容."
 			]
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
@@ -413,8 +413,8 @@
 			x: -3.125d
 			y: 5.5d
 			shape: "diamond"
-			subtitle: "Storing Power"
-			description: ["This block stores power, and can also be used to charge items."]
+			subtitle: "存储电"
+			description: ["这个方块储存能量，也可以用来给物品充电."]
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
 			size: 1.5d
@@ -514,8 +514,8 @@
 			x: -8.125d
 			y: -5.0d
 			shape: "hexagon"
-			subtitle: "The Basic Alloy for Crafting Items"
-			description: ["Infusing Iron with Redstone in a Metallurgic Infuser will get you one of these."]
+			subtitle: "制造物品的基本合金"
+			description: ["在冶金灌注机用红石灌注铁会让你得到一个."]
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
 			id: "166971866A9234C7"
@@ -589,8 +589,8 @@
 			x: -7.125d
 			y: -5.0d
 			shape: "hexagon"
-			subtitle: "The Basic Control Circuit"
-			description: ["Infusing Osmium with Redstone in a Metallurgic Infuser will create you one of these."]
+			subtitle: "基础控制电路"
+			description: ["在冶金灌注机用红石注入锇将为您制作一个."]
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
 			id: "0498A578D0EC3254"
@@ -698,11 +698,11 @@
 			y: 0.5d
 			shape: "pentagon"
 			description: [
-				"Infusing Iron with Coal or Charcoal in a Metallurgic Infuser will give you Enriched Iron."
+				"在冶金灌注机中用煤或木炭灌注铁会使你获得富集铁."
 				""
-				"Infusing the Enriched Iron with more Coal or Charcoal will give you Steel Dust, which can be smelted into Steel."
+				"用更多的煤或木炭注入富铁会产生钢粉尘，这些粉尘可以被冶炼成钢锭."
 				""
-				"This is a major crafting component in a lot of recipes in Mekanism."
+				"这是Mek许多配方中的一个主要制作部分."
 			]
 			hide_dependency_lines: true
 			size: 1.5d
@@ -710,7 +710,7 @@
 			tasks: [{
 				id: "6B88F1F9DF50C1E4"
 				type: "item"
-				title: "Any #forge:ingots/steel"
+				title: "任意钢锭"
 				icon: "alltheores:steel_ingot"
 				item: {
 					id: "itemfilters:tag"
@@ -737,7 +737,7 @@
 			x: -4.125d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "For Transferring Power"
+			subtitle: "用于传输电"
 			description: [""]
 			dependencies: ["1B6DDF50D00CBB31"]
 			size: 1.5d
@@ -838,7 +838,7 @@
 			x: -2.125d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "For Transferring Fluids"
+			subtitle: "用于输送流体"
 			dependencies: ["1B6DDF50D00CBB31"]
 			size: 1.5d
 			id: "2EF4DD5CC254CC80"
@@ -938,7 +938,7 @@
 			x: -0.125d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "For Transferring Gasses"
+			subtitle: "用于输送气体"
 			dependencies: ["1B6DDF50D00CBB31"]
 			size: 1.5d
 			id: "4434D7B66521D69A"
@@ -965,7 +965,7 @@
 			x: 1.875d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "For Transferring Items"
+			subtitle: "用于传输物品"
 			dependencies: ["1B6DDF50D00CBB31"]
 			size: 1.5d
 			id: "5B681BC43371CC5C"
@@ -992,7 +992,7 @@
 			x: 3.875d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "For Transferring Heat"
+			subtitle: "用于传热"
 			dependencies: ["1B6DDF50D00CBB31"]
 			size: 1.5d
 			id: "531E3FF1F2865C67"
@@ -1291,13 +1291,13 @@
 		{
 			x: -1.125d
 			y: -3.5d
-			subtitle: "It makes Clumps."
+			subtitle: "它制作碎块."
 			description: [
-				"This machine \"Purifies\" our ores. It turns 1 Raw Ore into 2 \"Clumps\", which can then be sent through a Crusher to be turned to dirty dusts, then through an Enrichment Chamber to get clean dust, then through a smelter to be turned to an ingot."
+				"这台机器“净化”了我们的矿石.它将1个原矿转化为2个“碎块”，然后通过粉碎机将其转化为浑浊粉尘，然后通过富集仓获得干净的粉尘，然后经过冶炼厂将其转化成锭."
 				""
-				"This will double your ingot output."
+				"这将使锭产量翻倍."
 				""
-				"This machine requires &aOxygen&r to run, which is created by pumping water into an &6Electrolytic Separator&r."
+				"这台机器需要&a氧气&r运行,这是通过将水泵入&6电解分离器&r得到."
 			]
 			dependencies: [
 				"18D88932916C7A98"
@@ -1331,13 +1331,13 @@
 		{
 			x: -2.625d
 			y: -3.5d
-			subtitle: "Time to Break It Down"
+			subtitle: "是时候打破它了"
 			description: [
-				"The Electrolytic Separator (big fancy name) is used to separate chemicals from certain liquids and gases."
+				"电解分离器（别出心裁的名字）用于从某些液体和气体中分离化学物质."
 				""
-				"You'll need a bunch of these if you plan on making an Ore Processing Factory."
+				"如果你计划建造一个矿石工厂，你需要一堆这个机器."
 				""
-				"To start, make one of these and we'll break down the most basic fluid: Water."
+				"首先，制作其中一种，我们将分解最基本的液体：水."
 			]
 			dependencies: ["08DDE018A804BFE7"]
 			id: "18D88932916C7A98"
@@ -1368,11 +1368,11 @@
 		{
 			x: -2.625d
 			y: -5.5d
-			subtitle: "Burn Gases into Power!"
+			subtitle: "燃烧气体发电!"
 			description: [
-				"This generator can burn both Hydrogen and Ethylene to produce power."
+				"这种发电机可以燃烧氢气和乙烯来发电."
 				""
-				"Note: Burning Hydrogen will not produce more power than it costs to run an Electrolytic Separator. Use for Ethylene instead."
+				"注：燃烧氢气产生的能量不会超过运行电解分离器的成本.用于乙烯."
 			]
 			dependencies: ["407EFAF528871014"]
 			id: "3EC9D0DA61B45328"
@@ -1403,11 +1403,11 @@
 		{
 			x: 4.375d
 			y: -3.5d
-			subtitle: "Turns 3 Raw Ore into 8 Ore Shards"
+			subtitle: "将3个原矿转化为8个矿石碎片"
 			description: [
-				"This machine is the next step to your Ore Processing Factory. Add this to the left of your Purification Chamber to build on to your current ore factory!"
+				"这台机器是您的矿石加工厂的下一步.将此添加到提纯仓的左侧，以构建当前的矿石工厂!"
 				""
-				"This machine requires &aHydrogen Chloride&r to operate. To find out how to create Hydrogen Chloride, follow the quest above!"
+				"这台机器需要&a氯化氢&r运行.要了解如何创建氯化氢，请遵循上面的步骤!"
 			]
 			dependencies: ["263220DCCDB90E29"]
 			id: "4F1C04C0F6769825"
@@ -1438,11 +1438,11 @@
 		{
 			x: 4.875d
 			y: -5.5d
-			subtitle: "The Chemical Combiner"
+			subtitle: "化学组合器"
 			description: [
-				"This machine combines two gases to create a new gas."
+				"这台机器将两种气体结合在一起产生一种新的气体"
 				""
-				"You'll need this to combine Chlorine with Hydrogen to create Hydrogen Chloride, which is then used in our Chemical Injection Chamber."
+				"您需要将氯与氢结合生成氯化氢，然后将其用于我们的化学压射室."
 			]
 			dependencies: ["603877AB96321F1A"]
 			id: "04E2D539E33B7B0F"
@@ -1465,20 +1465,20 @@
 			]
 		}
 		{
-			title: "Thermal Evaporation Plant"
+			title: "热蒸发装置"
 			x: 4.375d
 			y: -4.5d
-			subtitle: "Water turns into Brine!"
+			subtitle: "水变成盐水!"
 			description: [
-				"To get Hydrogen Chloride for our machines, we'll need to first create &aBrine&r."
+				"为了提供氯化氢，我们需要首先制作&a盐水&r."
 				""
-				"To do this, we'll need a Thermal Evaporation Plant. This is a multi-block structure."
+				"要做到这一点，我们需要一个热蒸发厂.这是一个多方块结构."
 				""
-				"To start, create a 4x3x4 structure that is hollow in the middle, except for the base. You can replace any of the sides with a Controller or Valve."
+				"首先，创建一个中间中空的4x3x4结构，但底部除外.您可以用控制器或阀门替换任何一侧."
 				""
-				"You'll need at least 1 controller, and at least 2  valves."
+				"您至少需要一个控制器和两个阀门."
 				""
-				"Pump in water, and you'll start collecting brine, which can be pumped into an &aElectrolytic Separator&r to extract &6Chlorine&r from the gas."
+				"抽入水，您将开始收集盐水,这些盐水可以被泵入&a电解分离器&r以制作&6氯气&r."
 				"{image:atm:textures/thermalplant.png width:200 height:200 align:1}"
 			]
 			dependencies: ["4F1C04C0F6769825"]
@@ -1523,17 +1523,17 @@
 			]
 		}
 		{
-			title: "The Start of a Tier 4 Ore Factory"
+			title: "四级矿石工厂的开始"
 			x: 7.375d
 			y: -3.5d
 			description: [
-				"We will need to add 3 more machines to our current setup."
+				"我们需要在当前设置中再添加3台机器."
 				""
-				"The first part of the process is the Chemical Dissolution Chamber."
+				"该过程的第一部分是化学溶解室."
 				""
-				"This machine requires &aSulfuric Acid&r to break down raw ores into an \"Ore Slurry.\""
+				"这台机器需要&a液态硫酸&r将原矿分解\"矿浆.\""
 				""
-				"To get Sulfuric Acid, we'll need a new setup, which is explained further in the above quests."
+				"要获得硫酸，我们需要一个新的设置，这将在上面的任务中进一步解释."
 			]
 			dependencies: ["1112E4E2CCEB2467"]
 			id: "4F436770D30D8520"
@@ -1566,9 +1566,9 @@
 			x: 6.875d
 			y: -5.0d
 			description: [
-				"To make Sulfuric Acid, you'll need to create &aWater Vapor&r."
+				"要制造硫酸，您需要制作&a水蒸气&r."
 				""
-				"Pump some water into this machine and it'll convert it into vapor. "
+				"向这台机器里注入一些水，它会把水转化成蒸汽. "
 			]
 			dependencies: ["4F436770D30D8520"]
 			id: "4236B9F071BE18F3"
@@ -1594,13 +1594,13 @@
 			x: 7.875d
 			y: -5.0d
 			description: [
-				"Okay, let's start with making Sulfur Dioxide first."
+				"好吧，我们先从制造二氧化硫开始."
 				""
-				"Start by placing Gunpowder in a separate &aChemical Injection Chamber&r with Hydrogen Chloride to create Sulfur Dust. OR you can just pulverize Sulfur from Thermal Series into sulfur dust from THAT mod, it's up to you."
+				"首先将火药放在单独的&a化学压射室&r与氯化氢反应生成硫粉.或者你可以把Thermal-Series的硫粉碎成那个mod的硫磺粉，这取决于你."
 				""
-				"Feeding the Sulfur Dust into this machine, the &aChemical Oxidizer&r, will create Sulfur Dioxide. Now we need to create Sulfur Trioxide."
+				"将硫粉送入该机器,&a化学氧化机&r,会产生二氧化硫.现在我们需要制造三氧化硫."
 				""
-				"Send the Sulfur Dioxide into a Chemical Infuser to combine it with Oxygen to create Sulfur Trioxide. Send the Trioxide to another Chemical Infuser to combine it with Water Vapor to create Sulfuric Acid."
+				"将二氧化硫送入化学灌注器，与氧气结合，生成三氧化硫.将三氧化硫送至另一个化学灌注器中，与水蒸气混合生成硫酸."
 				""
 				"It's a lot."
 			]
@@ -1615,7 +1615,7 @@
 				{
 					id: "4FFA4CDB37CDFCC8"
 					type: "item"
-					title: "Any #forge:dusts/sulfur"
+					title: "任何硫粉"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1639,25 +1639,25 @@
 			]
 		}
 		{
-			title: "Heating Up our Brine Production"
+			title: "加热我们的盐水生产"
 			x: 3.875d
 			y: -5.5d
-			subtitle: "Hot Brine here. Get Your Hot Brine here."
+			subtitle: "这里是热盐水。在这里获取您的热盐水."
 			description: [
-				"The Thermal Evaporation Plant multi-block produces Brine based on the internal temperature."
+				"热蒸发装置多段根据内部温度生产盐水."
 				""
-				"There are several methods to increase the temperature of the plant, including building them in a desert!"
+				"有几种方法可以提高机器的温度，包括在沙漠中建造机器!"
 				""
-				"The &aFuelwood Heater&r burns buckets of Lava, which can them be piped in using a pipe that transfers heat."
+				"&a固体燃料加热器&r燃烧一桶的熔岩，这些温度可以通过传输热量的管道输送进来."
 				""
-				"The &aResistive Heater&r uses RF/FE to produce heat, and can be set to use whatever RF/FE you want it to use."
+				"&a电阻型加热器&r使用RF/FE产生热量，并且可以设置为使用您希望使用的任何RF/FE."
 			]
 			dependencies: ["603877AB96321F1A"]
 			id: "027084AE2DF5EBA6"
 			tasks: [{
 				id: "3E483D602640BB7D"
 				type: "checkmark"
-				title: "Increasing Our Brine Production"
+				title: "提高盐水产量"
 			}]
 			rewards: [
 				{
@@ -1673,17 +1673,17 @@
 			]
 		}
 		{
-			title: "Custom Portals!"
+			title: "自定义入口!"
 			x: -10.0d
 			y: 1.625d
 			shape: "hexagon"
-			subtitle: "Teleportation at its finest."
+			subtitle: "最好的传输."
 			description: [
-				"To create a custom Portal, place down a single Teleporter block. Connect power to the block."
+				"要制作传送器，请放置单个传送机.将电源连接到模块."
 				""
-				"Create a \"Portal Frame\" with the teleporter block being the base of the portal."
+				"创建一个“传送器框架”，传送机块是传送的基础."
 				""
-				"The final product will be a 4x3 portal structure, with the two blocks in the middle creating the portal."
+				"最终结构将是一个4x3门户结构，中间的两个方块将创建入口."
 			]
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
@@ -1724,11 +1724,11 @@
 			x: -10.0d
 			y: 0.375d
 			shape: "hexagon"
-			subtitle: "Portable Battery Pack"
+			subtitle: "便携式电池"
 			description: [
-				"This item is used to store power, and functions like a portable battery pack."
+				"此项用于储存电力，功能类似于便携式电池."
 				""
-				"It is also an important crafting item in Mekanism."
+				"它也是Mek的一个重要物品."
 			]
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
@@ -1831,7 +1831,7 @@
 			x: -0.625d
 			y: 8.5d
 			shape: "diamond"
-			subtitle: "shhhhh... too loud...."
+			subtitle: "shhhhh...声音太大...."
 			hide_dependency_lines: true
 			dependencies: ["166971866A9234C7"]
 			id: "001DE8028CAF0A08"
@@ -1907,8 +1907,8 @@
 			x: -10.0d
 			y: 2.875d
 			shape: "hexagon"
-			subtitle: "Mekanism's Wrench"
-			description: ["This item is used to configure many of the items in Mekanism, from changing pipes to \"Pull or Push\" or rotating machines."]
+			subtitle: "Mek扳手"
+			description: ["该物品用于配置Mek中的许多物品，从改变管道到“拉动或推动”或旋转机器."]
 			hide_dependency_lines: true
 			dependencies: ["1FC7E9DBF92BE6AA"]
 			size: 1.25d
@@ -1932,16 +1932,16 @@
 			]
 		}
 		{
-			title: "Water Source"
+			title: "水源"
 			x: -2.625d
 			y: -4.5d
-			subtitle: "The All-Mighty Infinite Water Source"
+			subtitle: "全能无限水源"
 			description: [
-				"To start breaking down water, we'll need a water source. The Kitchen Sink provides infinite water, and can easily be set up to pump out water."
+				"要开始分解水，我们需要一个水源.厨房水槽提供无限的水，可以很容易地将水抽出来."
 				""
-				"Alternatively, you can always just use the classic infinite water source with a Pump from Mekanism."
+				"或者，您也可以使用Mek的经典无限水源和水泵."
 				""
-				"Pump the water into your Electrolytic Separator to split the water into Hydrogen and Oxygen."
+				"将水泵入电解分离器，将水分离成氢气和氧气."
 			]
 			dependencies: ["18D88932916C7A98"]
 			id: "407EFAF528871014"
@@ -2040,8 +2040,8 @@
 			x: 0.8750000000000053d
 			y: 5.5d
 			shape: "diamond"
-			subtitle: "Storing All That Gas"
-			description: ["This block stores gases."]
+			subtitle: "储存所有气体"
+			description: ["这个方块储存气体."]
 			size: 1.5d
 			id: "41EB0C570FC54F43"
 			tasks: [{
@@ -2139,8 +2139,8 @@
 			x: 8.375d
 			y: 1.0d
 			shape: "octagon"
-			subtitle: "Produces about 17.6FE/t"
-			description: ["Generates power from the sun!"]
+			subtitle: "产量约17.6FE/t"
+			description: ["从太阳中发电!"]
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
 			size: 1.5d
@@ -2167,7 +2167,7 @@
 			x: 9.875d
 			y: 2.5d
 			shape: "octagon"
-			description: ["This generator will burn Bio Fuel into energy. It produces around 140FE/t."]
+			description: ["这台发电机将生物燃料转化为能源.其产量约为140FE/t."]
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
 			size: 1.5d
@@ -2195,9 +2195,9 @@
 			y: 2.5d
 			shape: "octagon"
 			description: [
-				"If you're wondering if it is worth making this upgrade, the answer is yes."
+				"如果你想知道是否值得升级，答案是肯定的."
 				""
-				"This version produces 105.6FE/t. It also can be used to add extra heat to Thermal Evaporation Plants."
+				"该版本产生105.6FE/t.它还可用于为热蒸发工厂增加额外热量."
 			]
 			dependencies: ["74200A48498DD7F8"]
 			size: 1.5d
@@ -2224,11 +2224,11 @@
 			x: 9.875d
 			y: 1.0d
 			shape: "octagon"
-			subtitle: "Generates Power from the Wind"
+			subtitle: "风力发电"
 			description: [
-				"This is a great option for generating power."
+				"这是发电的绝佳选择."
 				""
-				"This generates around 40FE/t, and increases based on how high you are. The higher the Y level, the more power it produces!"
+				"这会产生大约40FE/t，并根据您的高度而增加.Y越高，产生的电越大!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
@@ -2256,15 +2256,15 @@
 			x: 2.375d
 			y: -3.5d
 			shape: "hexagon"
-			subtitle: "Tier 2 Ore Factory"
+			subtitle: "二级矿石工厂"
 			description: [
-				"So far, to \"double\" our ingot output, your setup should look something like this:"
+				"到目前为止，要“加倍”我们的锭产量，您的设置应该如下所示:"
 				""
-				"Raw Ore goes into your &aPurification Chamber&r, which is being fed &aOxygen&r from an &6Electrolytic Separator&r."
+				"原矿进入您的&a提纯仓&r给它提供&a氧气&r,&a氧气&r来自&6电解分离器&r."
 				""
-				"It then outputs the product into the &aCrusher&r, which converts the ore clumps into \"dirty dusts\". This \"Dirty Dust\" is fed into an &aEnrichment Chamber&r, which converts the \"Dirty Dust\" into the appropriate \"Ore Dust.\""
+				"然后将物品输出到&a粉碎机&r将矿物转化成浑浊粉尘.将浑浊粉尘送入&a富集仓&r它将浑浊粉尘转化成粉尘"
 				""
-				"The &aEnrichment Chamber&r then feeds into your preferred smelter of choice. You follow?"
+				"&a富集仓&r然后送入您首选的冶炼厂.你明白吗?"
 			]
 			dependencies: ["7AE502EDB73BD57A"]
 			size: 1.5d
@@ -2272,7 +2272,7 @@
 			tasks: [{
 				id: "46C4C1AD9FA5BEE2"
 				type: "checkmark"
-				title: "Our Setup So Far"
+				title: "迄今为止我们的设置"
 			}]
 			rewards: [
 				{
@@ -2291,15 +2291,15 @@
 		{
 			x: 5.875d
 			y: -3.5d
-			subtitle: "Tier 3 Ore Factory"
+			subtitle: "三级矿石厂"
 			description: [
-				"So now, you should have 5 machines ready to go to process your ores. Are you ready to make it even more complicated?"
+				"所以现在，你应该准备好5台机器来处理你的矿石.你准备好让事情变得更复杂了吗?"
 				""
-				"Your factory should be: Chemical Injection Chamber > Purifying Chamber > Crusher > Enrichment Chamber > Furnace/Smelter."
+				"您的工厂应该是：化学压射室>提纯仓>粉碎机>富集仓>熔炉/冶炼厂."
 				""
-				"Easy so far, right?"
+				"到目前为止很简单，对吧?"
 				""
-				"Well buckle up. It's about to get wild."
+				"系好安全带.它快要疯了."
 			]
 			dependencies: [
 				"4F1C04C0F6769825"
@@ -2461,9 +2461,9 @@
 			x: -4.125d
 			y: -4.5d
 			description: [
-				"Combines gases, solid items, and liquids to produce an item and by-product."
+				"将气体、固体物品和液体混合，生成物品和副产物."
 				""
-				"This machine is needed to create end-game materials and armor."
+				"这台机器是制作最终游戏材料和盔甲所需要的."
 			]
 			dependencies: ["08DDE018A804BFE7"]
 			id: "587A19FC348387C5"
@@ -2492,10 +2492,10 @@
 			]
 		}
 		{
-			title: "Bio Fuel"
+			title: "生物燃料"
 			x: 0.375d
 			y: -4.5d
-			description: ["The Crusher can also break down natural substances into Bio Fuel!"]
+			description: ["粉碎机还可以将天然物品分解成生物燃料!"]
 			dependencies: ["7AE502EDB73BD57A"]
 			id: "3B43DB1A6B0A7B44"
 			tasks: [{
@@ -2518,13 +2518,13 @@
 			]
 		}
 		{
-			title: "Substrates"
+			title: "基片"
 			x: 0.375d
 			y: -5.5d
 			description: [
-				"When Bio Fuel is combined with Water and Hydrogen in a &aPressurized Reaction Chamber&r it creates Substrates. It also creates Ethylene as a by-product."
+				"在&a加压反应室&r当生物燃料与水和氢气混合时它将制作基片.它还产生乙烯作为副产品."
 				""
-				"These are needed to create HDPE pellets, which is used for end-game crafts like the Meka-suit."
+				"这些是制造HDPE丸所需的，用于Mek套装等的物品."
 			]
 			dependencies: ["3B43DB1A6B0A7B44"]
 			id: "5047792C6EF6D2AD"
@@ -2548,10 +2548,10 @@
 			]
 		}
 		{
-			title: "HDPE Pellets"
+			title: "HDPE丸"
 			x: 0.375d
 			y: -6.5d
-			description: ["Combining Oxygen, Ethylene, and a Substrate in a &aPressurized Reaction Chamber&r will create an HDPE Pellet."]
+			description: ["结合乙烯,氢和基片在&a加压反应室&r中将制作HDPE丸."]
 			dependencies: ["5047792C6EF6D2AD"]
 			id: "76A38CCA5816CDAD"
 			tasks: [{
@@ -2577,7 +2577,7 @@
 		{
 			x: 0.375d
 			y: -7.5d
-			description: ["To get an HDPE Sheet, place 3 HDPE Pellets in an Enrichment Chamber."]
+			description: ["要获得高密度聚乙烯片，将3个高密度聚乙烯丸放在富集仓中."]
 			dependencies: ["76A38CCA5816CDAD"]
 			id: "47106CE1937C4340"
 			tasks: [{
@@ -2603,7 +2603,7 @@
 			x: -7.5d
 			y: 2.875d
 			shape: "hexagon"
-			subtitle: "Mekanism's All In One Tool"
+			subtitle: "Mek的多功能工具"
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
 			size: 1.25d
@@ -2627,16 +2627,16 @@
 			]
 		}
 		{
-			title: "Enriched Items"
+			title: "富集物品"
 			x: -4.125d
 			y: -2.0d
-			subtitle: "Enrich your items first!"
+			subtitle: "首先富集您的物品!"
 			description: [
-				"Using the Enrichment Chamber, you can enrich items to convert them into Enriched variants."
+				"使用富集仓，您可以富集物品，将其转化为富集变体."
 				""
-				"These \"Enriched\" items give 8x the amount of mb in a Metallurgic Infuser."
+				"这些“富集”物品的金属含量是冶金灌注的8倍."
 				""
-				"If you plan on making a bunch of steel, Enrich your Charcoal first!"
+				"如果你计划制造一堆钢锭，首先要富集你的木炭!"
 			]
 			dependencies: ["08DDE018A804BFE7"]
 			id: "0F326EEEC2EBE4E5"
@@ -2662,11 +2662,11 @@
 		{
 			x: 8.875d
 			y: -3.5d
-			subtitle: "Giving Ores a Bath"
+			subtitle: "给矿石洗澡"
 			description: [
-				"This machine needs water to operate, and uses the water to clean \"Ore Slurry\" into \"Clean Ore Slurry.\""
+				"给矿石洗澡这台机器需要水才能运转,并用水将“浑浊矿浆”清洗成“纯净矿浆”"
 				""
-				"It will be part 2 of your Tier 4 Ore Processing Factory."
+				"这将是第四级矿石加工厂的第二部分."
 			]
 			dependencies: ["4F436770D30D8520"]
 			id: "4AFF81D3D0E78255"
@@ -2691,11 +2691,11 @@
 		{
 			x: 10.375d
 			y: -3.5d
-			subtitle: "Turns Ore Slurry into Crystals"
+			subtitle: "将矿浆转化为晶体"
 			description: [
-				"This machine will be #3 in your Tier 4 Ore Processing Factory."
+				"这台机器将在您的四级矿石加工厂中排名第三."
 				""
-				"It takes the Clean Ore Slurry from the Chemical Washer and turns it into Crystals, which the Chemical Injection Chamber can process after."
+				"它从化学清洗机中取出纯净的矿浆，并将其转化为晶体，然后化学压射室可以对其进行处理."
 			]
 			dependencies: ["4AFF81D3D0E78255"]
 			id: "3999760881C855FA"
@@ -2721,13 +2721,13 @@
 			x: 11.875d
 			y: -3.5d
 			shape: "gear"
-			subtitle: "This is a lot, I know."
+			subtitle: "这太多了，我知道."
 			description: [
-				"If you're like me, you probably got lost 55 times during these last few steps. This is a complicated system."
+				"如果你像我一样，你可能在最后几步中迷路了55次.这是一个复杂的系统."
 				""
-				"A basic layout of your factory should be: "
+				"工厂的基本布局应该是: "
 				""
-				"Raw ore goes into your Chemical Dissolution Chamber > pumps A GAS to Chemical Washer > pumps A GAS to Chemical Crystallizer >  outputs crystals to Chemical Injection Chamber > outputs shards to Purification Chamber > outputs clumps to Crusher > outputs dirty dusts to Enrichment Chamber > outputs clean dust to Smelter."
+				"原矿进入化学溶解室>化学清洗机制作纯净矿浆>化学结晶器产生晶体>向化学压射室输入晶体>将碎片输入到提纯仓>将碎块输入到粉碎机>向富集仓输入浑浊粉尘>向冶炼厂输出干净的粉尘."
 				"{image:atm:textures/mekanism_flowchart.png width:1000 height:600 align:1 fit:true}"
 			]
 			dependencies: ["3999760881C855FA"]
@@ -2736,7 +2736,7 @@
 			tasks: [{
 				id: "3B3B58C438FD4397"
 				type: "checkmark"
-				title: "Tier 4 Ore Processing Factory"
+				title: "四级矿石加工厂"
 			}]
 			rewards: [{
 				id: "3417F669ABC16584"
@@ -2749,9 +2749,9 @@
 			y: 0.375d
 			shape: "hexagon"
 			description: [
-				"Standing on this item will charge up any powered item from any mod."
+				"站在这个物品上会为任何mod中的任何带电物品充电."
 				""
-				"This is also needed for the Robit."
+				"这也是Robit(机器人)需要的."
 			]
 			hide_dependency_lines: true
 			dependencies: ["162CE44400A63575"]
