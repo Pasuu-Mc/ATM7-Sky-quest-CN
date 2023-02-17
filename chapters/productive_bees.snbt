@@ -361,7 +361,7 @@
 			x: -6.5d
 			y: 4.5d
 			subtitle: "在雪地吸引蜜蜂"
-			description: ["在雪中的生物群落中放置雪蜂巢会吸引一只汗蜂."]
+			description: ["在雪中的生物群落中放置雪蜂巢会吸引一只汗蜜蜂."]
 			hide_dependency_lines: true
 			dependencies: ["120BDCB70AD352AC"]
 			hide: false
@@ -575,7 +575,7 @@
 			tasks: [{
 				id: "6D4F62833424ADC0"
 				type: "item"
-				title: "Iron Comb"
+				title: "铁蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -646,7 +646,7 @@
 			tasks: [{
 				id: "6E21D8349EEB2A11"
 				type: "item"
-				title: "Crystalline Comb"
+				title: "石英蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -728,7 +728,7 @@
 			tasks: [{
 				id: "17C7DC04BC22C0D7"
 				type: "item"
-				title: "Tin Comb"
+				title: "锡蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -954,7 +954,7 @@
 			x: -5.0d
 			y: 0.2d
 			shape: "hexagon"
-			subtitle: "Increases Bee Productivity by 140%"
+			subtitle: "蜜蜂生产力提高140%"
 			dependencies: ["66324D7D0C51AEAC"]
 			id: "6DBF9CAB37B9BBF3"
 			tasks: [{
@@ -978,15 +978,15 @@
 		{
 			x: -2.5d
 			y: -0.6d
-			subtitle: "Sonic Bees"
+			subtitle: "嗡嗡蜜蜂"
 			description: [
-				"Can be placed in a hive or centrifuge."
+				"可放置在蜂箱或离心机中."
 				""
-				"When in a hive, it decreases the amount of time bees spend in the hive by 20%."
+				"在蜂巢中，蜜蜂在蜂房中花费的时间减少了20%."
 				""
-				"When placed in a Centrifuge, it increases the processing speed."
+				"当放置在离心机中时，可提高处理速度."
 				""
-				"These do stack."
+				"这些可以叠加."
 			]
 			dependencies: ["66324D7D0C51AEAC"]
 			id: "500BEAD94C97DF96"
@@ -1012,13 +1012,13 @@
 			x: -3.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "Making Babies"
+			subtitle: "生产小蜜蜂"
 			description: [
-				"When installed in a hive, it gives a 5% chance for a new baby bee to be spawned every time honey is delivered."
+				"当安装在蜂箱中时，每次蜂蜜离开时，新的小蜜蜂都有5%的机会繁殖."
 				""
-				"When placed in a Catcher, it only allows the catcher to catch baby bees."
+				"当放置在捕捉器，它只允许捕捉小蜜蜂."
 				""
-				"You can stack these for a greater chance."
+				"你可以把这些叠加，以获得更大的概率."
 			]
 			dependencies: ["66324D7D0C51AEAC"]
 			id: "2182492BCC1B33D8"
@@ -1044,7 +1044,7 @@
 			x: -4.5d
 			y: -0.6d
 			shape: "hexagon"
-			subtitle: "Lumber and Quarry Bees will give Blocks instead of Chips"
+			subtitle: "木场蜜蜂和石料蜜蜂会用整块代替碎片"
 			dependencies: ["66324D7D0C51AEAC"]
 			id: "397E2D14BDE7DED0"
 			tasks: [{
@@ -1069,8 +1069,8 @@
 			x: -3.5d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "Prevents Bees from Teleporting in a Hive"
-			description: ["You'll need these for Ender Bees."]
+			subtitle: "防止蜜蜂在蜂巢中进行传送"
+			description: ["末影蜜蜂需要这些."]
 			dependencies: ["66324D7D0C51AEAC"]
 			id: "198EDBAC1D6E2339"
 			tasks: [{
@@ -1095,8 +1095,8 @@
 			x: -2.2d
 			y: 1.3d
 			shape: "hexagon"
-			subtitle: "Increases the Range of a Machine"
-			description: ["Mostly for the Catcher."]
+			subtitle: "增加机器的范围"
+			description: ["主要是用于捕捉器."]
 			dependencies: ["66324D7D0C51AEAC"]
 			id: "14623D25561BA61B"
 			tasks: [{
@@ -1121,7 +1121,7 @@
 			x: -4.8d
 			y: 1.2d
 			shape: "hexagon"
-			subtitle: "Used to add Bees to a Filter"
+			subtitle: "用于将蜜蜂添加到过滤器"
 			dependencies: ["66324D7D0C51AEAC"]
 			id: "57167FE67CFAC255"
 			tasks: [{
@@ -1145,7 +1145,7 @@
 		{
 			x: -2.0d
 			y: 0.2d
-			subtitle: "Extracts Genes from Bees in Hives"
+			subtitle: "从蜂箱中的蜜蜂中提取基因"
 			dependencies: ["66324D7D0C51AEAC"]
 			id: "1DF026030780AE96"
 			tasks: [{
@@ -1169,11 +1169,11 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			subtitle: "Processing Honeycombs"
+			subtitle: "加工蜂窝"
 			description: [
-				"While you can definitely just use a regular &9Centrifuge&r in the beginning, getting a &6Powered Centrifuge&r soon after is a must."
+				"虽然你可以使用常规的&9离心机&r来开头,但&6动力离心机&r是后面必须的."
 				""
-				"The Centrifuge is used to process Honeycombs into useful items, honey, and wax."
+				"离心机用于将蜂巢加工成有用的物品、蜂蜜和蜡."
 			]
 			dependencies: ["7C169A4A39F37FAC"]
 			id: "33A0E06FE5CFD8F3"
@@ -1198,12 +1198,12 @@
 			]
 		}
 		{
-			title: "Diamond Bee"
+			title: "钻石蜜蜂"
 			icon: "minecraft:diamond"
 			x: 8.0d
 			y: 4.5d
-			subtitle: "Ender + Lapis"
-			description: ["Breed the Ender Bee with a Lapis Bee to create a Diamond Bee!"]
+			subtitle: "末影蜜蜂+青金石蜜蜂"
+			description: ["培育末影蜜蜂和青金石蜜蜂来制作钻石蜜蜂!"]
 			dependencies: [
 				"5F1784E562C29B66"
 				"100ACB5C8A359BF0"
@@ -1212,7 +1212,7 @@
 			tasks: [{
 				id: "4EF5B261BAD2AC7D"
 				type: "item"
-				title: "Diamond Comb"
+				title: "钻石蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1257,18 +1257,18 @@
 			]
 		}
 		{
-			title: "Lapis Bees"
+			title: "青金石蜜蜂"
 			icon: "minecraft:lapis_lazuli"
 			x: 7.0d
 			y: 4.5d
-			subtitle: "Redstone + Blue Banded"
-			description: ["Breed a Redstone Bee with a Blue Banded Bee to get a Lapis Bee!"]
+			subtitle: "红石蜜蜂+蓝色条纹蜜蜂"
+			description: ["培养红石蜜蜂和蓝色条纹蜜蜂来制作青金石蜜蜂!"]
 			dependencies: ["117241986C99E475"]
 			id: "100ACB5C8A359BF0"
 			tasks: [{
 				id: "429FA8057B666565"
 				type: "item"
-				title: "Lapis Comb"
+				title: "青金石蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1313,19 +1313,19 @@
 			]
 		}
 		{
-			title: "Redstone Bees"
+			title: "红石蜜蜂"
 			icon: "minecraft:redstone"
 			disable_toast: true
 			x: 7.0d
 			y: 5.5d
-			subtitle: "Glowing + Chocolate Mining"
-			description: ["With the Glowing Bee, breed it with the Chocolate Mining Bee to get a Redstone Bee!"]
+			subtitle: "发光蜜蜂+巧克力穴居蜜蜂"
+			description: ["发光蜜蜂+巧克力穴居蜜蜂=红石蜜蜂!"]
 			dependencies: ["437DB2CE10D33A08"]
 			id: "117241986C99E475"
 			tasks: [{
 				id: "345245C32DB7B4D4"
 				type: "item"
-				title: "Redstone Comb"
+				title: "红石蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1370,19 +1370,19 @@
 			]
 		}
 		{
-			title: "Ender Bees"
+			title: "末影蜜蜂"
 			icon: "minecraft:ender_pearl"
 			x: 8.0d
 			y: 3.5d
-			subtitle: "&9Requires End Stone Nest"
-			description: ["Create yourself an &5End Stone Nest&r and head to the End to capture one of these bees!"]
+			subtitle: "&9需要末地石蜂巢"
+			description: ["创建自己的&5末地石蜂巢&r然后到末地去抓一只蜜蜂!"]
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "5F1784E562C29B66"
 			tasks: [{
 				id: "43515B26807F9E01"
 				type: "item"
-				title: "Ender Comb"
+				title: "末影蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1427,18 +1427,18 @@
 			]
 		}
 		{
-			title: "Glowing Bee"
+			title: "发光蜜蜂"
 			icon: "minecraft:glowstone_dust"
 			x: 6.0d
 			y: 5.0d
-			description: ["You'll need to grab yourself a &6Glowstone Nest&r and head to the Nether to capture this bee!"]
+			description: ["你需要给自己抓一个&6荧石蜂巢&r然后前往下界捕捉这只蜜蜂!"]
 			hide_dependency_lines: false
 			dependencies: ["4C0302FF4F63B52E"]
 			id: "437DB2CE10D33A08"
 			tasks: [{
 				id: "17B0E19125FCFA1A"
 				type: "item"
-				title: "Glowing Comb"
+				title: "发光蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1483,18 +1483,18 @@
 			]
 		}
 		{
-			title: "Chocolate Mining Bee"
+			title: "巧克力穴居蜜蜂"
 			icon: "croptopia:chocolate"
 			x: -5.0d
 			y: 12.5d
-			subtitle: "Spawns from a Dirt Nest"
+			subtitle: "从泥土蜂巢中出生"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "486060882E507CF1"
 			tasks: [{
 				id: "4DFDEAD81868CEF4"
 				type: "checkmark"
-				title: "Chocolate Mining Bee"
+				title: "巧克力穴居蜜蜂"
 			}]
 			rewards: [{
 				id: "6C008390E836F306"
@@ -1506,14 +1506,14 @@
 			icon: "minecraft:blue_dye"
 			x: -4.0d
 			y: 14.0d
-			subtitle: "Spawned using a Wood Nest"
+			subtitle: "使用木巢繁殖"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "2CA4D7253DA1825F"
 			tasks: [{
 				id: "12A2CE1C3AE8A033"
 				type: "checkmark"
-				title: "Blue Banded Bee"
+				title: "蓝色条纹蜜蜂"
 			}]
 			rewards: [{
 				id: "0D9788B0439CE954"
@@ -1522,12 +1522,12 @@
 			}]
 		}
 		{
-			title: "Emerald Bee"
+			title: "绿宝石蜜蜂"
 			icon: "minecraft:emerald"
 			x: 7.0d
 			y: 3.5d
-			subtitle: "Diamond Bee + Slimy Bee"
-			description: ["Once you have a Diamond Bee, breed it with the Slimy Bee to create an Emerald Bee!"]
+			subtitle: "钻石蜜蜂+黏液蜜蜂"
+			description: ["一旦你有了钻石蜜蜂,再来个黏液蜜蜂就可以制作绿宝石蜜蜂了!"]
 			dependencies: [
 				"1D720AC88431BD70"
 				"39A19138C501B16F"
@@ -1536,7 +1536,7 @@
 			tasks: [{
 				id: "7B7C1C5BFEC92058"
 				type: "item"
-				title: "Emerald Comb"
+				title: "绿宝石蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1581,18 +1581,18 @@
 			]
 		}
 		{
-			title: "Slimy Bee"
+			title: "黏液蜜蜂"
 			icon: "minecraft:slime_ball"
 			x: 6.0d
 			y: 4.0d
-			subtitle: "&9Requires Slimy Nest"
-			description: ["You can lure these bees in using a Slimy Nest in a swamp biome."]
+			subtitle: "&9需要黏液蜂巢"
+			description: ["你可以用沼泽生物群落中的黏液蜂巢引诱这些蜜蜂."]
 			dependencies: ["4C0302FF4F63B52E"]
 			id: "39A19138C501B16F"
 			tasks: [{
 				id: "5E017E6B7E3F56B7"
 				type: "item"
-				title: "Slimy Comb"
+				title: "黏液蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1637,17 +1637,17 @@
 			]
 		}
 		{
-			title: "Ancient Bee (Netherite)"
+			title: "远古蜜蜂(下界)"
 			icon: "minecraft:netherite_ingot"
 			x: 9.0d
 			y: 4.5d
-			subtitle: "Feed Diamond Bee a Block of Netherite"
+			subtitle: "喂养钻石蜜蜂一个下界合金块"
 			dependencies: ["1D720AC88431BD70"]
 			id: "2CA3707BEE2E3C0D"
 			tasks: [{
 				id: "065E5450AC87F1D5"
 				type: "item"
-				title: "Ancient Comb"
+				title: "远古蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1692,17 +1692,17 @@
 			]
 		}
 		{
-			title: "Withered Bee"
+			title: "凋零蜜蜂"
 			icon: "minecraft:wither_skeleton_skull"
 			x: 10.0d
 			y: 3.5d
-			subtitle: "Feed a Skeletal Bee a Withered Rose"
+			subtitle: "给骷髅蜜蜂喂养一朵凋零玫瑰"
 			dependencies: ["76E94639E90FEB4E"]
 			id: "399882F3C51DD282"
 			tasks: [{
 				id: "5BFAA4BB6651F71A"
 				type: "item"
-				title: "Withered Comb"
+				title: "凋零蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1747,12 +1747,12 @@
 			]
 		}
 		{
-			title: "Allthemodium Bee"
+			title: "ATM蜜蜂"
 			icon: "allthemodium:raw_allthemodium"
 			x: 10.0d
 			y: 4.5d
-			subtitle: "Ancient + Withered"
-			description: ["To get the Allthemodium Bee, breed a Withered Bee with an Ancient Bee."]
+			subtitle: "远古蜜蜂+凋零蜜蜂"
+			description: ["制作ATM蜜蜂,需要凋零蜜蜂+远古蜜蜂."]
 			dependencies: [
 				"2CA3707BEE2E3C0D"
 				"399882F3C51DD282"
@@ -1761,7 +1761,7 @@
 			tasks: [{
 				id: "5851FC52DDFE7826"
 				type: "item"
-				title: "Allthemodium Comb"
+				title: "ATM蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1806,19 +1806,19 @@
 			]
 		}
 		{
-			title: "Skeletal Bee"
+			title: "骷髅蜜蜂"
 			icon: "minecraft:skeleton_skull"
 			x: 9.0d
 			y: 3.5d
-			subtitle: "Spawned with empty Beehives in the Dark"
-			description: ["Place some empty &eAdvanced Beehives&r in an unlit area. The bees will move in over time."]
+			subtitle: "在下界中用空蜂箱繁殖"
+			description: ["放置一些&e高级蜂箱&r在无照明区域.蜜蜂会随着时间的推移而移动(不懂)."]
 			hide_dependency_lines: true
 			dependencies: ["7C169A4A39F37FAC"]
 			id: "76E94639E90FEB4E"
 			tasks: [{
 				id: "4203F7ED807F3D30"
 				type: "item"
-				title: "Skeletal Comb"
+				title: "骷髅蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1863,19 +1863,19 @@
 			]
 		}
 		{
-			title: "Draconic Bee"
+			title: "末影龙蜜蜂"
 			icon: "minecraft:dragon_head"
 			x: 8.0d
 			y: 5.5d
-			subtitle: "&9Requires Obsidian Nest"
-			description: ["Place an Obsidian Nest in the End to lure this bee."]
+			subtitle: "&9需要黑曜石蜂巢"
+			description: ["在末地放置黑曜石蜂巢来吸引蜜蜂."]
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "00FD36C207845895"
 			tasks: [{
 				id: "2CC38211F4C54ED8"
 				type: "item"
-				title: "Draconic Comb"
+				title: "末影龙蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1920,12 +1920,12 @@
 			]
 		}
 		{
-			title: "Vibranium Bee"
+			title: "振金蜜蜂"
 			icon: "allthemodium:raw_vibranium"
 			x: 9.0d
 			y: 5.5d
-			subtitle: "Ancient + Draconic"
-			description: ["Breed a Draconic Bee with an Ancient Bee to get a Vibranium Bee!"]
+			subtitle: "远古蜜蜂+末影龙蜜蜂"
+			description: ["末影龙蜜蜂+远古蜜蜂=振金蜜蜂!"]
 			dependencies: [
 				"2CA3707BEE2E3C0D"
 				"00FD36C207845895"
@@ -1934,7 +1934,7 @@
 			tasks: [{
 				id: "21F18F576B555114"
 				type: "item"
-				title: "Vibranium Comb"
+				title: "振金蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -1979,15 +1979,15 @@
 			]
 		}
 		{
-			title: "Unobtainium Bee"
+			title: "难得素蜜蜂"
 			icon: "allthemodium:raw_unobtainium"
 			x: 10.0d
 			y: 5.5d
-			subtitle: "Allthemodium + Vibranium"
+			subtitle: "ATM蜜蜂+振金蜜蜂"
 			description: [
-				"Once you have the Allthemodium and Vibranium Bees, breed them together to get an Unobtainium Bee."
+				"一旦你有了ATM蜜蜂和振金蜜蜂,就可以繁殖得到难得素蜜蜂."
 				""
-				"To breed: Feed the Allthemodium Bee 4 ingots of Vibranium, then feed the Vibranium Bee 4 ingots of Unobtainium."
+				"繁殖: 向ATM蜜蜂喂养4个振金锭,向振金蜜蜂喂养4个难得素锭."
 			]
 			dependencies: [
 				"6EFFF0DC80C1C8A3"
@@ -1997,7 +1997,7 @@
 			tasks: [{
 				id: "271BDC9E7B37BCB5"
 				type: "item"
-				title: "Unobtainium Comb"
+				title: "难得素蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2042,11 +2042,11 @@
 			]
 		}
 		{
-			title: "Zinc Bees"
+			title: "锌蜜蜂"
 			icon: "alltheores:zinc_ingot"
 			x: 1.0d
 			y: 12.5d
-			subtitle: "Iron + Sweat"
+			subtitle: "铁蜜蜂+汗蜜蜂"
 			description: [""]
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2054,7 +2054,7 @@
 			tasks: [{
 				id: "181135E3A83C5B9E"
 				type: "item"
-				title: "Zinc Comb"
+				title: "锌蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2083,18 +2083,18 @@
 			}]
 		}
 		{
-			title: "Electrum Bees"
+			title: "琥珀金蜜蜂"
 			icon: "alltheores:electrum_ingot"
 			x: 0.0d
 			y: 15.0d
-			subtitle: "Gold + Silver"
+			subtitle: "金蜜蜂+银蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "3054D016D2EF25FF"
 			tasks: [{
 				id: "299DE26FF7293F34"
 				type: "item"
-				title: "Electrum Comb"
+				title: "琥珀金蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2123,18 +2123,18 @@
 			}]
 		}
 		{
-			title: "Platinum Bees"
+			title: "铂蜜蜂"
 			icon: "alltheores:platinum_ingot"
 			x: 0.0d
 			y: 11.0d
-			subtitle: "Gold + Ender"
+			subtitle: "金蜜蜂+末影蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "57ACD83205988834"
 			tasks: [{
 				id: "726FF2C87E9E972F"
 				type: "item"
-				title: "Platinum Comb"
+				title: "铂蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2163,18 +2163,18 @@
 			}]
 		}
 		{
-			title: "Lead Bees"
+			title: "铅蜜蜂"
 			icon: "alltheores:lead_ingot"
 			x: 1.0d
 			y: 10.5d
-			subtitle: "Iron + Blue Banded"
+			subtitle: "铁蜜蜂+蓝色条纹蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "2DFFEB29B6CBFD99"
 			tasks: [{
 				id: "7830C98BD32DB5F2"
 				type: "item"
-				title: "Lead Comb"
+				title: "铅蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2203,11 +2203,11 @@
 			}]
 		}
 		{
-			title: "Blazing Bee"
+			title: "烈焰蜜蜂"
 			icon: "minecraft:blaze_rod"
 			x: 0.0d
 			y: 18.0d
-			subtitle: "Magmatic + Nomad"
+			subtitle: "熔岩蜜蜂+牧游蜜蜂"
 			description: [""]
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2215,7 +2215,7 @@
 			tasks: [{
 				id: "6B7DB7E426D328BC"
 				type: "item"
-				title: "Blazing Comb"
+				title: "烈焰蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2244,18 +2244,18 @@
 			}]
 		}
 		{
-			title: "Brass Bees"
+			title: "黄铜蜜蜂"
 			icon: "alltheores:brass_ingot"
 			x: 1.0d
 			y: 14.5d
-			subtitle: "Copper + Zinc"
+			subtitle: "铜蜜蜂+锌蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "5DF26D712B643655"
 			tasks: [{
 				id: "79AEDC66EB312BCA"
 				type: "item"
-				title: "Brass Comb"
+				title: "黄铜蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2284,18 +2284,18 @@
 			}]
 		}
 		{
-			title: "Green Carpenter Bee"
+			title: "绿色木匠蜜蜂"
 			icon: "tconstruct:greenheart_planks"
 			x: -3.0d
 			y: 12.5d
-			subtitle: "Spawns from most Wood Nests"
+			subtitle: "来自木蜂巢"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "38657337EBE2F799"
 			tasks: [{
 				id: "13AD89901FBD4388"
 				type: "checkmark"
-				title: "Green Carpenter Bee"
+				title: "绿色木匠蜜蜂"
 			}]
 			rewards: [{
 				id: "0800E6E4F9851DE3"
@@ -2304,18 +2304,18 @@
 			}]
 		}
 		{
-			title: "Leafcutter Bee"
+			title: "切叶蜜蜂"
 			icon: "twilightforest:fallen_leaves"
 			x: -4.0d
 			y: 13.0d
-			subtitle: "Spawns from a Dirt Nest"
+			subtitle: "出生自木蜂巢"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "6BEE3578BD2C713C"
 			tasks: [{
 				id: "4A6ADD52B113E3CA"
 				type: "checkmark"
-				title: "Leafcutter Bees"
+				title: "切叶蜜蜂"
 			}]
 			rewards: [{
 				id: "1C28FA3EA99E8BF1"
@@ -2324,18 +2324,18 @@
 			}]
 		}
 		{
-			title: "Neon Cuckoo Bee"
+			title: "杜鹃蜜蜂"
 			icon: "productivebees:spawn_egg_neon_cuckoo_bee"
 			x: -5.0d
 			y: 16.5d
-			subtitle: "Spawns in a nest that has a Blue Banded Bee"
+			subtitle: "这种蜜蜂会在蓝色条纹蜜蜂的巢里产生"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "683B58B699D4D381"
 			tasks: [{
 				id: "0CDFF60D581118E3"
 				type: "checkmark"
-				title: "Neon Cuckoo Bee"
+				title: "杜鹃蜜蜂"
 			}]
 			rewards: [{
 				id: "713068FC6AD69883"
@@ -2344,7 +2344,7 @@
 			}]
 		}
 		{
-			title: "Nomad Bee"
+			title: "牧游蜜蜂"
 			icon: {
 				id: "minecraft:wooden_sword"
 				Count: 1b
@@ -2354,11 +2354,11 @@
 			}
 			x: -3.0d
 			y: 15.5d
-			subtitle: "Spawns in a nest that has an 灰烬穴居蜜蜂 Bee"
+			subtitle: "这种蜜蜂会在灰烬穴居蜜蜂的巢里产生"
 			description: [
-				"If you want one of these, you'll need an 灰烬穴居蜜蜂 Bee first. "
+				"如果你想要这些，你需要一个灰烬穴居蜜蜂. "
 				""
-				"Once the 灰烬穴居蜜蜂 Bee is cozy in its nest, there is a chance for a Nomad Bee to take it over."
+				"一旦灰烬穴居蜜蜂在他的巢里很舒服,牧游蜜蜂有机会就会来接管它."
 			]
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
@@ -2366,7 +2366,7 @@
 			tasks: [{
 				id: "64248C6FBC867D56"
 				type: "checkmark"
-				title: "Nomad Bee"
+				title: "牧游蜜蜂"
 			}]
 			rewards: [{
 				id: "4421D42829BE3B93"
@@ -2375,18 +2375,18 @@
 			}]
 		}
 		{
-			title: "Reed Bee"
+			title: "甘蔗蜜蜂"
 			icon: "productivebees:sugar_cane_nest"
 			x: -5.0d
 			y: 15.5d
-			subtitle: "Spawns from a Reed Nest"
+			subtitle: "出生自甘蔗蜂巢"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "097DE7038A746847"
 			tasks: [{
 				id: "6887F86C8673DAF6"
 				type: "checkmark"
-				title: "Reed Bee"
+				title: "甘蔗蜜蜂"
 			}]
 			rewards: [{
 				id: "447B59A2C9693336"
@@ -2395,18 +2395,18 @@
 			}]
 		}
 		{
-			title: "Resin Bee"
+			title: "树脂蜜蜂"
 			icon: "thermal:resin_bucket"
 			x: -3.0d
 			y: 16.5d
-			subtitle: "Spawns from Spruce Nests"
+			subtitle: "出生自云杉木蜂巢"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "6B997DB8FC70A077"
 			tasks: [{
 				id: "4969507B64544869"
 				type: "checkmark"
-				title: "Resin Bee"
+				title: "树脂蜜蜂"
 			}]
 			rewards: [{
 				id: "1CAC3C2B6D247483"
@@ -2415,11 +2415,11 @@
 			}]
 		}
 		{
-			title: "Sugarbag Bee"
+			title: "蜜袋蜜蜂"
 			icon: "minecraft:sugar"
 			x: -4.0d
 			y: 16.0d
-			subtitle: "Random Chance to Spawn when breaking Cocoa Pods in a Jungle"
+			subtitle: "在丛林中打破可可豆时随机获得繁殖机会"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "40E4F1172A164DD1"
@@ -2435,18 +2435,18 @@
 			}]
 		}
 		{
-			title: "Sweat Bee"
+			title: "汗蜜蜂"
 			icon: "minecraft:snowball"
 			x: -5.0d
 			y: 13.5d
-			subtitle: "Spawns from a Snow Nest"
+			subtitle: "出生自雪蜂巢"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "447CAC472A99835B"
 			tasks: [{
 				id: "0A77407CE9055F04"
 				type: "checkmark"
-				title: "Sweat Bee"
+				title: "汗蜜蜂"
 			}]
 			rewards: [{
 				id: "5F80C0F9DAB3D6F7"
@@ -2486,7 +2486,7 @@
 			tasks: [{
 				id: "71E81E13769F2FF0"
 				type: "item"
-				title: "ZomBee Comb"
+				title: "ZomBee 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2519,14 +2519,14 @@
 			icon: "alltheores:bronze_ingot"
 			x: 2.0d
 			y: 13.0d
-			subtitle: "Copper + Tin"
+			subtitle: "铜蜜蜂 + Tin"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "6E4C3B87FABE9EFA"
 			tasks: [{
 				id: "55F718D796CEB1B1"
 				type: "item"
-				title: "Bronze Comb"
+				title: "Bronze 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2559,14 +2559,14 @@
 			icon: "thermal:cinnabar"
 			x: -1.0d
 			y: 11.5d
-			subtitle: "Redstone + Sweat Bee"
+			subtitle: "红石蜜蜂+ 汗蜜蜂 Bee"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "7A2D56B99A2871E9"
 			tasks: [{
 				id: "3522B9E72ABDB657"
 				type: "item"
-				title: "Cinnabar Comb"
+				title: "Cinnabar 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2599,14 +2599,14 @@
 			icon: "minecraft:coal"
 			x: -1.0d
 			y: 10.5d
-			subtitle: "Blazing + Leafcutter"
+			subtitle: "烈焰蜜蜂+切叶蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "71667FFC8011525C"
 			tasks: [{
 				id: "3EDE79B7957D45AF"
 				type: "item"
-				title: "Coal Comb"
+				title: "Coal 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2639,7 +2639,7 @@
 			icon: "alltheores:constantan_ingot"
 			x: 2.0d
 			y: 14.0d
-			subtitle: "Copper + Nickel"
+			subtitle: "铜蜜蜂 + Nickel"
 			description: [""]
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2647,7 +2647,7 @@
 			tasks: [{
 				id: "4FCEB24FC83D22A9"
 				type: "item"
-				title: "Constantan Comb"
+				title: "Constantan 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2701,7 +2701,7 @@
 			icon: "minecraft:red_dye"
 			x: 1.0d
 			y: 16.5d
-			subtitle: "Lapis + Skeletal"
+			subtitle: "青金石蜜蜂 + 骷髅蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "5962DC39E5874FB9"
@@ -2721,14 +2721,14 @@
 			icon: "alltheores:enderium_ingot"
 			x: -1.0d
 			y: 13.5d
-			subtitle: "Lead + Diamond/Platinum"
+			subtitle: "铅蜜蜂 + 钻石蜜蜂/铂蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "0D97CDE92F3B1A83"
 			tasks: [{
 				id: "208145EA6533CDDB"
 				type: "item"
-				title: "Enderium Comb"
+				title: "Enderium 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2761,14 +2761,14 @@
 			icon: "minecraft:experience_bottle"
 			x: -1.0d
 			y: 16.5d
-			subtitle: "Lapis + Emerald"
+			subtitle: "青金石蜜蜂 + Emerald"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "0FB1FC640471363A"
 			tasks: [{
 				id: "1E28BFC0AB5CF2FE"
 				type: "item"
-				title: "Experience Comb"
+				title: "Experience 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2827,14 +2827,14 @@
 			icon: "tombstone:grave_dust"
 			x: 0.0d
 			y: 17.0d
-			subtitle: "Ghostly + Skeletal/Zombee"
+			subtitle: "Ghostly + 骷髅蜜蜂/Zombee"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "4351DAA8B607BCBB"
 			tasks: [{
 				id: "6D15CFE8E1CF6D25"
 				type: "item"
-				title: "Grave's Comb"
+				title: "Grave's 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2867,14 +2867,14 @@
 			icon: "alltheores:invar_ingot"
 			x: -1.0d
 			y: 14.5d
-			subtitle: "Iron + Nickel"
+			subtitle: "铁蜜蜂 + Nickel"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "734A72A4C898BDFB"
 			tasks: [{
 				id: "0C0D6A9D01FED776"
 				type: "item"
-				title: "Invar Comb"
+				title: "Invar 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2907,7 +2907,7 @@
 			icon: "minecraft:oak_log"
 			x: 3.0d
 			y: 16.5d
-			subtitle: "Yellow + Green Carpenter Bee"
+			subtitle: "Yellow + 绿色木匠蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "37045B986619A03D"
@@ -2933,14 +2933,14 @@
 			icon: "alltheores:lumium_ingot"
 			x: 3.0d
 			y: 12.5d
-			subtitle: "Silver + Tin"
+			subtitle: "银蜜蜂 + Tin"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "150FB369BEFFCBBF"
 			tasks: [{
 				id: "4DA6445DB5F3B85E"
 				type: "item"
-				title: "Lumium Comb"
+				title: "Lumium 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2973,14 +2973,14 @@
 			icon: "integrateddynamics:crystalized_menril_chunk"
 			x: 3.0d
 			y: 17.5d
-			subtitle: "石英蜜蜂 + Neon Cuckoo"
+			subtitle: "石英蜜蜂 + 杜鹃蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "7B40A9DAA119DE59"
 			tasks: [{
 				id: "22F5DD43B8A7C452"
 				type: "item"
-				title: "Menril Comb"
+				title: "Menril 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3013,14 +3013,14 @@
 			icon: "alltheores:nickel_ingot"
 			x: 0.0d
 			y: 13.0d
-			subtitle: "Iron + Sweat"
+			subtitle: "铁蜜蜂 + 汗蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "4FE7F45C72EF5DC1"
 			tasks: [{
 				id: "05E237133AC3F46B"
 				type: "item"
-				title: "Nickel Comb"
+				title: "Nickel 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3060,7 +3060,7 @@
 			tasks: [{
 				id: "234F40915C93FFC5"
 				type: "item"
-				title: "Niter Comb"
+				title: "Niter 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3093,14 +3093,14 @@
 			icon: "minecraft:obsidian"
 			x: 1.0d
 			y: 17.5d
-			subtitle: "Magmatic + Sweat"
+			subtitle: "熔岩蜜蜂 + 汗蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "60B985069E0E643E"
 			tasks: [{
 				id: "50823C029014781A"
 				type: "item"
-				title: "Obsidian Comb"
+				title: "Obsidian 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3133,14 +3133,14 @@
 			icon: "alltheores:osmium_ingot"
 			x: 3.0d
 			y: 11.5d
-			subtitle: "Iron + Neon Cuckoo"
+			subtitle: "铁蜜蜂 + 杜鹃蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "67482ED4B18F828D"
 			tasks: [{
 				id: "4471A530B55D4140"
 				type: "item"
-				title: "Osmium Comb"
+				title: "Osmium 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3173,14 +3173,14 @@
 			icon: "industrialforegoing:plastic"
 			x: 3.0d
 			y: 14.5d
-			subtitle: "Resin + Lumber"
+			subtitle: "树脂蜜蜂 + Lumber"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "6CBA6DCF3C035E1A"
 			tasks: [{
 				id: "73409C636E07907D"
 				type: "item"
-				title: "Plastic Comb"
+				title: "Plastic 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3213,7 +3213,7 @@
 			icon: "minecraft:stone"
 			x: 2.0d
 			y: 18.0d
-			subtitle: "Chocolate Mining + Digger"
+			subtitle: "巧克力穴居蜜蜂 + Digger"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "6E093D16B12E12B3"
@@ -3246,14 +3246,14 @@
 			icon: "alltheores:uranium_ingot"
 			x: 2.0d
 			y: 12.0d
-			subtitle: "CreeBee + Iron"
+			subtitle: "CreeBee + 铁蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "734F61A03FFA13ED"
 			tasks: [{
 				id: "5C358DFF9CD0D1D9"
 				type: "item"
-				title: "Radioactive Comb"
+				title: "Radioactive 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3286,7 +3286,7 @@
 			icon: "minecraft:egg"
 			x: 3.0d
 			y: 15.5d
-			subtitle: "Lumber + Sweat"
+			subtitle: "Lumber + 汗蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "3D7480E4F9063E93"
@@ -3306,14 +3306,14 @@
 			icon: "mekanism:ingot_refined_glowstone"
 			x: 0.0d
 			y: 14.0d
-			subtitle: "Osmium + Glowing"
+			subtitle: "Osmium + 发光蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "15FCC8DA717BE348"
 			tasks: [{
 				id: "636EAE7DCFA8D007"
 				type: "item"
-				title: "Refined Glowstone Comb"
+				title: "Refined Glowstone 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3353,7 +3353,7 @@
 			tasks: [{
 				id: "4AF72F021060F09C"
 				type: "item"
-				title: "Refined Obsidian Comb"
+				title: "Refined Obsidian 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3386,14 +3386,14 @@
 			icon: "alltheores:signalum_ingot"
 			x: 3.0d
 			y: 13.5d
-			subtitle: "Silver + Copper"
+			subtitle: "银蜜蜂 + 铜蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "6F7AC41B703028CC"
 			tasks: [{
 				id: "5B5DBA0A7644A551"
 				type: "item"
-				title: "Signalum Comb"
+				title: "Signalum 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3426,14 +3426,14 @@
 			icon: "ae2:silicon"
 			x: 2.0d
 			y: 16.0d
-			subtitle: "Nomad + Reed"
+			subtitle: "牧游蜜蜂 + 甘蔗蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "1589D99B2EE460F2"
 			tasks: [{
 				id: "060B87A17E7699CA"
 				type: "item"
-				title: "Silicon Comb"
+				title: "Silicon 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3466,14 +3466,14 @@
 			icon: "minecraft:string"
 			x: -1.0d
 			y: 17.5d
-			subtitle: "Resin + Reed"
+			subtitle: "树脂蜜蜂 + 甘蔗蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "5CF2A069A3CC4EF6"
 			tasks: [{
 				id: "5DE213018E8C64A7"
 				type: "item"
-				title: "Silky Comb"
+				title: "Silky 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3502,18 +3502,18 @@
 			}]
 		}
 		{
-			title: "Silver Bee"
+			title: "银蜜蜂 Bee"
 			icon: "alltheores:silver_ingot"
 			x: 1.0d
 			y: 11.5d
-			subtitle: "Iron + Mason"
+			subtitle: "铁蜜蜂 + Mason"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "09223F02621781BF"
 			tasks: [{
 				id: "47BAD4AA76F9CF82"
 				type: "item"
-				title: "Silver Comb"
+				title: "银蜜蜂 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3546,14 +3546,14 @@
 			icon: "ae2:certus_crystal_seed"
 			x: 0.0d
 			y: 16.0d
-			subtitle: "石英蜜蜂 + Ender"
+			subtitle: "石英蜜蜂 + 末影蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "3D85786A23FE464A"
 			tasks: [{
 				id: "4A1352D6A68151E1"
 				type: "item"
-				title: "Spatial Comb"
+				title: "Spatial 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3586,14 +3586,14 @@
 			icon: "alltheores:steel_ingot"
 			x: 2.0d
 			y: 15.0d
-			subtitle: "Iron + Coal"
+			subtitle: "铁蜜蜂 + Coal"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "02F3133A9006BC1E"
 			tasks: [{
 				id: "01F96E4C1D881AD1"
 				type: "item"
-				title: "Steel Comb"
+				title: "Steel 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3626,14 +3626,14 @@
 			icon: "thermal:sulfur"
 			x: 1.0d
 			y: 15.5d
-			subtitle: "Magmatic + Coal"
+			subtitle: "熔岩蜜蜂 + Coal"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "7AB52230F0E7DE72"
 			tasks: [{
 				id: "1A2EE90B240B36E2"
 				type: "item"
-				title: "Sulfur Comb"
+				title: "Sulfur 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3682,7 +3682,7 @@
 			}]
 		}
 		{
-			title: "Magmatic Bee"
+			title: "熔岩蜜蜂 Bee"
 			icon: "minecraft:magma_block"
 			x: -5.0d
 			y: 11.5d
@@ -3693,7 +3693,7 @@
 			tasks: [{
 				id: "3202568944BCBF77"
 				type: "item"
-				title: "Magmatic Comb"
+				title: "熔岩蜜蜂 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3786,14 +3786,14 @@
 			icon: "minecraft:amethyst_cluster"
 			x: 7.0d
 			y: 12.5d
-			subtitle: "Feed a Diamond Bee Amethyst"
+			subtitle: "Feed a 钻石蜜蜂 Bee Amethyst"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "35EAB77C195E594E"
 			tasks: [{
 				id: "0F2BCC279B5731AB"
 				type: "item"
-				title: "Amethyst Comb"
+				title: "Amethyst 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3826,14 +3826,14 @@
 			icon: "thermal:apatite"
 			x: 7.0d
 			y: 14.5d
-			subtitle: "Feed a Diamond Bee Apatite!"
+			subtitle: "Feed a 钻石蜜蜂 Bee Apatite!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "17B056037BB483D7"
 			tasks: [{
 				id: "32A39E68AAB56488"
 				type: "item"
-				title: "Apatite Comb"
+				title: "Apatite 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3873,7 +3873,7 @@
 			tasks: [{
 				id: "7C54A389C84DDB49"
 				type: "item"
-				title: "Choco Comb"
+				title: "Choco 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3958,7 +3958,7 @@
 			tasks: [{
 				id: "669BC6911F43DB26"
 				type: "item"
-				title: "Fluix Comb"
+				title: "Fluix 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3991,14 +3991,14 @@
 			icon: "mekanism:fluorite_gem"
 			x: 6.0d
 			y: 13.0d
-			subtitle: "Feed a Diamond Bee Fluorite!"
+			subtitle: "Feed a 钻石蜜蜂 Bee Fluorite!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "3F635063EC5A6327"
 			tasks: [{
 				id: "46CFE7B294472FC9"
 				type: "item"
-				title: "Fluorite Comb"
+				title: "Fluorite 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -4038,7 +4038,7 @@
 			tasks: [{
 				id: "7CD2C8E1A5F4B3D2"
 				type: "item"
-				title: "Frosty Comb"
+				title: "Frosty 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -4092,14 +4092,14 @@
 			icon: "alltheores:peridot"
 			x: 5.0d
 			y: 13.5d
-			subtitle: "Feed a Diamond Bee Peridot!"
+			subtitle: "Feed a 钻石蜜蜂 Bee Peridot!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "761D21C6FBD13EE1"
 			tasks: [{
 				id: "3DE2AD0FFF364185"
 				type: "item"
-				title: "Peridot Comb"
+				title: "Peridot 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -4139,7 +4139,7 @@
 			tasks: [{
 				id: "544D288D9F81C6D8"
 				type: "item"
-				title: "Prosperity Comb"
+				title: "Prosperity 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -4172,14 +4172,14 @@
 			icon: "alltheores:ruby"
 			x: 5.0d
 			y: 14.5d
-			subtitle: "Feed a Diamond Bee a Ruby!"
+			subtitle: "Feed a 钻石蜜蜂 Bee a Ruby!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "35E8F1CC0080E45E"
 			tasks: [{
 				id: "2EA19C4E46380CDA"
 				type: "item"
-				title: "RuBee Comb"
+				title: "RuBee 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -4212,14 +4212,14 @@
 			icon: "alltheores:sapphire"
 			x: 5.0d
 			y: 15.5d
-			subtitle: "Feed a Diamond Bee a Sapphire!"
+			subtitle: "Feed a 钻石蜜蜂 Bee a Sapphire!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "3AF30E1EC163E2E3"
 			tasks: [{
 				id: "46C7D666D3A4A3D9"
 				type: "item"
-				title: "Sapphire Comb"
+				title: "Sapphire 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -4259,7 +4259,7 @@
 			tasks: [{
 				id: "70E72633E49DFF88"
 				type: "item"
-				title: "Soulium Comb"
+				title: "Soulium 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -4299,7 +4299,7 @@
 			tasks: [{
 				id: "13DE0B5305122E24"
 				type: "item"
-				title: "Tea Comb"
+				title: "Tea 蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -4631,8 +4631,8 @@
 		{
 			x: -8.0d
 			y: 5.5d
-			subtitle: "Lures a Gold Bee when placed in the Nether"
-			description: ["The Gold Bee can be bred and as such this nest isn't required."]
+			subtitle: "Lures a 金蜜蜂 Bee when placed in the Nether"
+			description: ["The 金蜜蜂 Bee can be bred and as such this nest isn't required."]
 			hide_dependency_lines: true
 			dependencies: ["120BDCB70AD352AC"]
 			optional: true
