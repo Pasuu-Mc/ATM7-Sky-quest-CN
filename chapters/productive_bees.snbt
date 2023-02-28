@@ -2455,18 +2455,18 @@
 			}]
 		}
 		{
-			title: "Yellow Carpenter Bee"
+			title: "黄色木匠蜜蜂"
 			icon: "minecraft:yellow_dye"
 			x: -3.0d
 			y: 14.5d
-			subtitle: "Spawns from most Wood Nests"
+			subtitle: "从木巢中繁殖"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "2226555D9552236E"
 			tasks: [{
 				id: "3CDFAF37BFB1C89C"
 				type: "checkmark"
-				title: "Yellow Carpenter Bees"
+				title: "黄色木匠蜜蜂"
 			}]
 			rewards: [{
 				id: "42FD59C35B7B5AD1"
@@ -2475,18 +2475,18 @@
 			}]
 		}
 		{
-			title: "ZomBee"
+			title: "僵尸蜜蜂"
 			icon: "minecraft:zombie_head"
 			x: -4.0d
 			y: 17.0d
-			subtitle: "Spawns in empty Advanced Beehives in a dark place"
+			subtitle: "在光亮强度弱的地方，使用高级蜂箱生产"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "371E09ED2A3F6BDC"
 			tasks: [{
 				id: "71E81E13769F2FF0"
 				type: "item"
-				title: "ZomBee 蜜脾"
+				title: "僵尸蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2515,18 +2515,18 @@
 			}]
 		}
 		{
-			title: "Bronze Bees"
+			title: "青铜蜜蜂"
 			icon: "alltheores:bronze_ingot"
 			x: 2.0d
 			y: 13.0d
-			subtitle: "铜蜜蜂 + Tin"
+			subtitle: "铜蜜蜂+锡蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "6E4C3B87FABE9EFA"
 			tasks: [{
 				id: "55F718D796CEB1B1"
 				type: "item"
-				title: "Bronze 蜜脾"
+				title: "青铜蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2555,18 +2555,18 @@
 			}]
 		}
 		{
-			title: "Cinnabar Bee"
+			title: "朱砂蜜蜂"
 			icon: "thermal:cinnabar"
 			x: -1.0d
 			y: 11.5d
-			subtitle: "红石蜜蜂+ 汗蜜蜂 Bee"
+			subtitle: "红石蜜蜂+汗蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "7A2D56B99A2871E9"
 			tasks: [{
 				id: "3522B9E72ABDB657"
 				type: "item"
-				title: "Cinnabar 蜜脾"
+				title: "朱砂蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2595,7 +2595,7 @@
 			}]
 		}
 		{
-			title: "Coal Bee"
+			title: "煤炭蜜蜂"
 			icon: "minecraft:coal"
 			x: -1.0d
 			y: 10.5d
@@ -2606,7 +2606,7 @@
 			tasks: [{
 				id: "3EDE79B7957D45AF"
 				type: "item"
-				title: "Coal 蜜脾"
+				title: "煤炭蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2635,11 +2635,11 @@
 			}]
 		}
 		{
-			title: "Constantan Bee"
+			title: "康铜蜜蜂"
 			icon: "alltheores:constantan_ingot"
 			x: 2.0d
 			y: 14.0d
-			subtitle: "铜蜜蜂 + Nickel"
+			subtitle: "铜蜜蜂+镍蜜蜂"
 			description: [""]
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -2647,7 +2647,7 @@
 			tasks: [{
 				id: "4FCEB24FC83D22A9"
 				type: "item"
-				title: "Constantan 蜜脾"
+				title: "康铜蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2676,12 +2676,12 @@
 			}]
 		}
 		{
-			title: "CuBee"
+			title: "丘比特蜜蜂"
 			icon: "minecraft:chicken"
 			x: -1.0d
 			y: 15.5d
-			subtitle: "Farmer + Rancher"
-			description: ["This is the Breeder bee."]
+			subtitle: "农夫蜜蜂+牧场蜜蜂"
+			description: ["这是繁殖用的蜜蜂."]
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "2E51F09F6D9E5EF8"
@@ -2697,18 +2697,18 @@
 			}]
 		}
 		{
-			title: "Dye Bee"
+			title: "染料蜜蜂"
 			icon: "minecraft:red_dye"
 			x: 1.0d
 			y: 16.5d
-			subtitle: "青金石蜜蜂 + 骷髅蜜蜂"
+			subtitle: "青金石蜜蜂+骷髅蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "5962DC39E5874FB9"
 			tasks: [{
 				id: "4FC90CCB41E58D5A"
 				type: "checkmark"
-				title: "Dye Bee"
+				title: "染料蜜蜂"
 			}]
 			rewards: [{
 				id: "29F6DF8F52E48EC6"
@@ -2717,18 +2717,18 @@
 			}]
 		}
 		{
-			title: "Enderium Bee"
+			title: "末影锭蜜蜂"
 			icon: "alltheores:enderium_ingot"
 			x: -1.0d
 			y: 13.5d
-			subtitle: "铅蜜蜂 + 钻石蜜蜂/铂蜜蜂"
+			subtitle: "铅蜜蜂+钻石蜜蜂/铂蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "0D97CDE92F3B1A83"
 			tasks: [{
 				id: "208145EA6533CDDB"
 				type: "item"
-				title: "Enderium 蜜脾"
+				title: "末影锭蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2757,18 +2757,18 @@
 			}]
 		}
 		{
-			title: "Experience Bee"
+			title: "经验蜜蜂"
 			icon: "minecraft:experience_bottle"
 			x: -1.0d
 			y: 16.5d
-			subtitle: "青金石蜜蜂 + Emerald"
+			subtitle: "青金石蜜蜂+绿宝石蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "0FB1FC640471363A"
 			tasks: [{
 				id: "1E28BFC0AB5CF2FE"
 				type: "item"
-				title: "Experience 蜜脾"
+				title: "经验蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2797,7 +2797,7 @@
 			}]
 		}
 		{
-			title: "Farmer Bee"
+			title: "农夫蜜蜂"
 			icon: {
 				id: "minecraft:iron_hoe"
 				Count: 1b
@@ -2807,14 +2807,14 @@
 			}
 			x: 2.0d
 			y: 17.0d
-			subtitle: "Lumber + Rancher"
+			subtitle: "木场蜜蜂+牧场蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "4897C7BB3139C6C6"
 			tasks: [{
 				id: "212BB84583FE4B8B"
 				type: "checkmark"
-				title: "Farmer Bees"
+				title: "农夫蜜蜂"
 			}]
 			rewards: [{
 				id: "09794E3BE0974561"
@@ -2823,18 +2823,18 @@
 			}]
 		}
 		{
-			title: "Grave's Bee"
+			title: "坟墓蜜蜂"
 			icon: "tombstone:grave_dust"
 			x: 0.0d
 			y: 17.0d
-			subtitle: "Ghostly + 骷髅蜜蜂/Zombee"
+			subtitle: "恶魂蜜蜂+骷髅蜜蜂/僵尸蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "4351DAA8B607BCBB"
 			tasks: [{
 				id: "6D15CFE8E1CF6D25"
 				type: "item"
-				title: "Grave's 蜜脾"
+				title: "坟墓蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2863,18 +2863,18 @@
 			}]
 		}
 		{
-			title: "Invar Bee"
+			title: "殷钢蜜蜂"
 			icon: "alltheores:invar_ingot"
 			x: -1.0d
 			y: 14.5d
-			subtitle: "铁蜜蜂 + Nickel"
+			subtitle: "铁蜜蜂+镍蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "734A72A4C898BDFB"
 			tasks: [{
 				id: "0C0D6A9D01FED776"
 				type: "item"
-				title: "Invar 蜜脾"
+				title: "殷钢蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2903,11 +2903,11 @@
 			}]
 		}
 		{
-			title: "Lumber Bee"
+			title: "木场蜜蜂"
 			icon: "minecraft:oak_log"
 			x: 3.0d
 			y: 16.5d
-			subtitle: "Yellow + 绿色木匠蜜蜂"
+			subtitle: "黄色木匠蜜蜂+绿色木匠蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "37045B986619A03D"
@@ -2929,18 +2929,18 @@
 			}]
 		}
 		{
-			title: "Lumium Bee"
+			title: "流明蜜蜂"
 			icon: "alltheores:lumium_ingot"
 			x: 3.0d
 			y: 12.5d
-			subtitle: "银蜜蜂 + Tin"
+			subtitle: "银蜜蜂+锡蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "150FB369BEFFCBBF"
 			tasks: [{
 				id: "4DA6445DB5F3B85E"
 				type: "item"
-				title: "Lumium 蜜脾"
+				title: "流明蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -2969,18 +2969,18 @@
 			}]
 		}
 		{
-			title: "Menril Bee"
+			title: "门瑞欧蜜蜂"
 			icon: "integrateddynamics:crystalized_menril_chunk"
 			x: 3.0d
 			y: 17.5d
-			subtitle: "石英蜜蜂 + 杜鹃蜜蜂"
+			subtitle: "石英蜜蜂+杜鹃蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "7B40A9DAA119DE59"
 			tasks: [{
 				id: "22F5DD43B8A7C452"
 				type: "item"
-				title: "Menril 蜜脾"
+				title: "门瑞欧蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3009,18 +3009,18 @@
 			}]
 		}
 		{
-			title: "Nickel Bee"
+			title: "镍蜜蜂"
 			icon: "alltheores:nickel_ingot"
 			x: 0.0d
 			y: 13.0d
-			subtitle: "铁蜜蜂 + 汗蜜蜂"
+			subtitle: "铁蜜蜂+汗蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "4FE7F45C72EF5DC1"
 			tasks: [{
 				id: "05E237133AC3F46B"
 				type: "item"
-				title: "Nickel 蜜脾"
+				title: "镍蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3049,18 +3049,18 @@
 			}]
 		}
 		{
-			title: "Niter Bee"
+			title: "硝石蜜蜂"
 			icon: "thermal:niter"
 			x: 0.0d
 			y: 12.0d
-			subtitle: "CreeBee + Coal"
+			subtitle: "苦力怕蜜蜂+煤炭蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "41A27D813AA215C1"
 			tasks: [{
 				id: "234F40915C93FFC5"
 				type: "item"
-				title: "Niter 蜜脾"
+				title: "硝石蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3089,18 +3089,18 @@
 			}]
 		}
 		{
-			title: "Obsidian Bee"
+			title: "黑曜石蜜蜂"
 			icon: "minecraft:obsidian"
 			x: 1.0d
 			y: 17.5d
-			subtitle: "熔岩蜜蜂 + 汗蜜蜂"
+			subtitle: "熔岩蜜蜂+汗蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "60B985069E0E643E"
 			tasks: [{
 				id: "50823C029014781A"
 				type: "item"
-				title: "Obsidian 蜜脾"
+				title: "黑曜石蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3129,18 +3129,18 @@
 			}]
 		}
 		{
-			title: "Osmium Bee"
+			title: "锇蜜蜂"
 			icon: "alltheores:osmium_ingot"
 			x: 3.0d
 			y: 11.5d
-			subtitle: "铁蜜蜂 + 杜鹃蜜蜂"
+			subtitle: "铁蜜蜂+杜鹃蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "67482ED4B18F828D"
 			tasks: [{
 				id: "4471A530B55D4140"
 				type: "item"
-				title: "Osmium 蜜脾"
+				title: "锇蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3169,18 +3169,18 @@
 			}]
 		}
 		{
-			title: "Plastic Bee"
+			title: "塑料蜜蜂"
 			icon: "industrialforegoing:plastic"
 			x: 3.0d
 			y: 14.5d
-			subtitle: "树脂蜜蜂 + Lumber"
+			subtitle: "树脂蜜蜂+木场蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "6CBA6DCF3C035E1A"
 			tasks: [{
 				id: "73409C636E07907D"
 				type: "item"
-				title: "Plastic 蜜脾"
+				title: "塑料蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3209,11 +3209,11 @@
 			}]
 		}
 		{
-			title: "Quarry Bee"
+			title: "石料蜜蜂"
 			icon: "minecraft:stone"
 			x: 2.0d
 			y: 18.0d
-			subtitle: "巧克力穴居蜜蜂 + Digger"
+			subtitle: "巧克力穴居蜜蜂+挖掘者蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "6E093D16B12E12B3"
@@ -3242,18 +3242,18 @@
 			}]
 		}
 		{
-			title: "Radioactive Bee"
+			title: "辐射蜜蜂"
 			icon: "alltheores:uranium_ingot"
 			x: 2.0d
 			y: 12.0d
-			subtitle: "CreeBee + 铁蜜蜂"
+			subtitle: "苦力怕蜜蜂+铁蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "734F61A03FFA13ED"
 			tasks: [{
 				id: "5C358DFF9CD0D1D9"
 				type: "item"
-				title: "Radioactive 蜜脾"
+				title: "辐射蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3282,11 +3282,11 @@
 			}]
 		}
 		{
-			title: "Rancher Bee"
+			title: "牧场蜜蜂"
 			icon: "minecraft:egg"
 			x: 3.0d
 			y: 15.5d
-			subtitle: "Lumber + 汗蜜蜂"
+			subtitle: "木场蜜蜂+汗蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "3D7480E4F9063E93"
@@ -3302,18 +3302,18 @@
 			}]
 		}
 		{
-			title: "Refined Glowstone Bee"
+			title: "强化荧石蜜蜂"
 			icon: "mekanism:ingot_refined_glowstone"
 			x: 0.0d
 			y: 14.0d
-			subtitle: "Osmium + 发光蜜蜂"
+			subtitle: "锇蜜蜂+发光蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "15FCC8DA717BE348"
 			tasks: [{
 				id: "636EAE7DCFA8D007"
 				type: "item"
-				title: "Refined Glowstone 蜜脾"
+				title: "强化荧石蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3342,18 +3342,18 @@
 			}]
 		}
 		{
-			title: "Refined Obsidian Bee"
+			title: "强化黑曜石蜜蜂"
 			icon: "mekanism:ingot_refined_obsidian"
 			x: 1.0d
 			y: 13.5d
-			subtitle: "Osmium + Obsidian"
+			subtitle: "锇蜜蜂+黑曜石蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "229B12FD9C537D9B"
 			tasks: [{
 				id: "4AF72F021060F09C"
 				type: "item"
-				title: "Refined Obsidian 蜜脾"
+				title: "强化黑曜石蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3382,18 +3382,18 @@
 			}]
 		}
 		{
-			title: "Signalum Bee"
+			title: "信素蜜蜂"
 			icon: "alltheores:signalum_ingot"
 			x: 3.0d
 			y: 13.5d
-			subtitle: "银蜜蜂 + 铜蜜蜂"
+			subtitle: "银蜜蜂+铜蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "6F7AC41B703028CC"
 			tasks: [{
 				id: "5B5DBA0A7644A551"
 				type: "item"
-				title: "Signalum 蜜脾"
+				title: "信素蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3422,18 +3422,18 @@
 			}]
 		}
 		{
-			title: "Silicon Bee"
+			title: "硅蜜蜂"
 			icon: "ae2:silicon"
 			x: 2.0d
 			y: 16.0d
-			subtitle: "牧游蜜蜂 + 甘蔗蜜蜂"
+			subtitle: "牧游蜜蜂+甘蔗蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "1589D99B2EE460F2"
 			tasks: [{
 				id: "060B87A17E7699CA"
 				type: "item"
-				title: "Silicon 蜜脾"
+				title: "硅蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3462,18 +3462,18 @@
 			}]
 		}
 		{
-			title: "Silky Bee"
+			title: "丝绢蜜蜂"
 			icon: "minecraft:string"
 			x: -1.0d
 			y: 17.5d
-			subtitle: "树脂蜜蜂 + 甘蔗蜜蜂"
+			subtitle: "树脂蜜蜂+甘蔗蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "5CF2A069A3CC4EF6"
 			tasks: [{
 				id: "5DE213018E8C64A7"
 				type: "item"
-				title: "Silky 蜜脾"
+				title: "丝绢蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3502,18 +3502,18 @@
 			}]
 		}
 		{
-			title: "银蜜蜂 Bee"
+			title: "银蜜蜂"
 			icon: "alltheores:silver_ingot"
 			x: 1.0d
 			y: 11.5d
-			subtitle: "铁蜜蜂 + Mason"
+			subtitle: "铁蜜蜂+石匠蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "09223F02621781BF"
 			tasks: [{
 				id: "47BAD4AA76F9CF82"
 				type: "item"
-				title: "银蜜蜂 蜜脾"
+				title: "银蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3542,18 +3542,18 @@
 			}]
 		}
 		{
-			title: "Spatial Bee"
+			title: "空间蜜蜂"
 			icon: "ae2:certus_crystal_seed"
 			x: 0.0d
 			y: 16.0d
-			subtitle: "石英蜜蜂 + 末影蜜蜂"
+			subtitle: "石英蜜蜂+末影蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "3D85786A23FE464A"
 			tasks: [{
 				id: "4A1352D6A68151E1"
 				type: "item"
-				title: "Spatial 蜜脾"
+				title: "空间蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3582,18 +3582,18 @@
 			}]
 		}
 		{
-			title: "Steel Bee"
+			title: "钢蜜蜂"
 			icon: "alltheores:steel_ingot"
 			x: 2.0d
 			y: 15.0d
-			subtitle: "铁蜜蜂 + Coal"
+			subtitle: "铁蜜蜂+煤炭蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "02F3133A9006BC1E"
 			tasks: [{
 				id: "01F96E4C1D881AD1"
 				type: "item"
-				title: "Steel 蜜脾"
+				title: "钢蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3622,18 +3622,18 @@
 			}]
 		}
 		{
-			title: "Sulfur Bee"
+			title: "硫蜜蜂"
 			icon: "thermal:sulfur"
 			x: 1.0d
 			y: 15.5d
-			subtitle: "熔岩蜜蜂 + Coal"
+			subtitle: "熔岩蜜蜂+煤炭蜜蜂"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "7AB52230F0E7DE72"
 			tasks: [{
 				id: "1A2EE90B240B36E2"
 				type: "item"
-				title: "Sulfur 蜜脾"
+				title: "硫蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3662,11 +3662,11 @@
 			}]
 		}
 		{
-			title: "Ghostly Bee"
+			title: "恶魂蜜蜂"
 			icon: "minecraft:soul_sand"
 			x: -4.0d
 			y: 15.0d
-			subtitle: "Spawned using a Soul Sand Nest in the Nether."
+			subtitle: "使用灵魂沙蜂巢."
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "5F080CFA1DC7F435"
@@ -3682,18 +3682,18 @@
 			}]
 		}
 		{
-			title: "熔岩蜜蜂 Bee"
+			title: "熔岩蜜蜂"
 			icon: "minecraft:magma_block"
 			x: -5.0d
 			y: 11.5d
-			subtitle: "Spawned using a Nether Brick Nest in the Nether"
+			subtitle: "在下界使用下界砖蜂巢生产"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "614937A2F5823F3E"
 			tasks: [{
 				id: "3202568944BCBF77"
 				type: "item"
-				title: "熔岩蜜蜂 蜜脾"
+				title: "熔岩蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3722,17 +3722,17 @@
 			}]
 		}
 		{
-			title: "Bumble Bee"
+			title: "大黄蜂蜜蜂"
 			icon: "minecraft:saddle"
 			x: -5.0d
 			y: 14.5d
-			subtitle: "Spawns in the Overworld from Bumble Bee Nests"
+			subtitle: "在主世界，使用大黄蜂蜂巢产卵"
 			description: [
-				"Have you ever wanted to fly on a bee?"
+				"你曾经想过乘蜜蜂飞行吗?"
 				""
-				"Bumble Bees naturally spawn in the world, and they can be used as mounts!"
+				"大黄蜂会在世界上产卵，它们可以作为坐骑!"
 				""
-				"Make yourself a &6Treat on a Stick&r, slap a saddle on a Bumble Bee, and take to the skies!"
+				"你需要一个&6蜂蜜小食钓竿&r,把鞍放置在蜜蜂身上，然后飞向天空吧!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
@@ -3762,18 +3762,18 @@
 			}]
 		}
 		{
-			title: "Digger Bee"
+			title: "挖掘者蜜蜂"
 			icon: "minecraft:gravel"
 			x: -3.0d
 			y: 11.5d
-			subtitle: "Spawned using a Gravel or Stone Nest"
+			subtitle: "使用石头/沙砾蜂巢繁殖"
 			hide_dependency_lines: true
 			dependencies: ["131EC039435B8878"]
 			id: "1C474B46AECCCFE9"
 			tasks: [{
 				id: "6E0961A56194F0A8"
 				type: "checkmark"
-				title: "Digger Bees"
+				title: "挖掘者蜜蜂"
 			}]
 			rewards: [{
 				id: "3202C04BE7D817FE"
@@ -3782,18 +3782,18 @@
 			}]
 		}
 		{
-			title: "Amethyst Bee"
+			title: "紫水晶蜜蜂"
 			icon: "minecraft:amethyst_cluster"
 			x: 7.0d
 			y: 12.5d
-			subtitle: "Feed a 钻石蜜蜂 Bee Amethyst"
+			subtitle: "喂钻石蜜蜂紫水晶"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "35EAB77C195E594E"
 			tasks: [{
 				id: "0F2BCC279B5731AB"
 				type: "item"
-				title: "Amethyst 蜜脾"
+				title: "紫水晶蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3822,18 +3822,18 @@
 			}]
 		}
 		{
-			title: "Apatite Bee"
+			title: "磷灰石蜜蜂"
 			icon: "thermal:apatite"
 			x: 7.0d
 			y: 14.5d
-			subtitle: "Feed a 钻石蜜蜂 Bee Apatite!"
+			subtitle: "喂钻石蜜蜂磷灰石!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "17B056037BB483D7"
 			tasks: [{
 				id: "32A39E68AAB56488"
 				type: "item"
-				title: "Apatite 蜜脾"
+				title: "磷灰石蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3862,18 +3862,18 @@
 			}]
 		}
 		{
-			title: "Choco Bee"
+			title: "巧克力蜜蜂"
 			icon: "croptopia:chocolate"
 			x: 6.0d
 			y: 12.0d
-			subtitle: "Feed a Sugarbag Bee a Cocoa Bean!"
+			subtitle: "喂蜜袋蜜蜂可可豆!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "06FA7A81C32C1BB2"
 			tasks: [{
 				id: "7C54A389C84DDB49"
 				type: "item"
-				title: "Choco 蜜脾"
+				title: "巧克力蜜蜂蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3927,7 +3927,7 @@
 			}]
 		}
 		{
-			title: "CreeBee"
+			title: "苦力怕蜜蜂"
 			icon: "minecraft:creeper_head"
 			x: 5.0d
 			y: 12.5d
@@ -3951,7 +3951,7 @@
 			icon: "ae2:fluix_crystal"
 			x: 5.0d
 			y: 16.5d
-			subtitle: "Feed a Spatial Bee a Fluix Pearl!"
+			subtitle: "Feed a 空间蜜蜂 Bee a Fluix Pearl!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "33422FBDAE11AE82"
@@ -4252,7 +4252,7 @@
 			icon: "mysticalagriculture:soulium_ingot"
 			x: 6.0d
 			y: 15.0d
-			subtitle: "Feed a Ghostly Bee a Soulium Dagger!"
+			subtitle: "Feed a 恶魂蜜蜂 Bee a Soulium Dagger!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "1EBD5E4410A6DF34"
