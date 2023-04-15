@@ -3902,15 +3902,15 @@
 			}]
 		}
 		{
-			title: "Collector Bee"
+			title: "收集者蜜蜂"
 			icon: "minecraft:hopper"
 			x: 7.0d
 			y: 16.5d
-			subtitle: "Feed a Vanilla Bee a Hopper!"
+			subtitle: "喂给原版蜜蜂一个漏斗!"
 			description: [
-				"Will pick up items and bring them back to its hive."
+				"拾取物品并将它们带回它的蜂箱中."
 				""
-				"Not as good as a Hoarder Bee."
+				"还没有囤积者蜜蜂那么好."
 			]
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
@@ -3918,7 +3918,7 @@
 			tasks: [{
 				id: "632F557D97247215"
 				type: "checkmark"
-				title: "Collector Bee"
+				title: "收集者蜜蜂"
 			}]
 			rewards: [{
 				id: "1218C1901D969C1D"
@@ -3931,7 +3931,7 @@
 			icon: "minecraft:creeper_head"
 			x: 5.0d
 			y: 12.5d
-			subtitle: "Feed a Vanilla Bee TNT!"
+			subtitle: "喂一只原版蜜蜂TNT!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "18F948FF9FE015FB"
@@ -3947,18 +3947,18 @@
 			}]
 		}
 		{
-			title: "Fluix Bee"
+			title: "福鲁伊克斯蜜蜂"
 			icon: "ae2:fluix_crystal"
 			x: 5.0d
 			y: 16.5d
-			subtitle: "Feed a 空间蜜蜂 Bee a Fluix Pearl!"
+			subtitle: "给空间蜜蜂喂食福鲁伊克斯珍珠!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "33422FBDAE11AE82"
 			tasks: [{
 				id: "669BC6911F43DB26"
 				type: "item"
-				title: "Fluix 蜜脾"
+				title: "福鲁伊克斯蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -3987,18 +3987,18 @@
 			}]
 		}
 		{
-			title: "Fluorite Bee"
+			title: "氟石蜜蜂"
 			icon: "mekanism:fluorite_gem"
 			x: 6.0d
 			y: 13.0d
-			subtitle: "Feed a 钻石蜜蜂 Bee Fluorite!"
+			subtitle: "喂钻石蜜蜂氟石!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "3F635063EC5A6327"
 			tasks: [{
 				id: "46CFE7B294472FC9"
 				type: "item"
-				title: "Fluorite 蜜脾"
+				title: "氟石蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -4027,18 +4027,18 @@
 			}]
 		}
 		{
-			title: "Frosty Bee"
+			title: "霜冻蜜蜂"
 			icon: "minecraft:ice"
 			x: 7.0d
 			y: 13.5d
-			subtitle: "Feed a Sweat Bee Ice!"
+			subtitle: "喂汗蜜蜂一个冰!"
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "244ACD7024566001"
 			tasks: [{
 				id: "7CD2C8E1A5F4B3D2"
 				type: "item"
-				title: "Frosty 蜜脾"
+				title: "霜冻蜜脾"
 				icon: {
 					id: "productivebees:configurable_honeycomb"
 					Count: 1b
@@ -4067,19 +4067,19 @@
 			}]
 		}
 		{
-			title: "Hoarder Bee"
+			title: "囤积者蜜蜂"
 			icon: "minecraft:shulker_box"
 			x: 6.0d
 			y: 16.0d
-			subtitle: "Feed a Collector Bee a Shulker Shell!"
-			description: ["Collects items on the ground and brings it back to its nest."]
+			subtitle: "喂收集者蜜蜂潜影壳!"
+			description: ["收集地面上的物品并将其带回它的巢穴."]
 			hide_dependency_lines: true
 			dependencies: ["17419401147B5C02"]
 			id: "309059DEDEE7AECD"
 			tasks: [{
 				id: "0F45E8D41C62BE78"
 				type: "checkmark"
-				title: "Hoarder Bee"
+				title: "囤积者蜜蜂"
 			}]
 			rewards: [{
 				id: "438D89082142A748"
@@ -4328,16 +4328,16 @@
 			}]
 		}
 		{
-			title: "Breeding and Converting Bees"
+			title: "繁殖和转换蜜蜂"
 			x: 1.0d
 			y: 7.5d
-			subtitle: "The Birds and The Bees"
+			subtitle: "鸟和蜜蜂"
 			description: [
-				"Aside from luring bees in with nests, most bees require either &eBreeding&r or &9Conversion&r to bee created. (No, that isn't a typo.)"
+				"除了在蜂巢中喂蜜蜂之外,大多数蜜蜂需要&e繁殖&r或&9转化&r才能创建蜜蜂(不是,这不是打法)"
 				""
-				"&eBee Breeding&r requires 2 bees and specific items fed to them to cause them to mate. "
+				"&e蜜蜂繁殖&r需要2只蜜蜂和喂它们的特定物品才能让它们交配. "
 				""
-				"&9Bee Conversion&r requires you to feed a bee a specific item to convert it into a new bee."
+				"&9蜜蜂转换&r需要给蜜蜂喂食特定物品将其转化为新蜜蜂."
 			]
 			dependencies: ["131EC039435B8878"]
 			id: "17419401147B5C02"
@@ -4355,22 +4355,22 @@
 		{
 			x: -2.0d
 			y: 4.5d
-			subtitle: "Honey Treats Required"
+			subtitle: "需要的蜂蜜食谱"
 			description: [
-				"If you want to turn your Bee Farm into a factory for resources, you'll need to start by spawning in Bees with &6Nests&r."
+				"如果您想将您的蜜蜂农场变成一个资源工厂,您需要从使用&6蜂箱&r在蜜蜂中生成开始."
 				""
-				"While normally nests would need to be placed in specific biomes, these restrictions have been removed for skyblock"
+				"虽然通常需要将蜂巢放置在特定的生物群系中,但空岛区块的这些限制已经被移除了"
 				""
-				"To lure in a bee to the nest, right click on it with a &9Honey Treat&r. Nests will not work without the treats!!"
+				"要吸引蜜蜂到蜂巢,用&9蜜蜂小食&r右键单击它。没有食物,蜂巢将无法工作!!!!"
 				""
-				"&9Important Note&r: Certain bees will only live in Nests and will not go into Advanced Hives. If they don't produce a honeycomb, they need to live in a nest instead."
+				"&9重点注意&r:某些蜜蜂只会住巢中,不会进入高级蜂箱。如果它们不生产蜜脾,则需要活在蜂巢中."
 			]
 			dependencies: ["131EC039435B8878"]
 			id: "120BDCB70AD352AC"
 			tasks: [{
 				id: "359396879CBA62D5"
 				type: "checkmark"
-				title: "Nest Spawning"
+				title: "蜜蜂出生"
 			}]
 			rewards: [{
 				id: "0B45A4897BE75592"
@@ -4381,14 +4381,14 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			subtitle: "Increasing our bee storage"
-			description: ["Expansion boxes are placed on top of your Advanced Beehives to increase the amount of bees that can be in the hive to a total of 5 slots."]
+			subtitle: "增加我们的蜜蜂存储量"
+			description: ["扩容盒放置在高级蜂箱上方,将蜂箱中的蜜蜂数量增加至共 5 个槽位."]
 			dependencies: ["7C169A4A39F37FAC"]
 			id: "47CEFA06392C4211"
 			tasks: [{
 				id: "5860D1574D18BA1A"
 				type: "item"
-				title: "Expansion Box"
+				title: "扩容盒"
 				icon: "productivebees:expansion_box_oak"
 				item: {
 					id: "itemfilters:tag"
@@ -4418,18 +4418,18 @@
 			x: 4.0d
 			y: 4.5d
 			description: [
-				"If you want the ATM bees, it takes a lot of capturing and breeding and feeding. "
+				"如果你想要ATM蜜蜂,它需要很多的捕捉、繁殖和喂食. "
 				""
-				"The following part of the questline outlines which bees you'll need to move forward."
+				"接下来是任务线的轮廓,您需要向上移动的蜜蜂."
 				""
-				"Make sure to check JEI and the &9Big Book of Bees&r for more info!"
+				"确保检查JEI和&9蜜蜂手册&r以获取更多信息!"
 			]
 			dependencies: ["131EC039435B8878"]
 			id: "4C0302FF4F63B52E"
 			tasks: [{
 				id: "6754D9E162472CA1"
 				type: "checkmark"
-				title: "Allthemodium Progression"
+				title: "Allthemodium进度"
 			}]
 			rewards: [{
 				id: "22627B27D2839167"
@@ -4440,11 +4440,11 @@
 		{
 			x: 0.0d
 			y: -2.5d
-			subtitle: "The Bee Manual"
+			subtitle: "蜜蜂手册"
 			description: [
-				"You can find this in the Eccentric Tome you start with, but if you somehow lost it, craft one!"
+				"你可以在怪奇宝典中找到这个,但如果你以某种方式弄丢了,就制作一个吧!!"
 				""
-				"This guidebook will help you learn everything about bees."
+				"这本指南将帮助你学习蜜蜂的一切."
 			]
 			dependencies: ["29EE878BC8D3A742"]
 			optional: true
@@ -4469,8 +4469,8 @@
 		{
 			x: 4.0d
 			y: 0.5d
-			subtitle: "The Gene Combiner and Chest"
-			description: ["When collecting genes, you'll get a percentage of a trait. You can combine them in a crafting table to add them together, or place them in a Gene Indexer to auto-combine."]
+			subtitle: "基因检索器和箱子"
+			description: ["收集基因时,你会得到一定百分比的特性。你可以将它们组合在合成台上将它们一起添加,或者将它们放入基因检索器中以自动合成."]
 			hide_dependency_lines: true
 			dependencies: ["7C169A4A39F37FAC"]
 			id: "419DD6FE84B91749"
@@ -4496,15 +4496,15 @@
 		{
 			x: 5.0d
 			y: 0.5d
-			subtitle: "Honey I Squished The Bees"
+			subtitle: "亲爱的，我压扁了蜜蜂"
 			description: [
-				"The Bottler has two uses: Bottling honey and squshing bees for genes."
+				"装瓶机有两个用途: 装瓶蜜和用蜜蜂刻出基因."
 				""
-				"To get genes from bees, place a piston above the Bottler with a block of space between them."
+				"要从蜜蜂身上获得基因,请在瓶子瓶上方放置一个活塞,活塞之间留有一块空间."
 				""
-				"Place the bee on top of the Bottler, and activate the piston to squish the bee into genes. The resulting squished bottle can be then placed in a Centrifuge."
+				"将蜜蜂放在瓶子瓶子上,激活活塞将蜜蜂压成基因。因此产生的压碎瓶可以放入离心机中."
 				""
-				"Note: Make sure to have bottles in the Bottler."
+				"注意:确保瓶子在瓶中."
 				"{image:atm:textures/bottler.png width:100 height:150 align:1}"
 			]
 			hide_dependency_lines: true
@@ -4532,11 +4532,11 @@
 		{
 			x: 6.0d
 			y: 0.5d
-			subtitle: "Catches Bees"
+			subtitle: "捕捉蜜蜂"
 			description: [
-				"Used to catch bees that are flying around it."
+				"用来捕捉飞来飞去的蜜蜂."
 				""
-				"You can use a Filter Upgrade to filter out which bees you want to catch, as well as a BaBee Upgrade to only catch baby bees."
+				"您可以使用过滤器升级来过滤您想要抓的蜜蜂,也可以使用升级:繁殖来只捕获小蜜蜂."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7C169A4A39F37FAC"]
@@ -4563,15 +4563,15 @@
 		{
 			x: 5.0d
 			y: -0.5d
-			subtitle: "Baby Bee Daycare"
+			subtitle: "蜜蜂宝宝托儿所"
 			description: [
-				"This can be used to speed up the growth rate of baby bees, or to create new spawn eggs."
+				"这可用于加速蜜蜂的生长速度,或制造新的刷怪蛋."
 				""
-				"Place a caged baby bee with 20 Honey Treats to turn it into an adult."
+				"将20个蜜蜂变成成年蜜蜂."
 				""
-				"To create spawn eggs, you'll need to combine the gene of the bee you want with a honey treat, then use that honey treat in this machine with an egg to create the new spawn egg."
+				"要生成刷怪蛋,您需要将您想要的蜜蜂的基因与蜂蜜食结合,然后使用这台机器中的蜂蜜食与鸡蛋来制作新的蜜蜂蛋."
 				""
-				"Genes can be combined for a maximum of 100% purity, which will give you a 100% chance to convert an egg to a bee spawn egg."
+				"将基因组合最多可达100%的纯度,这将使你有100%的几率将鸡蛋转化为蜜蜂刷怪蛋."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7C169A4A39F37FAC"]
@@ -4598,13 +4598,13 @@
 		{
 			x: 5.0d
 			y: 1.5d
-			subtitle: "Showing Off Bees"
+			subtitle: "显示蜜蜂"
 			description: [
-				"Proud of the bees you have?"
+				"你为蜜蜂感到自豪吗?"
 				""
-				"Wanna put them into a jar to show it off?"
+				"想把它们放进罐子里来试试吗?"
 				""
-				"Place a Bee Jar down and use a pipe or hopper to insert the caged bee into the jar."
+				"把蜜蜂罐放下,用管道或漏斗将笼中蜜蜂放入罐中."
 			]
 			hide_dependency_lines: true
 			dependencies: ["7C169A4A39F37FAC"]
@@ -4649,11 +4649,11 @@
 			}]
 		}
 		{
-			title: "The Vanilla Way"
+			title: "原版方法"
 			icon: "minecraft:bee_nest"
 			x: 2.0d
 			y: -6.0d
-			description: ["A Birch or Oak Sapling grown within 2 blocks of a flower has a 5% chance to grow with a hive"]
+			description: ["在离花不到2个方块的地方生长的桦树或者橡树树苗，将有5%的机会与蜂巢一起生长"]
 			hide_dependency_lines: true
 			dependencies: ["13AA91D39A2CABF2"]
 			hide: true
@@ -4710,12 +4710,12 @@
 			}]
 		}
 		{
-			title: "The Ex Nihilo Way"
+			title: "无中生有"
 			icon: "minecraft:beehive"
 			x: 0.0d
 			y: -6.0d
 			description: [
-				"Ex Nihilo lets you make a hive without any honeycomb. A few pieces of string and some sticks will get you started on your quest."
+				"无中生有让你在没有任何蜜脾的情况下做一个蜂箱。几根线和一些木棍会让你开始你的任务."
 				""
 				"Toss that buzzing doll into witch water to spawn your first bee."
 			]
@@ -4751,8 +4751,8 @@
 		{
 			x: -4.0d
 			y: 1.9d
-			subtitle: "Self Contained"
-			description: ["When installed, this upgrade makes your bees permanently stay in the beehive. Because of this, you'll need to place the required flower block directly in front of the hive."]
+			subtitle: "自我控制"
+			description: ["安装时,此升级会让你的蜜蜂永久保持在蜂箱中。由于这个原因,你需要将所需的花直接放在蜂箱前面."]
 			dependencies: ["66324D7D0C51AEAC"]
 			id: "61AE0ECD03F2AB88"
 			tasks: [{

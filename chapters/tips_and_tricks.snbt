@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 3
 	filename: "tips_and_tricks"
-	title: "Tips \\& Tricks"
+	title: "提示 PPP 圈套"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
 	images: [
@@ -48,14 +48,16 @@
 		{
 			x: -3.5d
 			y: 2.0d
-			subtitle: "Can be used as Reactor Coolant"
-			description: ["Easy item to automate infinite water. Need more water? Make another!"]
+			subtitle: "可用来作为反应堆冷却剂"
+			description: ["使无限水自动化的简单物品。 需要更多水吗? 做另一个!"]
 			id: "722978AC0C1B2649"
-			tasks: [{
-				id: "6855AE257D62AA37"
-				type: "item"
-				item: "cookingforblockheads:sink"
-			}]
+			tasks: [
+				{
+					id: "6855AE257D62AA37"
+					type: "item"
+					item: "cookingforblockheads:sink"
+				}
+			]
 			rewards: [
 				{
 					id: "145F9B3A17676EAA"
@@ -74,17 +76,19 @@
 			y: 0.5d
 			shape: "diamond"
 			subtitle: "Honey I Shrunk Myself"
-			description: ["Use this item to shrink. Helpful for working on automation and also just overall fun."]
+			description: ["使用此物品来压缩。 帮助你进行自动化,也有助于整体游玩乐趣."]
 			id: "7EC8814940C4C3D7"
-			tasks: [{
-				id: "30C938C85BED7956"
-				type: "item"
-				item: {
-					id: "shrink:shrinking_device"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "30C938C85BED7956"
+					type: "item"
+					item: {
+						id: "shrink:shrinking_device"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "7CCC4171B93B35F0"
@@ -99,33 +103,35 @@
 			]
 		}
 		{
-			title: "OreSight Potions"
+			title: "矿石药水"
 			x: -1.0d
 			y: 1.0d
-			subtitle: "It's like X-Ray Vision!"
-			description: ["This potion will allow you to see the respective ore through the walls."]
+			subtitle: "这就像X射线!"
+			description: ["这种药水可以让你通过墙壁查看不同的矿石."]
 			id: "3EE9F242794CD95F"
-			tasks: [{
-				id: "15F5B24545C0D42F"
-				type: "item"
-				title: "IronSight"
-				icon: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "potionsmaster:iron_sight"
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
+			tasks: [
+				{
+					id: "15F5B24545C0D42F"
+					type: "item"
+					title: "铁透视"
+					icon: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
 							Potion: "potionsmaster:iron_sight"
 						}
 					}
+					item: {
+						id: "itemfilters:strong_nbt"
+						Count: 1b
+						tag: {
+							value: {
+								Potion: "potionsmaster:iron_sight"
+							}
+						}
+					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "319A13116831F46D"
@@ -148,19 +154,21 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			subtitle: "When an infinite world is too small"
+			subtitle: "当一个无限世界太小时"
 			description: [
-				"It's an entire room in one block!"
+				"这是一个方块中的整个房间!"
 				""
-				"Higher tiers are even bigger on the inside."
+				"更高级别的内部甚至更大."
 			]
 			dependencies: ["73F91BF3D424B269"]
 			id: "594540768120A627"
-			tasks: [{
-				id: "029DB3044D5E30A0"
-				type: "item"
-				item: "compactmachines:machine_tiny"
-			}]
+			tasks: [
+				{
+					id: "029DB3044D5E30A0"
+					type: "item"
+					item: "compactmachines:machine_tiny"
+				}
+			]
 			rewards: [
 				{
 					id: "0325FA11C261E21D"
@@ -176,31 +184,35 @@
 			]
 		}
 		{
-			title: "Compact Machines"
+			title: "压缩机"
 			x: -6.0d
 			y: 1.0d
-			description: ["This item is serves as the guide for Compact Machines, as well as the tool needed to teleport into your tiny machine worlds."]
+			description: ["此物品是压缩机器的指南,以及传送到您的小机器世界所需的工具."]
 			id: "73F91BF3D424B269"
-			tasks: [{
-				id: "3B227EED4B839733"
-				type: "item"
-				item: "compactmachines:personal_shrinking_device"
-			}]
-			rewards: [{
-				id: "43605B432D1C8172"
-				type: "xp"
-				xp: 10
-			}]
+			tasks: [
+				{
+					id: "3B227EED4B839733"
+					type: "item"
+					item: "compactmachines:personal_shrinking_device"
+				}
+			]
+			rewards: [
+				{
+					id: "43605B432D1C8172"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
-			title: "Building Gadgets"
+			title: "建筑小帮手"
 			x: -5.5d
 			y: 0.5d
 			shape: "diamond"
 			description: [
-				"Some useful gadgets for building."
+				"一些有用的建筑工具."
 				""
-				"&cDestruction Gadget voids blocks!"
+				"&c破坏小帮手会让方块消失!"
 			]
 			id: "0F75D7B9F4FF2459"
 			tasks: [
@@ -268,46 +280,52 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "2087EBA230655A8C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2087EBA230655A8C"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
-			title: "Building Wands"
+			title: "建筑魔杖"
 			x: -6.5d
 			y: 0.5d
 			description: [
-				"Can be helpful for building."
+				"它可以帮助建筑."
 				""
-				"The consruction wand has cores that can be added to it in crafting. Sneak left-click the air to switch between cores."
+				"凝聚魔杖有核心,可以在制作中添加到它身上。潜行左键单击空气以在核心之间切换."
 			]
 			id: "2A2E3D020B1F5126"
-			tasks: [{
-				id: "05D9E287D437CDDB"
-				type: "item"
-				item: {
-					id: "constructionwand:stone_wand"
-					Count: 1b
-					tag: {
-						wand_options: { }
-						Damage: 0
+			tasks: [
+				{
+					id: "05D9E287D437CDDB"
+					type: "item"
+					item: {
+						id: "constructionwand:stone_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "03F64743F4F59499"
-				type: "xp"
-				xp: 10
-			}]
+			]
+			rewards: [
+				{
+					id: "03F64743F4F59499"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
-			title: "Tipped Out"
+			title: "染色"
 			x: -3.5d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "Complete all of the tips!"
+			subtitle: "完成所有提示!"
 			hide_dependency_lines: true
 			dependencies: [
 				"722978AC0C1B2649"
@@ -319,50 +337,56 @@
 				"2A2E3D020B1F5126"
 			]
 			id: "0F8F37D7E12078F5"
-			tasks: [{
-				id: "42DA8E971B27ACED"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "032158E75A1291D8"
-				type: "xp"
-				xp: 10
-			}]
+			tasks: [
+				{
+					id: "42DA8E971B27ACED"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "032158E75A1291D8"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
-			title: "X-Ray Charms"
+			title: "X射线护符"
 			x: -1.0d
 			y: 0.0d
 			description: [
-				"OreSight Potions can be used to craft Charms!"
+				"矿石药水可用于制作护符!"
 				""
-				"Charms are Curios that last longer, and can be toggled on and off."
+				"护符是饰品,持续时间更长,可以打开或关闭."
 			]
 			dependencies: ["3EE9F242794CD95F"]
 			id: "6396AA6918B47DDC"
-			tasks: [{
-				id: "3F38B1E12C1ADEF1"
-				type: "item"
-				title: "Charm of IronSight"
-				icon: {
-					id: "apotheosis:potion_charm"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Potion: "potionsmaster:iron_sight"
-					}
-				}
-				item: {
-					id: "itemfilters:strong_nbt"
-					Count: 1b
-					tag: {
-						value: {
+			tasks: [
+				{
+					id: "3F38B1E12C1ADEF1"
+					type: "item"
+					title: "铁之视护符"
+					icon: {
+						id: "apotheosis:potion_charm"
+						Count: 1b
+						tag: {
 							Damage: 0
 							Potion: "potionsmaster:iron_sight"
 						}
 					}
+					item: {
+						id: "itemfilters:strong_nbt"
+						Count: 1b
+						tag: {
+							value: {
+								Damage: 0
+								Potion: "potionsmaster:iron_sight"
+							}
+						}
+					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "46455F0068AFFF60"
@@ -386,48 +410,56 @@
 			x: -3.5d
 			y: -2.0d
 			shape: "hexagon"
-			subtitle: "And Other Useful Items!"
-			description: ["On this page, you'll find some useful items and info to help you on your journey!"]
+			subtitle: "其他有用的物品!"
+			description: ["在这个页面中,您会找到一些有用的物品和信息来帮助您完成旅程!"]
 			size: 2.0d
 			id: "0C856BBB1679A7DD"
-			tasks: [{
-				id: "3DC008A578A93CCF"
-				type: "checkmark"
-				title: "Tips and Tricks!"
-			}]
-			rewards: [{
-				id: "5FA6EA3609ABF6BE"
-				type: "xp"
-				xp: 10
-			}]
+			tasks: [
+				{
+					id: "3DC008A578A93CCF"
+					type: "checkmark"
+					title: "提示和圈套!"
+				}
+			]
+			rewards: [
+				{
+					id: "5FA6EA3609ABF6BE"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: 0.5d
-			subtitle: "A Simple Magnet!"
+			subtitle: "简单的磁铁!"
 			id: "3FC002E5A6C08DCC"
-			tasks: [{
-				id: "4112D6272EC400DE"
-				type: "item"
-				item: {
-					id: "simplemagnets:basicmagnet"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "4112D6272EC400DE"
+					type: "item"
+					item: {
+						id: "simplemagnets:basicmagnet"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "0F5B656ED410D441"
-				type: "xp"
-				xp: 10
-			}]
+			]
+			rewards: [
+				{
+					id: "0F5B656ED410D441"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: 3.0d
 			description: [
-				"The rending gale if you are unfamiliar is a method of creative flight! it requires small amounts of emc to run"
+				"如果你不熟悉,疾风戒指石一种创造性飞行的方法!它需要少量EMC才能运行"
 				""
-				"For EMC before a transmutation table, we recommend redstone/glowstone, or a klein star which is the battery of this mod, you can fill these in a projectE relay!"
+				"对于转化桌上的EMC,我们建议使用红石/荧石,或者作为此模组电池,你可以在反物质继电器中填充这些!"
 			]
 			id: "25E585C8AE7430DC"
 			tasks: [
@@ -452,45 +484,53 @@
 		{
 			x: -3.0d
 			y: 2.5d
-			subtitle: "Can be used to find structures"
+			subtitle: "可用来寻找结构"
 			description: [
-				"Structures' compass allows a player to quickly locate a specific structure."
+				"结构指环可以让玩家快速找到特定的结构."
 				""
-				"Obtain corals by sieving sand in a waterlogged sieve."
-				"Coral larvae, when used on sea water, will turn into a coral block."
+				"在水中筛沙来获得珊瑚."
+				"用在海水上时,珊瑚幼虫会变成珊瑚块."
 			]
 			id: "62D9648D1BA54CCA"
-			tasks: [{
-				id: "50DAB04F94CB67F2"
-				type: "item"
-				item: "structures_compass:structures_compass"
-			}]
-			rewards: [{
-				id: "1E6189AFA40F8F35"
-				type: "xp"
-				xp: 10
-			}]
+			tasks: [
+				{
+					id: "50DAB04F94CB67F2"
+					type: "item"
+					item: "structures_compass:structures_compass"
+				}
+			]
+			rewards: [
+				{
+					id: "1E6189AFA40F8F35"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: 2.5d
-			subtitle: "Can be used to search for a biome's location"
-			description: ["Nature's Compass is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."]
+			subtitle: "可用来寻找生物群系的位置"
+			description: ["自然指南针 是一个实用物品,可让您搜索生物群系在世界任何地方的位置并查看有关它的信息."]
 			id: "3E235A6A006694A1"
-			tasks: [{
-				id: "0044BD58084BFB4E"
-				type: "item"
-				item: {
-					id: "naturescompass:naturescompass"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "0044BD58084BFB4E"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "18A39F21FDC40EC6"
-				type: "xp"
-				xp: 10
-			}]
+			]
+			rewards: [
+				{
+					id: "18A39F21FDC40EC6"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 	]
 }

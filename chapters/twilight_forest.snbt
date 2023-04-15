@@ -3,46 +3,50 @@
 	group: "752CDE464613A1ED"
 	order_index: 0
 	filename: "twilight_forest"
-	title: "Twilight Forest"
+	title: "暮色森林"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.0d
-		y: 0.0d
-		width: 100.0d
-		height: 100.0d
-		rotation: 0.0d
-		image: "atm:textures/clouds.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 100.0d
+			height: 100.0d
+			rotation: 0.0d
+			image: "atm:textures/clouds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
-			title: "The Twilight Forest"
+			title: "暮色森林"
 			x: -7.5d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "Creating the Portal"
+			subtitle: "创建传送门"
 			description: [
-				"Welcome to the &9Twilight Forest&r!"
+				"欢迎来到&9暮色森林&r!"
 				""
-				"To create a portal to the Twilight Forest, make a 2x2 hole and fill it with water. Surround the edges of the hole with flowers, and throw a diamond in."
+				"要创建一个前往暮色森林的传送门,请做一个2x2的洞并装满水。用花在洞的边缘,然后把钻石扔进去."
 				""
-				"Thor will give you a sign if you did it right."
+				"如果你做对了,Thor会给你一个手势."
 			]
 			size: 1.5d
 			id: "4193303999597249"
-			tasks: [{
-				id: "695EA135D2B5FDC8"
-				type: "advancement"
-				title: "Enter the Twilight Forest"
-				icon: "twilightforest:twilight_portal_miniature_structure"
-				advancement: "twilightforest:root"
-				criterion: ""
-			}]
+			tasks: [
+				{
+					id: "695EA135D2B5FDC8"
+					type: "advancement"
+					title: "进入暮色森林"
+					icon: "twilightforest:twilight_portal_miniature_structure"
+					advancement: "twilightforest:root"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
 					id: "79245FFF6FAEB31E"
@@ -75,10 +79,12 @@
 									1019046394
 								]
 								Properties: {
-									textures: [{
-										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1Nzk0MjM3Mzc5MiwKICAicHJvZmlsZUlkIiA6ICI0OGU2NjBiZjU0NDk0ZDlkYmRkZTNiODczY2JkNjlmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZXBoeXJXaW5kU3Bpcml0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmNzYyNTNjMTVjMTg1ZTg1NzVjY2FiMDgwN2Y3MWNiZmFlMWJhZGZlOWMwOTM2MGUwNDgxODc2MzZkZGNjNGQiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
-										Signature: "bszJX3BvT6r4197un7fCTLWwbmYvucp9bjel1xHRqbEgw6BUuXWSjvUi2rSORpzP9fiT1fXL1AbDsu9L1/JkTVsqhBdsOZjlTEQDjTLE4WPy1nUobhYGT+mlNJjcQV9mQtOm8TYVr/lRPIu/uKjJPk1Ot/1W7oY0s9wEUxjDCzdBjDfDybaH9x8VQZR2cSgTPo8NXB/zNV+DG/6ylgh3z6FxvP8m7PwFUveouivcMZZGB8mV0Z3cRms4vymPrD+TLGQNLwQ4C4RYgMka4SKDKT2E2JLC3JXXUY/94zG9vsU92FwQ6kfz1h7p9pPQSJdVbdji0qVnAR8tX0KswksRYdY4vnwIFPzpMXfNEm6SroEFodp9FXHZKvPnlDgyVixQU/oIkp+UALXByvSPnFod7TCqhLMW8nSn+96gOTm/TnV95YvY/d7dRIAuNS/hu0dh/ITasE9M0HJ2/OaPH23vVENs4YVh9vdjl9kM6E0LlxgzvTa3H9uCvzt0zh67I8B/hQqyQrGgrTMIE0+B7tYI+e9ZZIfeRJx/NlB6i11CtNZ3iSaycUQ0uUOmZnqhkyvr6tUf0sDTnXvf9aUfVaV4a8Mz4YruQDGmHbJQIwGZQxpt8yp3qqjHx2u+Uh6JdpwXfi4P+qccovq360nfeMVHa3Omy8f8QJuffSIPzIZrdg0="
-									}]
+									textures: [
+										{
+											Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1Nzk0MjM3Mzc5MiwKICAicHJvZmlsZUlkIiA6ICI0OGU2NjBiZjU0NDk0ZDlkYmRkZTNiODczY2JkNjlmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZXBoeXJXaW5kU3Bpcml0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmNzYyNTNjMTVjMTg1ZTg1NzVjY2FiMDgwN2Y3MWNiZmFlMWJhZGZlOWMwOTM2MGUwNDgxODc2MzZkZGNjNGQiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+											Signature: "bszJX3BvT6r4197un7fCTLWwbmYvucp9bjel1xHRqbEgw6BUuXWSjvUi2rSORpzP9fiT1fXL1AbDsu9L1/JkTVsqhBdsOZjlTEQDjTLE4WPy1nUobhYGT+mlNJjcQV9mQtOm8TYVr/lRPIu/uKjJPk1Ot/1W7oY0s9wEUxjDCzdBjDfDybaH9x8VQZR2cSgTPo8NXB/zNV+DG/6ylgh3z6FxvP8m7PwFUveouivcMZZGB8mV0Z3cRms4vymPrD+TLGQNLwQ4C4RYgMka4SKDKT2E2JLC3JXXUY/94zG9vsU92FwQ6kfz1h7p9pPQSJdVbdji0qVnAR8tX0KswksRYdY4vnwIFPzpMXfNEm6SroEFodp9FXHZKvPnlDgyVixQU/oIkp+UALXByvSPnFod7TCqhLMW8nSn+96gOTm/TnV95YvY/d7dRIAuNS/hu0dh/ITasE9M0HJ2/OaPH23vVENs4YVh9vdjl9kM6E0LlxgzvTa3H9uCvzt0zh67I8B/hQqyQrGgrTMIE0+B7tYI+e9ZZIfeRJx/NlB6i11CtNZ3iSaycUQ0uUOmZnqhkyvr6tUf0sDTnXvf9aUfVaV4a8Mz4YruQDGmHbJQIwGZQxpt8yp3qqjHx2u+Uh6JdpwXfi4P+qccovq360nfeMVHa3Omy8f8QJuffSIPzIZrdg0="
+										}
+									]
 								}
 								Name: "ZephyrWindSpirit"
 							}
@@ -91,39 +97,43 @@
 			x: -7.5d
 			y: -1.5d
 			description: [
-				"In the Twilight Forest, there are a bunch of new entities to discover."
+				"在暮色森林中,有许多新实体要发现."
 				""
-				"One of the worst is the Cicada. I suggest on killing this for the achievement, but killing any Twilight Forest mob will work."
+				"最糟糕的是蝉。我建议为这个目标杀死它,但杀死任何暮色森林生物都行."
 			]
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "575E405B270BBCBC"
-			tasks: [{
-				id: "49C77D4CDAE03481"
-				type: "advancement"
-				title: "The Silence of the Forest"
-				icon: "twilightforest:cicada"
-				advancement: "twilightforest:twilight_hunter"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "2D7EEE6D9AB073A0"
-				type: "xp"
-				xp: 10
-			}]
+			tasks: [
+				{
+					id: "49C77D4CDAE03481"
+					type: "advancement"
+					title: "寂静的森林"
+					icon: "twilightforest:cicada"
+					advancement: "twilightforest:twilight_hunter"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "2D7EEE6D9AB073A0"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
-			title: "The Final Boss"
+			title: "最终的Boss"
 			icon: "twilightforest:castle_brick"
 			x: 9.0d
 			y: 5.5d
 			shape: "rsquare"
 			description: [
-				".... is not yet implemented."
+				"....还没有被执行."
 				""
-				"Instead, head to the giant castle in the Final Plateau and grab some door blocks!"
+				"相反，前往最终高地的巨型城堡，收集一些门方块!"
 				""
-				"There is a kobold that spawns in as a \"placeholder\" but you will get nothing from killing it."
+				"这是一个以“占位符”形式生成的重构机,但杀死它不会得到任何效果."
 			]
 			dependencies: ["2951B1D7080C5EF9"]
 			dependency_requirement: "all_started"
@@ -132,7 +142,7 @@
 				{
 					id: "086AAFD8D9F5EDFA"
 					type: "biome"
-					title: "Enter the Final Plateau"
+					title: "进入最终高地"
 					icon: "twilightforest:castle_brick"
 					biome: "twilightforest:final_plateau"
 				}
@@ -175,15 +185,15 @@
 			]
 		}
 		{
-			title: "Fancy Noms"
+			title: "精美的物品"
 			icon: "minecraft:bowl"
 			x: 6.5d
 			y: 3.0d
 			shape: "diamond"
 			description: [
-				"There are a lot of different foods you can make from the Twilight Forest!"
+				"你可以从暮色森林中合成很多不同的食物!"
 				""
-				"Try them all!"
+				"试一试!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
@@ -244,40 +254,44 @@
 			]
 		}
 		{
-			title: "Raven Feathers"
+			title: "乌鸦羽毛"
 			icon: "twilightforest:raven_feather"
 			x: -6.5d
 			y: -2.5d
 			description: [
-				"It's easy to get lost in the Forest. In your travels, you'll run into Obsidian pillars."
+				"在森林里迷路很轻松。在你的旅途中,你会遇到黑石柱."
 				""
-				"These pillars will have Ravens around them. Slay them to get their feathers, which you can use to create a map for the Twilight Forest!"
+				"这些柱子周围会有乌鸦。杀死它们以获得它们的羽毛,你可以用它们来为暮色森林制作一个地图!"
 			]
 			dependencies: ["575E405B270BBCBC"]
 			dependency_requirement: "one_completed"
 			id: "57940981E8DE55D4"
-			tasks: [{
-				id: "6CDB5FB3000FB0AE"
-				type: "item"
-				item: "twilightforest:raven_feather"
-			}]
-			rewards: [{
-				id: "64746E59EAEAAFC2"
-				type: "xp"
-				xp: 10
-			}]
+			tasks: [
+				{
+					id: "6CDB5FB3000FB0AE"
+					type: "item"
+					item: "twilightforest:raven_feather"
+				}
+			]
+			rewards: [
+				{
+					id: "64746E59EAEAAFC2"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 		{
-			title: "The Real Final Boss"
+			title: "真正的Boss"
 			icon: "twilightforest:time_sapling"
 			x: 6.5d
 			y: 5.5d
 			shape: "gear"
-			subtitle: "Growing Trees"
+			subtitle: "生长中的树"
 			description: [
-				"Within the Twilight Forest, there are loot chests that can give you rare saplings."
+				"在暮色森林中,有战利品箱可以给你稀有的树苗."
 				""
-				"Collect them all!"
+				"收集它们!"
 			]
 			dependencies: ["420158B1736A1354"]
 			size: 3.0d
@@ -323,22 +337,24 @@
 			]
 		}
 		{
-			title: "Time to Even the Scales"
+			title: "是时候把鳞片放进去了"
 			x: -6.0d
 			y: 0.0d
 			description: [
-				"The first boss on your Twilight adventure can be found within the Courtyard."
+				"你暮色冒险中的第一个Boss可以在庭院中找到."
 				""
-				"Killing the Naga will grant entry to the next boss, the Lich."
+				"杀死娜迦将允许进入下一个Boss,巫妖王."
 			]
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "3531B28F14CF72A2"
-			tasks: [{
-				id: "5D567A4631D5D3A2"
-				type: "item"
-				item: "twilightforest:naga_trophy"
-			}]
+			tasks: [
+				{
+					id: "5D567A4631D5D3A2"
+					type: "item"
+					item: "twilightforest:naga_trophy"
+				}
+			]
 			rewards: [
 				{
 					id: "31C7455838E9B507"
@@ -355,27 +371,29 @@
 			]
 		}
 		{
-			title: "Bring out your Dead"
+			title: "带你的死者出来"
 			x: -4.5d
 			y: 1.0d
 			description: [
-				"Within his tower, a Lich of great power lives here."
+				"在它的高塔内,有强大的巫妖住在这里."
 				""
-				"It is a 3 phase fight, but only 1 phase is unique."
+				"这是3个阶段的战斗,但只有1个阶段是独特的."
 				""
-				"Phase 1: The Lich surrounds himself in shields, and attacks you with Ender Pearls that shoot out like Ghast fireballs. Reflect these back to the Lich to break his shields! As his shields break, he'll send out duplicates to distract you."
+				"第一阶段:巫妖将自己困在护盾中,用像恶魂火球一样发射的末影珍珠攻击你。将它们反转回巫妖以破坏它的护盾!当巫妖破坏护盾时,它会发送复制品来使你分神."
 				""
-				"Phase 2: The Lich switches scepters to summon Zombies to help him in the fight. With his defenses down, you will be able to melee him!"
+				"第2阶段:巫妖切换法杖召唤僵尸来帮助它战斗。随着它的防御力降低,你将能够与它合流!"
 				""
-				"Phase 3: Once all of the charges are spent on his Scepter, he will switch to a Golden Sword and go berserk. Kill him fast!"
+				"阶段 3:一旦所有能量都花在了他的法杖上,他将转成金剑,并发狂。快速杀死它!"
 			]
 			dependencies: ["3531B28F14CF72A2"]
 			id: "0107D516E038E0DB"
-			tasks: [{
-				id: "4FB6BB3F61AD8D6B"
-				type: "item"
-				item: "twilightforest:lich_trophy"
-			}]
+			tasks: [
+				{
+					id: "4FB6BB3F61AD8D6B"
+					type: "item"
+					item: "twilightforest:lich_trophy"
+				}
+			]
 			rewards: [
 				{
 					id: "7AFE97BA7DD6FAD1"
@@ -396,14 +414,14 @@
 			]
 		}
 		{
-			title: "Mighty Stroganoff"
+			title: "强大的凝固炉"
 			icon: "twilightforest:minoshroom_trophy"
 			x: 1.0d
 			y: 1.0d
 			description: [
-				"In the depths of the Labyrinth Swamp is a giant Minoshroom."
+				"在迷宫沼泽的深处是一个巨大的米诺菇."
 				""
-				"Once defeated, it'll drop Meef Stroganoff. To unlock the next area, you must eat it."
+				"一旦被击败,它会掉落牛头人沙拉酱肉。要解锁下一个区域,你必须吃掉它."
 			]
 			dependencies: ["4B95D48D7525FFAD"]
 			id: "04440BB2EFFD6DD9"
@@ -433,24 +451,26 @@
 			]
 		}
 		{
-			title: "Hydra Slayer"
+			title: "屠宰机"
 			x: 2.5d
 			y: -0.5d
-			subtitle: "Firey Swamp"
+			subtitle: "着火的沼泽"
 			description: [
-				"The infamous multi-headed beast from Greek Mythology."
+				"传说中的多头怪兽."
 				""
-				"Ranged attacks aren't as effective, meaning you'll need to get up close and personal."
+				"远程攻击没有那么有效,这意味着你需要靠近并个人地进行攻击."
 				""
-				"Once defeated, you'll be able to find the next boss in the Dark Forest."
+				"一旦被击败,你就可以在黑暗森林中找到下一个Boss."
 			]
 			dependencies: ["04440BB2EFFD6DD9"]
 			id: "7026E46FD8B3A81D"
-			tasks: [{
-				id: "6D9D134621F8FA36"
-				type: "item"
-				item: "twilightforest:hydra_trophy"
-			}]
+			tasks: [
+				{
+					id: "6D9D134621F8FA36"
+					type: "item"
+					item: "twilightforest:hydra_trophy"
+				}
+			]
 			rewards: [
 				{
 					id: "185A446AAFA6CAD6"
@@ -465,25 +485,27 @@
 			]
 		}
 		{
-			title: "Entering the Dark Forest"
+			title: "进入黑暗森林"
 			x: 4.0d
 			y: -2.0d
-			subtitle: "The Darkest of Forests"
+			subtitle: "最黑暗的森林"
 			description: [
-				"Inside the Dark Forest, you'll find a structure that leads underground."
+				"在黑暗森林中,你会发现一个指向地下的结构."
 				""
-				"To enter, you'll need to place one of the trophies you've acquired on the nearby pedastal."
+				"要进入,你需要将你获得的战利品之一放置在附近的基座上."
 				""
-				"On the 3rd layer, you'll find the Knight Phantoms. Defeat these to unlock the next boss."
+				"在第三层,你会找到幻翼骑士。击败这些来解锁下一个Boss."
 				""
 			]
 			dependencies: ["7026E46FD8B3A81D"]
 			id: "3DCF26B53AE1EBF6"
-			tasks: [{
-				id: "4E03E4FCB1B4DE05"
-				type: "item"
-				item: "twilightforest:knight_phantom_trophy"
-			}]
+			tasks: [
+				{
+					id: "4E03E4FCB1B4DE05"
+					type: "item"
+					item: "twilightforest:knight_phantom_trophy"
+				}
+			]
 			rewards: [
 				{
 					id: "2FDFDEDC63DBFACE"
@@ -498,26 +520,28 @@
 			]
 		}
 		{
-			title: "Tears of Fire"
+			title: "火焰之泪"
 			x: 6.5d
 			y: -2.0d
-			subtitle: "Dark Carmonite Tower"
+			subtitle: "黑暗褐铁铁塔"
 			description: [
-				"Within the Dark Forest, you'll find the Dark Tower."
+				"在黑暗森林中,你会找到黑暗之塔."
 				""
-				"To enter, look for the reappearing blocks at the base. Find your way through the maze all the way to the final floor to fight the Ur-Ghast."
+				"要进入,请寻找基地中重新显示的方块。找到穿过迷宫的路，一直走到最后一层，与暮色恶魂战斗."
 				""
-				"The Ur-Ghast is recommended to kill with a ranged weapon. There are 4 Ghast traps found on boss floor, which can be used to damage the Ur-Ghast."
+				"建议恶魂用远程武器杀死。 Boss地底有4个恶魂陷阱,可以用来打击恶魂."
 				""
-				"These are charged with Ghastling kills, then activating with redstone. You don't have to use them, but they can prove useful."
+				"他们被指控杀害了恶魂,然后用红石激活。你可以不使用它们,但它们会被证明是有用的."
 			]
 			dependencies: ["3DCF26B53AE1EBF6"]
 			id: "688C911ECFB2F134"
-			tasks: [{
-				id: "64B931AE43EA1E92"
-				type: "item"
-				item: "twilightforest:ur_ghast_trophy"
-			}]
+			tasks: [
+				{
+					id: "64B931AE43EA1E92"
+					type: "item"
+					item: "twilightforest:ur_ghast_trophy"
+				}
+			]
 			rewards: [
 				{
 					id: "18258B0937EC3D75"
@@ -539,24 +563,26 @@
 			]
 		}
 		{
-			title: "To the Snow Biomes!"
+			title: "前往冰雪生物群系!"
 			x: 9.0d
 			y: -2.0d
 			description: [
-				"After defeating the Ur-Ghast, you'll unlock the Snowy Forest biomes."
+				"击败恶魂后,你将解锁白雪森林生物群系."
 				""
-				"There are many creatures to fight, but to continue your progression, you'll need to kill the Alpha Yeti."
+				"有许多生物需要战斗,但为了继续你的进度,你需要杀死雪怪首领."
 				""
-				"You can find the Alpha Yeti in a massive Yeti cave. Defeat it to move on."
+				"你可以在一个巨大的雪怪洞穴中找到雪怪,击败它来继续工作."
 				""
 			]
 			dependencies: ["688C911ECFB2F134"]
 			id: "31BB7EB95CE73C1A"
-			tasks: [{
-				id: "45C67776B86B2301"
-				type: "item"
-				item: "twilightforest:alpha_yeti_fur"
-			}]
+			tasks: [
+				{
+					id: "45C67776B86B2301"
+					type: "item"
+					item: "twilightforest:alpha_yeti_fur"
+				}
+			]
 			rewards: [
 				{
 					id: "4A0F85570A9BB08F"
@@ -578,27 +604,29 @@
 			]
 		}
 		{
-			title: "Clear Skies"
+			title: "通透天空"
 			x: 10.5d
 			y: -0.5d
 			description: [
-				"Defeating the Alpha Yeti unlocks the Glacier biome. Here, you'll find cute little penguins and the Snow Queen."
+				"击败雪怪可以解锁冰河的生物群系。在这里,你会发现可爱的企鹅和冰雪女王."
 				""
-				"At the top of the Aurora Palace, the Snow Queen will summon ice crystals to protect herself."
+				"在极光宫顶部,冰雪女王会召唤冰水晶来保护自己."
 				""
-				"She'll also slam ice blocks down that destroys the floor and deals massive damage."
+				"它还会磨碎冰块,破坏地表并造成巨大的伤害."
 				""
-				"You'll only be able to hit her top half, as she's protected by ice blocks."
+				"只有她受到冰块的保护,你才能击中她顶部半部分."
 				""
-				"After defeating the Snow Queen, you'll unlock access to the Highlands."
+				"击败冰雪女王后,你将解锁前往高地的权限."
 			]
 			dependencies: ["31BB7EB95CE73C1A"]
 			id: "6FD41DF7704466A4"
-			tasks: [{
-				id: "1997CE8D805B6EB6"
-				type: "item"
-				item: "twilightforest:snow_queen_trophy"
-			}]
+			tasks: [
+				{
+					id: "1997CE8D805B6EB6"
+					type: "item"
+					item: "twilightforest:snow_queen_trophy"
+				}
+			]
 			rewards: [
 				{
 					id: "7C737743505C71EA"
@@ -624,25 +652,27 @@
 			y: 4.5d
 			shape: "hexagon"
 			description: [
-				"With the Giant Pickaxe, you'll want to head back to Troll Caves to find Giant Obsidian."
+				"用巨型镐,你需要回巨怪洞穴寻找巨型黑曜石."
 				""
-				"Use the Giant Pickaxe to break it, and you'll find some loot. You want to get the Lamp of Cinders to continue."
+				"使用巨型镐破坏它,你会发现一些战利品。你要继续获得余烬之灯."
 				""
 				""
 			]
 			dependencies: ["20436AFCC7E6855D"]
 			id: "5CBA8C89FE717B9C"
-			tasks: [{
-				id: "54FEB8B303070725"
-				type: "item"
-				item: {
-					id: "twilightforest:lamp_of_cinders"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "54FEB8B303070725"
+					type: "item"
+					item: {
+						id: "twilightforest:lamp_of_cinders"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "297971829C1A7D58"
@@ -673,27 +703,29 @@
 			x: 12.0d
 			y: 2.6d
 			shape: "pentagon"
-			subtitle: "The giants look like me, but are nothing LIKE me. "
+			subtitle: "巨人看起来就像我,但与我不同."
 			description: [
-				"With your Magic Beans and Uberous Soil, you'll want to look for a large cloud in the highland biomes."
+				"有了你的魔法豆和虚空的泥土,你需要在高原的生物群系中寻找一朵大云."
 				""
-				"Plant the magic beans in the soil to grow a beanstalk all the way up. Here, you'll find the Giants."
+				"将魔豆种在泥土中,豆茎会一直长到上面。在这里,你会找到巨人."
 				""
-				"You'll need to kill the Miner Giant and get their pickaxe to continue on."
+				"您需要杀死矿工巨人并获得他们的镐来继续工作."
 			]
 			dependencies: ["58BD1063A19777DC"]
 			id: "20436AFCC7E6855D"
-			tasks: [{
-				id: "671EEE3BD0D051FD"
-				type: "item"
-				item: {
-					id: "twilightforest:giant_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "671EEE3BD0D051FD"
+					type: "item"
+					item: {
+						id: "twilightforest:giant_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "57BD859AC0E3617B"
@@ -708,10 +740,10 @@
 			]
 		}
 		{
-			title: "Naga Scale Armor"
+			title: "纳加鳞甲"
 			x: -6.0d
 			y: -1.0d
-			description: ["From the scales of the Naga, you can craft some armor. Not super strong, but looks nice."]
+			description: ["从纳迦的鳞片上,你可以制作一些盔甲。不是超级强大,但看起来不错."]
 			dependencies: ["3531B28F14CF72A2"]
 			id: "4D4AB60B3B1CD437"
 			tasks: [
@@ -723,10 +755,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 3s
-								id: "minecraft:fire_protection"
-							}]
+							Enchantments: [
+								{
+									lvl: 3s
+									id: "minecraft:fire_protection"
+								}
+							]
 						}
 					}
 				}
@@ -738,10 +772,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 3s
-								id: "minecraft:protection"
-							}]
+							Enchantments: [
+								{
+									lvl: 3s
+									id: "minecraft:protection"
+								}
+							]
 						}
 					}
 				}
@@ -764,23 +800,25 @@
 			y: 2.5d
 			shape: "diamond"
 			description: [
-				"Do you want to be able to shoot Ender blasts like the Lich? This is the scepter for it."
+				"你想要像巫妖一样发射末影爆炸吗?这是它的法杖."
 				""
-				"To recharge, combine it with an Ender Pearl in a crafting table."
+				"要充电,请在工作台上将其与末影珍珠结合."
 			]
 			dependencies: ["0107D516E038E0DB"]
 			id: "212EC1F41227184D"
-			tasks: [{
-				id: "54F8AB4DDD68C94A"
-				type: "item"
-				item: {
-					id: "twilightforest:twilight_scepter"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "54F8AB4DDD68C94A"
+					type: "item"
+					item: {
+						id: "twilightforest:twilight_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "45E2D1CD5953608A"
@@ -801,23 +839,25 @@
 			y: 2.0d
 			shape: "diamond"
 			description: [
-				"Using this Scepter, you can drain the life of your enemies!"
+				"使用此法杖,你可以消耗敌人的生命!"
 				""
-				"To recharge the scepter, combine it with Fermented Spider Eyes in a crafting table."
+				"要给法杖充电,请在工作台上将其与发酵蜘蛛眼结合."
 			]
 			dependencies: ["0107D516E038E0DB"]
 			id: "6CB1BFBA10DF24E4"
-			tasks: [{
-				id: "4FBA38F3FB4B7C28"
-				type: "item"
-				item: {
-					id: "twilightforest:lifedrain_scepter"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "4FBA38F3FB4B7C28"
+					type: "item"
+					item: {
+						id: "twilightforest:lifedrain_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "0AB5BCBB96B2F409"
@@ -838,23 +878,25 @@
 			y: 2.0d
 			shape: "diamond"
 			description: [
-				"Because who doesn't want to summon their own Zombies?"
+				"由于谁不想召唤自己的僵尸?"
 				""
-				"To recharge, combine with Rotten Flesh in a crafting table."
+				"要充电,请在工作台上与腐肉结合."
 			]
 			dependencies: ["0107D516E038E0DB"]
 			id: "3908F7C80154D9CA"
-			tasks: [{
-				id: "3146C0D222FADF31"
-				type: "item"
-				item: {
-					id: "twilightforest:zombie_scepter"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "3146C0D222FADF31"
+					type: "item"
+					item: {
+						id: "twilightforest:zombie_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "65B006EC088F5773"
@@ -875,23 +917,25 @@
 			y: 2.5d
 			shape: "diamond"
 			description: [
-				"This scepter summons shields around you for protection."
+				"这个法杖召唤你周围的护盾以获得保护."
 				""
-				"To recharge, combine with Golden Apples in a crafting table."
+				"要充电,请在工作台上与金苹果结合."
 			]
 			dependencies: ["0107D516E038E0DB"]
 			id: "3371570F189DF994"
-			tasks: [{
-				id: "3CCC28F4BEAAC162"
-				type: "item"
-				item: {
-					id: "twilightforest:fortification_scepter"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "3CCC28F4BEAAC162"
+					type: "item"
+					item: {
+						id: "twilightforest:fortification_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "37272146953406F6"
@@ -908,19 +952,19 @@
 			]
 		}
 		{
-			title: "To the Swamps!"
+			title: "前往沼泽!"
 			icon: "twilightforest:maze_map"
 			x: -1.5d
 			y: 1.0d
-			subtitle: "I wonder if we'll find Shrek"
+			subtitle: "我不知道我们是否会找到史莱克"
 			description: [
-				"It's time to go to the swamps! In the swamps, you'll find an odd-looking hill with an entrance on top. This is the Minoshroom Labyrinth!"
+				"是时候前往沼泽了!在沼泽中,你会发现一个奇特的山上,顶部有一个入口。这是米诺菇迷宫!"
 				""
-				"Inside, you'll fight several new enemies that can drop the Maze Map Focus. This is needed to make a Maze Map."
+				"在内部,你将与几个新敌人战斗,这些敌人可以掉落迷宫地图核心。 这是制作迷宫地图所需的."
 				""
-				"This is a special map that will map your way around the Minoshroom Labyrinth. Your minimap mod has no power here."
+				"这是一个特殊的地图,将绘制你在米诺菇迷宫周围的位置。 你的小地图模组在这里没有作用."
 				""
-				"You can also find several loot rooms with special loot for the Maze!"
+				"你也可以找到几个有特殊战利品的战利品室!"
 			]
 			dependencies: ["0107D516E038E0DB"]
 			id: "4B95D48D7525FFAD"
@@ -937,44 +981,50 @@
 					count: 3L
 				}
 			]
-			rewards: [{
-				id: "0EBC5DE2494689BB"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0EBC5DE2494689BB"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: -1.5d
 			description: [
-				"This map is a must have for the Twlight Forest."
+				"这个地图是暮色森林必须的."
 				""
-				"Using a Blank Magic Map will give you a map that shows icons for nearby bosses and structures."
+				"使用空白魔法地图会给你一个显示附近Boss和结构的图标的地图."
 			]
 			dependencies: ["4F66DF6B494BEFF3"]
 			dependency_requirement: "one_completed"
 			optional: true
 			id: "0990D6CEE042F44E"
-			tasks: [{
-				id: "0EBD4A2BF8DE117D"
-				type: "item"
-				item: "twilightforest:magic_map"
-			}]
-			rewards: [{
-				id: "6D7C21A48CD96B58"
-				type: "xp"
-				xp: 100
-			}]
+			tasks: [
+				{
+					id: "0EBD4A2BF8DE117D"
+					type: "item"
+					item: "twilightforest:magic_map"
+				}
+			]
+			rewards: [
+				{
+					id: "6D7C21A48CD96B58"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
-			title: "Steeleaf Armor"
+			title: "钢铁套装"
 			x: 8.0d
 			y: 1.5d
 			shape: "diamond"
 			description: [
-				"This is slightly stronger than Naga armor, and comes fully enchanted."
+				"这比Nag盔甲略强大,完全附魔."
 				""
-				"You can make these by finding &6Steeleaf&r within the Twilight Forest."
+				"你可以在暮色森林中找到&6牛排&r来制作这些."
 			]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
@@ -989,10 +1039,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 2s
-								id: "minecraft:projectile_protection"
-							}]
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:projectile_protection"
+								}
+							]
 						}
 					}
 				}
@@ -1004,10 +1056,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 2s
-								id: "minecraft:blast_protection"
-							}]
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:blast_protection"
+								}
+							]
 						}
 					}
 				}
@@ -1019,10 +1073,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 2s
-								id: "minecraft:fire_protection"
-							}]
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:fire_protection"
+								}
+							]
 						}
 					}
 				}
@@ -1034,10 +1090,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 2s
-								id: "minecraft:feather_falling"
-							}]
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:feather_falling"
+								}
+							]
 						}
 					}
 				}
@@ -1058,14 +1116,14 @@
 			]
 		}
 		{
-			title: "Ironwood Armor"
+			title: "铁木套装"
 			x: 5.0d
 			y: 1.5d
 			shape: "diamond"
 			description: [
-				"This armor can be crafted using &9Ironwood&r."
+				"这种盔甲可以使用&9铁原木&r制作."
 				""
-				"This armor comes automatically enchanted as well."
+				"这种盔甲也会自动附魔."
 			]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
@@ -1080,10 +1138,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 1s
-								id: "minecraft:aqua_affinity"
-							}]
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "minecraft:aqua_affinity"
+								}
+							]
 						}
 					}
 				}
@@ -1095,10 +1155,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 1s
-								id: "minecraft:protection"
-							}]
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "minecraft:protection"
+								}
+							]
 						}
 					}
 				}
@@ -1110,10 +1172,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 1s
-								id: "minecraft:protection"
-							}]
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "minecraft:protection"
+								}
+							]
 						}
 					}
 				}
@@ -1125,10 +1189,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 1s
-								id: "minecraft:feather_falling"
-							}]
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "minecraft:feather_falling"
+								}
+							]
 						}
 					}
 				}
@@ -1149,13 +1215,13 @@
 			]
 		}
 		{
-			title: "Fiery Armor"
+			title: "炽热的盔甲"
 			x: 1.5d
 			y: -0.5d
 			description: [
-				"The Hyrda drops Fiery Blood that can be used to craft Fiery armor."
+				"九头蛇掉落了炽热的血液,可以用来制作炽铁盔甲."
 				""
-				"When wearing the full set, enemies that attack you will be set on fire for 10 seconds."
+				"当佩戴全套套装备时,攻击你的敌人将被点燃10秒."
 			]
 			dependencies: ["7026E46FD8B3A81D"]
 			id: "1FF5906DF721D091"
@@ -1229,7 +1295,7 @@
 			x: 4.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["Chance of being found in Phantom Knight chests."]
+			description: ["有机会在幻影骑士箱子中找到."]
 			dependencies: ["3DCF26B53AE1EBF6"]
 			id: "0A207A437AF153AA"
 			tasks: [
@@ -1270,11 +1336,11 @@
 			]
 		}
 		{
-			title: "Knightmetal Armor"
+			title: "骑士金属套装"
 			x: 3.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["Crafted or found in the Phantom Knight's chests."]
+			description: ["在幻影骑士的箱子中合成或找到."]
 			dependencies: ["3DCF26B53AE1EBF6"]
 			id: "25906B43A198B72F"
 			tasks: [
@@ -1337,47 +1403,53 @@
 			]
 		}
 		{
-			title: "Ramification"
+			title: "后果"
 			x: -7.5d
 			y: 1.5d
 			description: [
-				"Find the Questing Ram, for it bestows wealth to those who give it Rainbow Wool (16 colors)"
+				"找到谜题羊,因为它会给那些给它彩虹羊毛(16种颜色)的人提供能量."
 				""
-				"Hint: There's a dispenser above your head in the ruins where the Ram is. It might prove useful."
+				"提示:在羊的遗迹中,你的头上方有一个投掷器。它可能被证明是有用的."
 			]
 			dependencies: ["4193303999597249"]
 			hide: true
 			optional: true
 			id: "4DA0725E089D7C91"
-			tasks: [{
-				id: "0DC327E6F70EE1C1"
-				type: "item"
-				item: "twilightforest:quest_ram_trophy"
-			}]
-			rewards: [{
-				id: "1BF594BADCE267FA"
-				type: "xp"
-				xp: 100
-			}]
+			tasks: [
+				{
+					id: "0DC327E6F70EE1C1"
+					type: "item"
+					item: "twilightforest:quest_ram_trophy"
+				}
+			]
+			rewards: [
+				{
+					id: "1BF594BADCE267FA"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: 0.0d
 			shape: "diamond"
 			description: [
-				"This is a single-use item that will prevent death. Instead of dying, the charm will be consumed and you'll be given health regen for a short period of time."
+				"这是一个可以防止死亡的一次性物品。不会死,而是会消耗护符,你会在短时间内获得生命恢复."
 				""
-				"These are found in loot chests."
+				"这些可以在战利品箱中找到."
 			]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "6F67079A453DAABE"
-			tasks: [{
-				id: "5F7D02D164E85469"
-				type: "item"
-				item: "twilightforest:charm_of_life_1"
-			}]
+			tasks: [
+				{
+					id: "5F7D02D164E85469"
+					type: "item"
+					item: "twilightforest:charm_of_life_1"
+				}
+			]
 			rewards: [
 				{
 					id: "0109DCAA3BD0CA82"
@@ -1395,16 +1467,18 @@
 			x: 6.5d
 			y: 1.5d
 			shape: "diamond"
-			description: ["Just like the Charm of Life I, this item is consumed to prevent your death. When consumed, you'll regen all of your health and be given Regen IV, Resistance, and Fire Resistance for 30 seconds."]
+			description: ["就像生命护符I一样,这个物品是用来防止你死亡的。消耗时,你将恢复你的所有生命,并获得 恢复 IV,抗性与火焰抗性 30 秒."]
 			dependencies: ["6F67079A453DAABE"]
 			hide: true
 			size: 1.5d
 			id: "15006CF73F8CAB7C"
-			tasks: [{
-				id: "1AF2A8D21E2C64FE"
-				type: "item"
-				item: "twilightforest:charm_of_life_2"
-			}]
+			tasks: [
+				{
+					id: "1AF2A8D21E2C64FE"
+					type: "item"
+					item: "twilightforest:charm_of_life_2"
+				}
+			]
 			rewards: [
 				{
 					id: "3D2DA73A93E0D143"
@@ -1423,51 +1497,61 @@
 			x: -2.0d
 			y: 0.10000000000000003d
 			shape: "diamond"
-			description: ["This item will prevent you from losing the items in your held items and armor when you die."]
+			description: ["当您死亡时,此物品会防止您掉落手中的物品和盔甲."]
 			dependencies: ["4B95D48D7525FFAD"]
 			id: "610F9E9D0B5131C7"
-			tasks: [{
-				id: "69F49433EDA8F189"
-				type: "item"
-				item: "twilightforest:charm_of_keeping_1"
-			}]
-			rewards: [{
-				id: "4CA93BA5E85DAA73"
-				type: "xp"
-				xp: 100
-			}]
+			tasks: [
+				{
+					id: "69F49433EDA8F189"
+					type: "item"
+					item: "twilightforest:charm_of_keeping_1"
+				}
+			]
+			rewards: [
+				{
+					id: "4CA93BA5E85DAA73"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: 0.10000000000000003d
 			shape: "diamond"
-			description: ["This item will let you keep your armor and hotbar when you die."]
+			description: ["当您死亡时,此物品将允许您保留您的盔甲和快捷栏."]
 			dependencies: ["610F9E9D0B5131C7"]
 			id: "4665E6FD0AAED164"
-			tasks: [{
-				id: "146FE418E4077B1D"
-				type: "item"
-				item: "twilightforest:charm_of_keeping_2"
-			}]
-			rewards: [{
-				id: "5BAC92C56DB3B58E"
-				type: "xp"
-				xp: 100
-			}]
+			tasks: [
+				{
+					id: "146FE418E4077B1D"
+					type: "item"
+					item: "twilightforest:charm_of_keeping_2"
+				}
+			]
+			rewards: [
+				{
+					id: "5BAC92C56DB3B58E"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: -0.5d
 			shape: "diamond"
-			description: ["This item will let you keep all of your items in your inventory when you die."]
+			description: ["当您死亡时,此物品将允许您将您的所有物品保留在您的背包中."]
 			dependencies: ["4665E6FD0AAED164"]
 			size: 1.25d
 			id: "3A3ED88027331A6C"
-			tasks: [{
-				id: "2FB00B8498F8E8E3"
-				type: "item"
-				item: "twilightforest:charm_of_keeping_3"
-			}]
+			tasks: [
+				{
+					id: "2FB00B8498F8E8E3"
+					type: "item"
+					item: "twilightforest:charm_of_keeping_3"
+				}
+			]
 			rewards: [
 				{
 					id: "757D67F1402CEA6E"
@@ -1485,33 +1569,37 @@
 			x: 6.0d
 			y: 2.5d
 			shape: "diamond"
-			subtitle: "A Glorified Leafblower"
+			subtitle: "碎叶者"
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "1464D45C474464DB"
-			tasks: [{
-				id: "13C31B864EC1DE9B"
-				type: "item"
-				item: {
-					id: "twilightforest:peacock_feather_fan"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "13C31B864EC1DE9B"
+					type: "item"
+					item: {
+						id: "twilightforest:peacock_feather_fan"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "25991402B38AFA2A"
-				type: "xp"
-				xp: 100
-			}]
+			]
+			rewards: [
+				{
+					id: "25991402B38AFA2A"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
-			title: "Yeti Armor"
+			title: "雪怪套装"
 			x: 9.5d
 			y: -3.0d
-			description: ["Crafted from Alpha Yeti Fur."]
+			description: ["由雪怪 Alpha 雪怪 Fur 制作."]
 			dependencies: ["31BB7EB95CE73C1A"]
 			id: "3C8724C3A9459507"
 			tasks: [
@@ -1523,10 +1611,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 2s
-								id: "minecraft:protection"
-							}]
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+							]
 						}
 					}
 				}
@@ -1538,10 +1628,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 2s
-								id: "minecraft:protection"
-							}]
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+							]
 						}
 					}
 				}
@@ -1553,10 +1645,12 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								lvl: 2s
-								id: "minecraft:protection"
-							}]
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+							]
 						}
 					}
 				}
@@ -1603,11 +1697,11 @@
 			]
 		}
 		{
-			title: "Arctic Armor"
+			title: "极地盔甲"
 			x: 8.5d
 			y: -3.0d
-			subtitle: "Dyable!"
-			description: ["Small Yetis and Winter Wolves drop fur to make this armor."]
+			subtitle: "发光!"
+			description: ["小型雪怪和寒冷狼掉落毛皮来制造这种盔甲."]
 			dependencies: ["31BB7EB95CE73C1A"]
 			id: "2A0B3C91D72E8B75"
 			tasks: [
@@ -1673,290 +1767,330 @@
 			x: -1.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "Trapped chamber, do not enter?"
+			subtitle: "守卫室,不进入吗?"
 			description: [
-				"A special pickaxe rarely found in Labyrinths."
+				"迷宫中很少找到特殊镐."
 				""
-				"This pick will take 1 damage when breaking Maze walls, instead of the 16 damage for all other picks!"
+				"破坏迷宫墙时,这台机器会受到1点伤害,而不是其他16点伤害!"
 			]
 			dependencies: ["4B95D48D7525FFAD"]
 			id: "51BC981AB4CFAD95"
-			tasks: [{
-				id: "37FB4455E15C55FF"
-				type: "item"
-				item: {
-					id: "twilightforest:mazebreaker_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Enchantments: [
-							{
-								lvl: 4s
-								id: "minecraft:efficiency"
-							}
-							{
-								lvl: 3s
-								id: "minecraft:unbreaking"
-							}
-							{
-								lvl: 2s
-								id: "minecraft:fortune"
-							}
-						]
+			tasks: [
+				{
+					id: "37FB4455E15C55FF"
+					type: "item"
+					item: {
+						id: "twilightforest:mazebreaker_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 4s
+									id: "minecraft:efficiency"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+								{
+									lvl: 2s
+									id: "minecraft:fortune"
+								}
+							]
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "43613B9B3AED5AEC"
-				type: "xp"
-				xp: 100
-			}]
+			]
+			rewards: [
+				{
+					id: "43613B9B3AED5AEC"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 11.5d
 			y: -0.5d
-			description: ["Dropped from the Snow Queen, this bow shoots 3 arrows at the same time, while only using 1."]
+			description: ["从冰雪女王身上掉落,这只弓同时发射 3 箭,但只使用 1 箭."]
 			dependencies: ["6FD41DF7704466A4"]
 			id: "53A79338994088FD"
-			tasks: [{
-				id: "64D192E45B9E8E6C"
-				type: "item"
-				item: {
-					id: "twilightforest:triple_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "64D192E45B9E8E6C"
+					type: "item"
+					item: {
+						id: "twilightforest:triple_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "4998E36C6161772B"
-				type: "xp"
-				xp: 100
-			}]
+			]
+			rewards: [
+				{
+					id: "4998E36C6161772B"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 10.5d
 			y: -1.5d
-			description: ["Dropped from the Snow Queen, this bow will shoot arrows that home in on your targets. No more missing!"]
+			description: ["从冰雪女王身上掉落,这只弓会发射指向目标的箭。不再消失!"]
 			dependencies: ["6FD41DF7704466A4"]
 			id: "7509E4093010EA4C"
-			tasks: [{
-				id: "5423C2517A5D133B"
-				type: "item"
-				item: {
-					id: "twilightforest:seeker_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "5423C2517A5D133B"
+					type: "item"
+					item: {
+						id: "twilightforest:seeker_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "61308BB9F304D0E4"
-				type: "xp"
-				xp: 100
-			}]
+			]
+			rewards: [
+				{
+					id: "61308BB9F304D0E4"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 7.5d
 			y: 1.0d
 			shape: "diamond"
-			description: ["Found randomly in loot chests, this bow will inflict Slowness III for 10 seconds on hit."]
+			description: ["在战利品箱中随机发现,这只弓会造成 10 秒的慢化 III."]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "49EE6D2A3684A510"
-			tasks: [{
-				id: "52E28B85293DE45A"
-				type: "item"
-				item: {
-					id: "twilightforest:ice_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "52E28B85293DE45A"
+					type: "item"
+					item: {
+						id: "twilightforest:ice_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "6BCB7D180D92A1AB"
-				type: "xp"
-				xp: 100
-			}]
+			]
+			rewards: [
+				{
+					id: "6BCB7D180D92A1AB"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 1.0d
 			shape: "diamond"
 			description: [
-				"This bow is rarely found in the Aurora Palace."
+				"在极光宫殿中很少找到这个弓."
 				""
-				"When an enemy is hit from this bow, you will swap places with them. Be careful shooting things out of the sky!"
+				"当敌人被这只弓击中时,你将和他们换个位置。小心,从空中射击!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "3D29EF7F150F5334"
-			tasks: [{
-				id: "37A1612D95C34DF2"
-				type: "item"
-				item: {
-					id: "twilightforest:ender_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "37A1612D95C34DF2"
+					type: "item"
+					item: {
+						id: "twilightforest:ender_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "3051ABF9B41E8CDA"
-				type: "xp"
-				xp: 100
-			}]
+			]
+			rewards: [
+				{
+					id: "3051ABF9B41E8CDA"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 2.0d
 			shape: "diamond"
 			description: [
-				"A Magnet that can pull up anything with Ore in name, except Coal."
+				"除了煤,可以用矿石取出任何物品的磁铁."
 				""
-				"This is found in Hollow Hill chests."
+				"这在洞穴山地箱子中找到."
 			]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "5FE4DAE8F41B1437"
-			tasks: [{
-				id: "7B5C5A02D22359AF"
-				type: "item"
-				item: {
-					id: "twilightforest:ore_magnet"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "7B5C5A02D22359AF"
+					type: "item"
+					item: {
+						id: "twilightforest:ore_magnet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "73C722B92E712713"
-				type: "xp"
-				xp: 100
-			}]
+			]
+			rewards: [
+				{
+					id: "73C722B92E712713"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: 0.5d
 			shape: "diamond"
 			description: [
-				"A sword that deals 40 hearts of damage, but only has 1 durability."
+				"剑造成40颗心脏伤害,但只有1点耐久."
 				""
-				"You can make this indestructible if you want to use this."
+				"如果你想用这个,你可以让这个是坚不可摧的."
 				""
-				"These are rarely found in loot chests in the Aurora Palace."
+				"这些很少在极光宫殿的战利品箱中找到."
 			]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "38ADDF7FF4E4892D"
-			tasks: [{
-				id: "68A6B72FD1DF6A75"
-				type: "item"
-				item: {
-					id: "twilightforest:glass_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "68A6B72FD1DF6A75"
+					type: "item"
+					item: {
+						id: "twilightforest:glass_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "0FFBA24EB9CD17E3"
-				type: "xp"
-				xp: 100
-			}]
+			]
+			rewards: [
+				{
+					id: "0FFBA24EB9CD17E3"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["Found in the Aurora Palace, this sword will give enemies Frosted for 10 seconds when attacked."]
+			description: ["在极光宫殿中找到,这把剑在攻击时会给敌人冻下10秒."]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "78CE2ECEF0B651DA"
-			tasks: [{
-				id: "2E37E73B5297E0F7"
-				type: "item"
-				item: {
-					id: "twilightforest:ice_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "2E37E73B5297E0F7"
+					type: "item"
+					item: {
+						id: "twilightforest:ice_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "1EDFE99AD36463BB"
-				type: "xp"
-				xp: 100
-			}]
+			]
+			rewards: [
+				{
+					id: "1EDFE99AD36463BB"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: 2.5d
 			shape: "diamond"
 			description: [
-				"This item is like a torch launcher. It launches &6Moonworms&r at the targeted block, which light up the block similar to a torch."
+				"这种物品就像一个火把发射器。它向目标方块发射&6虫&r,它会像火把一样点燃方块."
 				""
-				"You can find this in Hollow Hill treasure chests."
+				"你可以在 洞穴 宝箱 中找到这个."
 			]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "60FC2DAEA954A849"
-			tasks: [{
-				id: "0BE7DD735B1FB717"
-				type: "item"
-				item: {
-					id: "twilightforest:moonworm_queen"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0BE7DD735B1FB717"
+					type: "item"
+					item: {
+						id: "twilightforest:moonworm_queen"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "13A5729B3DF5AEAA"
-				type: "xp"
-				xp: 100
-			}]
+			]
+			rewards: [
+				{
+					id: "13A5729B3DF5AEAA"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 7.5d
 			y: 2.0d
 			shape: "diamond"
 			description: [
-				"Want to make the Overworld feel more like the Twilight Forest?"
+				"要让主世界更像暮色森林吗?"
 				""
-				"You can use this powder on Overworld animals to convert them into their Twilight Forest variants."
+				"你可以在主世界动物上使用这种粉末将它们转化为他们的暮色森林变体."
 				""
-				"You can find this in dungeon chests in the Twilight Forest."
+				"你可以在暮色森林的地牢箱子中找到这个."
 			]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]
 			hide: true
 			id: "0E9DE6293DF611E1"
-			tasks: [{
-				id: "220F1E09B54E7ECA"
-				type: "item"
-				item: "twilightforest:transformation_powder"
-			}]
-			rewards: [{
-				id: "585C6465B69B2781"
-				type: "xp"
-				xp: 100
-			}]
+			tasks: [
+				{
+					id: "220F1E09B54E7ECA"
+					type: "item"
+					item: "twilightforest:transformation_powder"
+				}
+			]
+			rewards: [
+				{
+					id: "585C6465B69B2781"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -1965,24 +2099,28 @@
 			dependencies: ["4B95D48D7525FFAD"]
 			optional: true
 			id: "6F957D07AA74F16E"
-			tasks: [{
-				id: "19F17291B47DC7B0"
-				type: "item"
-				item: "twilightforest:ore_map"
-			}]
+			tasks: [
+				{
+					id: "19F17291B47DC7B0"
+					type: "item"
+					item: "twilightforest:ore_map"
+				}
+			]
 		}
 		{
 			icon: "twilightforest:magic_map_focus"
 			x: -5.0d
 			y: -2.5d
-			description: ["Combining a Raven Feather with Torchberries and Glowstone will give you a Magic Map Focus."]
+			description: ["将乌鸦羽毛与火炬浆果和荧石结合会给你一个魔法地图核心."]
 			dependencies: ["57940981E8DE55D4"]
 			id: "4F66DF6B494BEFF3"
-			tasks: [{
-				id: "6C3B980F96579633"
-				type: "item"
-				item: "twilightforest:magic_map_focus"
-			}]
+			tasks: [
+				{
+					id: "6C3B980F96579633"
+					type: "item"
+					item: "twilightforest:magic_map_focus"
+				}
+			]
 			rewards: [
 				{
 					id: "104344E0925D3B1D"
@@ -2001,11 +2139,11 @@
 			x: 2.5d
 			y: -1.5d
 			description: [
-				"Using the Fiery Blood from the Hydra, you can make several tools."
+				"使用九头蛇的热血,你可以制作几种工具."
 				""
-				"The Fiery Sword comes with Fire Aspect II when crafted."
+				"炽铁剑在制作时有火焰附加 II."
 				""
-				"The Fiery Pickaxe comes with auto-smelt."
+				"炽铁镐有自动熔炼."
 			]
 			dependencies: ["7026E46FD8B3A81D"]
 			id: "111F2EE85FB0A455"
@@ -2056,28 +2194,32 @@
 		{
 			x: 1.0d
 			y: 2.0d
-			description: ["This is a drop from the Minoshroom. It deals more damage when sprinting."]
+			description: ["这是米诺菇的掉落物。 冲刺时造成更多的伤害."]
 			dependencies: ["04440BB2EFFD6DD9"]
 			id: "730AF9210F00018E"
-			tasks: [{
-				id: "63527819961CF742"
-				type: "item"
-				item: {
-					id: "twilightforest:diamond_minotaur_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "63527819961CF742"
+					type: "item"
+					item: {
+						id: "twilightforest:diamond_minotaur_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "5D4F5E0EFB90BB72"
-				type: "xp"
-				xp: 100
-			}]
+			]
+			rewards: [
+				{
+					id: "5D4F5E0EFB90BB72"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
-			title: "Knightmetal Tools"
+			title: "骑士金属工具"
 			x: 4.5d
 			y: -3.0d
 			shape: "diamond"
@@ -2165,9 +2307,9 @@
 			y: -3.0d
 			shape: "rsquare"
 			description: [
-				"&9Reappearing Blocks&r are like really cool doors. Once right-clicked, they'll disappear for a short time."
+				"&9重现方块&r就像很酷的门。右键单击后,它们会消失一段时间."
 				""
-				"The &6Vanishing Blocks&r will disappear when right-clicked, but they don't come back."
+				"&6弹射方块&r右键单击时会消失,但它们不会回来."
 			]
 			dependencies: ["688C911ECFB2F134"]
 			id: "01748C2CD9C97523"
@@ -2208,9 +2350,9 @@
 			y: -3.0d
 			shape: "rsquare"
 			description: [
-				"The &9Carminite Builder&r, when powered with a redstone signal, will generate temporary blocks in the direction the signal came from."
+				"&9砷铅铁建造器&r,在有红石信号的电源时,会从红石信号方向产生临时方块."
 				""
-				"The &6Carminite Reactor&r will convert nearby Obsidian and Netherack into False Gold and False Diamond. After a short period of time, this will suck up nearby blocks and explode, creating Carminite Ghastlings around it."
+				"&6砷铅铁反应堆&r会把附近的黑曜石和下界岩变成虚金和虚钻石。在短时间后,这将吸取附近的方块并爆炸,在周围制造高炉石恶魂."
 			]
 			dependencies: ["688C911ECFB2F134"]
 			id: "7B4A687EB505C2FF"
@@ -2242,13 +2384,13 @@
 			]
 		}
 		{
-			title: "Visiting the Giants"
+			title: "访问巨人"
 			x: 12.0d
 			y: 1.0d
 			description: [
-				"Once you've unlocked the Highland biome, head over and find some trolls to kill."
+				"一旦你解锁了高原生物群系,就去寻找一些怪物来杀死它."
 				""
-				"They can drop some &9Magic Beans&r. You'll also find chests that give you Uberus Soil, which is needed to grow the beans."
+				"它们可以掉落一些&9魔豆&r。你还可以找到给你肥沃泥土的箱子,这是种植豆子所需要的."
 			]
 			dependencies: ["6FD41DF7704466A4"]
 			id: "58BD1063A19777DC"
@@ -2279,23 +2421,25 @@
 			]
 		}
 		{
-			title: "Every Thorn has its Rose"
+			title: "每个刺头都有玫瑰"
 			x: 10.5d
 			y: 5.5d
 			shape: "heart"
 			description: [
-				"Using the Lamp of Cinders, you will now be able to break the thorns in the Thornland Biome."
+				"使用余烬之灯,你现在可以破坏荆棘之地中的刺了。"
 				""
-				"Gather some Thorn Roses to continue on to the Final Plateau."
+				"收集一些荆棘玫瑰来继续走到最终高地."
 			]
 			dependencies: ["5CBA8C89FE717B9C"]
 			id: "2951B1D7080C5EF9"
-			tasks: [{
-				id: "5F0A10AAC2220CFF"
-				type: "item"
-				item: "twilightforest:thorn_rose"
-				count: 12L
-			}]
+			tasks: [
+				{
+					id: "5F0A10AAC2220CFF"
+					type: "item"
+					item: "twilightforest:thorn_rose"
+					count: 12L
+				}
+			]
 			rewards: [
 				{
 					id: "52EB72698EB29FF9"
