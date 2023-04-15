@@ -1022,9 +1022,9 @@
 			y: 1.5d
 			shape: "diamond"
 			description: [
-				"这比Nag盔甲略强大,完全附魔."
+				"这比娜迦盔甲略强大,完全附魔."
 				""
-				"你可以在暮色森林中找到&6牛排&r来制作这些."
+				"你可以在暮色森林中找到&6钢叶&r来制作这些."
 			]
 			hide_dependency_lines: true
 			dependencies: ["4193303999597249"]

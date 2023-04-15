@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 3
 	filename: "tips_and_tricks"
-	title: "提示 PPP 圈套"
+	title: "提示"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
 	images: [

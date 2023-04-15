@@ -59,19 +59,19 @@
 	]
 	quests: [
 		{
-			title: "欢迎来到ATM7,现在在天空中!"
+			title: "欢迎来到ATM7Sky!"
 			icon: "allthecompressed:atm_star_block_1x"
 			x: 0.0d
 			y: -8.0d
 			shape: "hexagon"
 			description: [
-				"欢迎来到 ATM7......现在在天空中!"
+				"欢迎来到 ATM7......Sky!"
 				""
 				"要开始任务,请查看左侧的选项卡以跳跃!"
 				""
-				"如果你是 Allthemod 的新人,请务必查看&a Allthemod&r 章节!"
+				"如果你是 Allthemod 的新玩家,请务必查看&a Allthemod&r 章节!"
 				""
-				"如果你是空岛包或模组 MC 的新人,请查看&6主线&r来帮助你开始."
+				"如果你是空岛包或模组 MC 的新玩家,请查看&6主线&r来帮助你开始."
 				""
 				"注意:mod不是被任务锁定的。任务是可选的."
 			]
